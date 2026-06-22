@@ -42,6 +42,7 @@ Browser checks completed:
 - Quick `New friends` selector changed the surprise card to a non-Meadow-Friends story.
 - Character-set filter `Ocean Dreamers` narrowed the shelf to `Nori and the Bubble Tide`.
 - Story Mode opened `Nori and the Bubble Tide`, page 1 of 5, from a filtered story card.
+- Story Mode right-side tap zone advanced from page 1 to page 2; left-side tap zone returned from page 2 to page 1.
 - Story Mode still renders visible read-aloud text and usable controls.
 
 `scripts/verify.mjs` checks:

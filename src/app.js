@@ -186,7 +186,7 @@ function renderStory() {
   const placement = page.textPlacement || 'bottom-panel';
   app.innerHTML = `<section class="story-mode ${state.quiet ? 'is-quiet' : ''}" aria-label="Story mode">
     <div class="story-top"><button class="ghost" id="backHome">Close book</button><div class="story-title"><strong>${esc(story.title)}</strong><span>${esc(story.ageRange)} · Page ${state.page + 1} of ${total} · ${esc(story.characterSet || story.category)}</span></div><label class="tier-select">Reading tier <select id="tierSel">${tiers.map(t => `<option>${t}</option>`).join('')}</select></label><button class="ghost" id="quietBtn">${state.quiet ? 'Raise light' : 'Dim light'}</button></div>
-    <article class="page-frame placement-${esc(placement)}"><img class="story-art" src="${esc(page.illustrationRef)}" alt="${esc(page.illustrationAlt || `Text-free illustration for ${story.title}`)}"><div class="read-text"><p>${esc(textFor(page))}</p></div><aside class="page-meta"><span>${esc(page.lightingMood)}</span><span>${esc(placement.replace('-', ' '))}</span></aside></article>
+    <article class="page-frame placement-${esc(placement)}"><img class="story-art" src="${esc(page.illustrationRef)}" alt="${esc(page.illustrationAlt || `Text-free illustration for ${story.title}`)}"><button class="tap-zone tap-zone-left" id="tapPrev" aria-label="Previous page"><span>‹</span></button><button class="tap-zone tap-zone-right" id="tapNext" aria-label="Next page"><span>›</span></button><div class="read-text"><p>${esc(textFor(page))}</p></div><aside class="page-meta"><span>${esc(page.lightingMood)}</span><span>${esc(placement.replace('-', ' '))}</span></aside></article>
     <div class="progress-dots" aria-label="Story progress">${story.pages.map((p, i) => `<button class="dot ${i === state.page ? 'is-active' : ''}" data-page="${i}" aria-label="Go to page ${i + 1}"></button>`).join('')}</div>
     <nav class="turns" aria-label="Page turns"><button id="prev" ${state.page === 0 ? 'disabled' : ''}>Previous page</button><button id="next">${state.page === total - 1 ? 'Finish softly' : 'Next page'}</button></nav>
     <details class="review-drawer"><summary>Production notes for this page</summary><dl><dt>Clean illustration</dt><dd>${page.qa?.noBakedText ? 'Text stays separate from the artwork' : 'Needs review'}</dd><dt>Character consistency</dt><dd>${esc(page.qa?.characterConsistency || 'not checked')}</dd><dt>Launch review</dt><dd>${page.qa?.releaseApproved ? 'Complete' : 'Waiting for final art and editorial review'}</dd></dl></details>
@@ -198,6 +198,8 @@ function renderStory() {
   document.querySelector('#quietBtn').addEventListener('click', () => { state.quiet = !state.quiet; renderStory(); });
   document.querySelector('#prev').addEventListener('click', () => changePage(state.page - 1));
   document.querySelector('#next').addEventListener('click', () => state.page < total - 1 ? changePage(state.page + 1) : setRoute('parent'));
+  document.querySelector('#tapPrev').addEventListener('click', () => changePage(state.page - 1));
+  document.querySelector('#tapNext').addEventListener('click', () => state.page < total - 1 ? changePage(state.page + 1) : setRoute('parent'));
   document.querySelectorAll('[data-page]').forEach(btn => btn.addEventListener('click', () => changePage(Number(btn.dataset.page))));
 }
 
