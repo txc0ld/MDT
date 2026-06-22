@@ -84,7 +84,7 @@ function safePanel(zone) {
 }
 
 function svg(chars, opts = {}) {
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Text-free GlimmerTales reference illustration"><title>Text-free GlimmerTales reference illustration</title>${defs}${bg(opts)}<g>${chars}</g>${safePanel(opts.zone || 'bottom')}</svg>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Text-free Mini Dream Time reference illustration"><title>Text-free Mini Dream Time reference illustration</title>${defs}${bg(opts)}<g>${chars}</g>${safePanel(opts.zone || 'bottom')}</svg>`;
 }
 
 const storyPages = {

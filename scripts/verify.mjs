@@ -66,9 +66,29 @@ const files = [
   'docs/STYLE_GUIDE.md', 'docs/CHARACTER_BIBLE.md', 'docs/ILLUSTRATION_PIPELINE.md',
   'docs/BUILD_GATE_CHECKLIST.md', 'docs/TECHNICAL_SCAFFOLD_PLAN.md', 'docs/PHASE_0_REPORT.md',
   'docs/CONTENT_CATALOG.md', 'docs/CHARACTER_SET_EXPANSION.md', 'docs/BEDTIME_STORY_LENGTH_GUIDE.md',
-  'docs/DOMAIN_AND_AEO_PLAN.md', 'docs/MINI_DREAM_TIME_SEO_AEO_ARCHITECTURE.md', 'docs/NANO_BANANA_2_PRODUCTION_PLAN.md', 'docs/QA_REPORT.md'
+  'docs/DOMAIN_AND_AEO_PLAN.md', 'docs/MINI_DREAM_TIME_SEO_AEO_ARCHITECTURE.md', 'docs/NANO_BANANA_2_PRODUCTION_PLAN.md', 'docs/ART_QA_REPORT.md', 'docs/QA_REPORT.md'
 ];
 for (const f of files) if (!existsSync(f)) failures.push(`missing ${f}`);
+
+const launchPages = [
+  'bedtime-stories-for-kids/index.html',
+  'read-aloud-bedtime-stories/index.html',
+  'calm-bedtime-stories/index.html',
+  'stories/1-3-years/index.html',
+  'stories/3-5-years/index.html',
+  'stories/5-7-years/index.html'
+];
+for (const f of launchPages) if (!existsSync(f)) failures.push(`missing launch page ${f}`);
+
+const legacyBrandPattern = new RegExp(['Glim' + 'merTales', 'glim' + 'mertales', 'Glim' + 'mer'].join('|'));
+for (const f of ['index.html', 'llms.txt', 'pricing.md', 'sitemap.xml', ...launchPages]) {
+  if (!existsSync(f)) continue;
+  const txt = readFileSync(f, 'utf8');
+  if (legacyBrandPattern.test(txt)) failures.push(`legacy brand copy in ${f}`);
+}
+
+const appText = readFileSync('src/app.js', 'utf8');
+if (legacyBrandPattern.test(appText)) failures.push('legacy brand copy in src/app.js');
 
 if (failures.length) {
   console.error(failures.join('\n'));

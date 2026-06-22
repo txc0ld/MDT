@@ -1,4 +1,4 @@
-# GlimmerTales Phase 0 — Web Prototype / Read-Together Viewer Scaffold Plan
+# Mini Dream Time Phase 0 — Web Prototype / Read-Together Viewer Scaffold Plan
 
 ## Decision
 Use a fast local web prototype first: **Vite + React + TypeScript**. Mobile native is not required for Phase 0 because the immediate goal is validating the read-together format, story-as-data shape, visual rhythm, and parent-paced page turns. Keep the data model portable so the same story records can later feed Expo/React Native.
@@ -293,7 +293,7 @@ src/
 public/
   assets/
     brand/
-      glimmertales-mark.svg
+      mini-dream-time-mark.svg
     characters/
       daisy/
         master-sheet.webp
@@ -452,7 +452,7 @@ Automated QA priorities:
 
 ## Implementation order
 
-1. Initialize `glimmertales-viewer` with Vite React TS.
+1. Initialize `mini-dream-time-viewer` with Vite React TS.
 2. Add routes and warm global tokens.
 3. Implement story schema/types and one reference story record with placeholder images.
 4. Implement Parent Mode story cards.

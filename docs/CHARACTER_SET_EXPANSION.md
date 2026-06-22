@@ -1,4 +1,4 @@
-# GlimmerTales Character Set Expansion v0.4
+# Mini Dream Time Character Set Expansion v0.4
 
 Status: story-seed scaffold. These sets are for quick parent selection and catalog testing. They are not final production character bibles yet.
 

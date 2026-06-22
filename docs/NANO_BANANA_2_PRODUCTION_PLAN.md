@@ -1,13 +1,34 @@
-# Nano Banana 2 Production Art Plan
+# Gemini / Nano Banana Production Art Plan
 
-Status: ready for API/configuration, not yet executed.  
-Current machine check: no `nano-banana` or `gemini` CLI found, and no Gemini/Google image API environment variable is available in this session.
+Status: Gemini API is available locally through ignored `.env`; generation pipeline is now scripted. Do not commit `.env`.
 
 ## Recommendation
 
-Yes, use Nano Banana 2 / Gemini image generation for production interiors **if** we can use reference images or character-locking. The current Hermes image backend available in this session is text-to-image only, so it can create premium concept targets but cannot guarantee all 37 pages keep the same characters on-model.
+Use Gemini / Nano Banana image generation for production interiors with a strict 2-3 page pilot before replacing any scaffold art. The final images need reference-locking or repeated QA to keep characters consistent across a story.
 
-## What Nano Banana 2 should do here
+## User quality target
+
+The user supplied a high-quality ChatGPT-generated children’s storybook example on 2026-06-23. Use it as a **quality benchmark**, not something to copy.
+
+Emulate:
+
+- premium soft 3D render quality;
+- rounded toy-like characters with expressive eyes and readable emotion;
+- cinematic storybook environment depth;
+- colorful foliage/flowers, polished materials, and rich lighting;
+- clear scale contrast between characters;
+- an immediately understandable story moment.
+
+Avoid:
+
+- baked-in speech bubbles, signs, banners, captions, or any readable text;
+- copying the exact dinosaur/ladybug scene, joke, sign, or composition;
+- clutter over the app text-safe zone;
+- hyperactive action when the story beat should help bedtime wind down.
+
+Mini Dream Time keeps all story words in HTML/app text. Production images must be text-free.
+
+## What Gemini / Nano Banana should do here
 
 For every page:
 
@@ -16,27 +37,39 @@ For every page:
 3. Match the exact page beat from `data/stories.json`.
 4. Keep the image text-free.
 5. Preserve the UI-safe composition zone from `textPlacement`.
-6. Save output to:
+6. Save output first to:
+   - `art-output/<story-id>/<page-id>-<model>.png`
+7. Move approved output to:
    - `assets/stories/<story-id>/<page-id>-nano-banana-2.png`
-7. Update `illustrationRef` only after QA passes.
+8. Update `illustrationRef` only after QA passes.
 
-## Required setup
+## Commands
 
-One of these is needed:
-
-- a working Gemini / Nano Banana image API key exposed as an environment variable, or
-- a configured CLI command available from the shell, or
-- a Hermes image backend switched to a Gemini/Nano Banana model with reference-image support.
-
-Do not hard-code keys in this repository.
-
-## Generated briefs
-
-Run:
+Export briefs:
 
 ```bash
 npm run export:image-briefs
 ```
+
+Generate one pilot image:
+
+```bash
+npm run art:pilot
+```
+
+Generate a specific page:
+
+```bash
+npm run generate:gemini-art -- --story=moonlit-meadow --page=p1 --limit=1
+```
+
+Generate more pages after pilot approval:
+
+```bash
+npm run generate:gemini-art -- --limit=3
+```
+
+## Generated briefs
 
 Outputs:
 
@@ -66,6 +99,8 @@ A generated page can replace the SVG scaffold only if:
 - it is appropriate for the story age range;
 - it passes visual review and the verifier.
 
-## Current limitation
+## Key handling
 
-Until Nano Banana 2 or another reference-locking model is configured, the current SVG interiors remain scaffold art. They are useful for layout and QA, but not subscription-quality final art.
+- `.env` is ignored by git.
+- `.env.example` documents expected variables without secrets.
+- If the key was shared anywhere public, rotate it before production.

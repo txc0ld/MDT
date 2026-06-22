@@ -7,7 +7,6 @@ Primary domain: https://minidreamtime.com
 ## Core pages
 
 - Home: https://minidreamtime.com/
-- GlimmerTales collection: https://minidreamtime.com/glimmertales
 - Bedtime stories for kids: https://minidreamtime.com/bedtime-stories-for-kids
 - Read-aloud bedtime stories: https://minidreamtime.com/read-aloud-bedtime-stories
 - Calm bedtime stories: https://minidreamtime.com/calm-bedtime-stories
@@ -22,7 +21,7 @@ Mini Dream Time helps parents choose a calm, age-appropriate illustrated story q
 
 ## Story collection
 
-GlimmerTales is the first story world inside Mini Dream Time. It includes original recurring characters and story seeds grouped by age range, mood, category, and character set.
+Mini Dream Time includes original recurring characters and story seeds grouped by age range, mood, category, and character set.
 
 ## Important positioning
 

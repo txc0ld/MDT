@@ -1,4 +1,4 @@
-# GlimmerTales Phase 0 Content Catalog
+# Mini Dream Time Phase 0 Content Catalog
 
 Status: expanded scaffold v0.2.  
 Purpose: prove repeatable catalog structure, parent browsing, story metadata, and release gating before production art spend.

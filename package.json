@@ -2,7 +2,9 @@
   "scripts": {
     "test": "node scripts/verify.mjs",
     "serve": "python3 -m http.server 4173",
-    "export:image-briefs": "node scripts/export-image-briefs.mjs"
+    "export:image-briefs": "node scripts/export-image-briefs.mjs",
+    "generate:gemini-art": "node scripts/generate-gemini-art.mjs",
+    "art:pilot": "npm run export:image-briefs && node scripts/generate-gemini-art.mjs --limit=1"
   },
   "private": true,
   "name": "mini-dream-time-phase0",

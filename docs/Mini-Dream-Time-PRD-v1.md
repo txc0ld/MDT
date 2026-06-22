@@ -1,6 +1,6 @@
-# GlimmerTales — Product Requirements Document (v1, High-Level)
+# Mini Dream Time — Product Requirements Document (v1, High-Level)
 
-**Working title:** GlimmerTales *(placeholder — clear via trademark + domain search before any spend; see §3.4)*
+**Working title:** Mini Dream Time
 **Category:** Curated digital bedtime-story library for children (ages 1–10) — illustrated stories a parent reads aloud to their child (AI-produced, parent-facing)
 **Owner:** Fantom Labs
 **Status:** Draft for build decision
@@ -97,7 +97,7 @@ Do not enter the *generation* race — it's commoditized and Google gives it awa
 Not for parents seeking infinite hyper-personalized novelty (cede that to Gemini/Bedtimestory.ai). Not for classroom literacy (different compliance + product). Holding this line keeps the product coherent.
 
 ### 3.4 Naming (action required before spend)
-"GlimmerTales" is a working placeholder. Before any brand investment: clear the name and each character name against (a) USPTO + EUIPO + IP Australia trademark registers in the relevant classes (Class 9 software, Class 41 entertainment, Class 16 if print, Class 28 if toys), and (b) `.com`/`.app` domains and app-store name collisions. Children's-entertainment names collide constantly; assume the first three choices are taken.
+Before any major brand spend, clear Mini Dream Time and each character name against trademark registers in the relevant classes and app-store name collisions.
 
 ---
 

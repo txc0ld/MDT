@@ -1,11 +1,11 @@
-# GlimmerTales Phase 0 Style Guide
+# Mini Dream Time Phase 0 Style Guide
 
 Status: locked v0.1 for prototype and prompt pipeline.  
 Rule: this guide describes visual attributes only. Do not reference, imitate, or name any existing studio, franchise, or protected character style in prompts, filenames, docs, or production notes.
 
 ## Product mood
 
-GlimmerTales is a polished shared bedtime picture book: a parent reads aloud from bright, premium, softly illustrated pages while the child looks at friendly original characters. The art should feel tactile, cozy, rounded, subscription-worthy, and charming enough for children without turning into a noisy game. The visible product language should feel inviting first; privacy/compliance language belongs in parent notes and internal gates, not the hero line.
+Mini Dream Time is a polished shared bedtime picture book: a parent reads aloud from bright, premium, softly illustrated pages while the child looks at friendly original characters. The art should feel tactile, cozy, rounded, subscription-worthy, and charming enough for children without turning into a noisy game. The visible product language should feel inviting first; privacy/compliance language belongs in parent notes and internal gates, not the hero line.
 
 ## Style Token Block, Daytime
 

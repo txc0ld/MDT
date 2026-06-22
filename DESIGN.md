@@ -2,7 +2,7 @@
 
 ## Overview
 
-GlimmerTales uses a warm low-luminance bedtime product UI around text-free story illustrations. The interface should disappear into the ritual: a parent opens the app, chooses a story in one or two taps, then reads from a calm picture-book page. The app chrome is premium and quiet, not playful in a way that competes with sleep.
+Mini Dream Time uses a warm low-luminance bedtime product UI around text-free story illustrations. The interface should disappear into the ritual: a parent opens the app, chooses a story in one or two taps, then reads from a calm picture-book page. The app chrome is premium and quiet, not playful in a way that competes with sleep.
 
 ## Color
 

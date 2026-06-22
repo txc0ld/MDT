@@ -11,7 +11,6 @@ Use **Mini Dream Time** as the customer-facing brand.
 - **Mini Dream Time**: primary brand spelling for website copy, SEO titles, app chrome, and parent-facing materials.
 - **Mini Dreamtime**: compact lockup/domain variant only when spacing requires it.
 - **Mini Dream**: casual shorthand only; do not use as the main SEO brand.
-- **GlimmerTales**: first story world/collection inside Mini Dream Time.
 
 ## Verdict
 
@@ -23,7 +22,7 @@ Strengths:
 - `.com` is the best trust signal for parents.
 - “Dream Time” maps directly to bedtime and sleep.
 - “Mini” makes the product feel small, gentle, child-sized, and cute.
-- It gives the brand room to expand beyond one title like GlimmerTales.
+- It gives the brand room to expand into multiple story worlds, age bands, and formats.
 
 Watch-outs:
 
@@ -36,11 +35,10 @@ Watch-outs:
 Use:
 
 - Product/domain brand: **Mini Dream Time**
-- Collection/world name: **GlimmerTales**
 
 Example copy:
 
-> Mini Dream Time is a cozy read-aloud storybook library for bedtime. Start with GlimmerTales: gentle illustrated stories for parents to read one page at a time.
+> Mini Dream Time is a cozy read-aloud storybook library for bedtime: gentle illustrated stories for parents to read one page at a time.
 
 ## SEO/AEO positioning
 
@@ -66,7 +64,6 @@ Recommended launch pages:
 - `/stories/1-3-years`
 - `/stories/3-5-years`
 - `/stories/5-7-years`
-- `/glimmertales`
 - `/pricing.md` — machine-readable pricing for AI agents
 - `/llms.txt` — AI-readable product summary and key links
 

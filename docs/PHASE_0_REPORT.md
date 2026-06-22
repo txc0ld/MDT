@@ -1,4 +1,4 @@
-# GlimmerTales Phase 0 Report
+# Mini Dream Time Phase 0 Report
 
 Status: in progress, updated after scaffold creation.
 
@@ -50,7 +50,7 @@ Status: in progress, updated after scaffold creation.
 
 ## Reference input findings
 
-The supplied images are useful as mood/reference inputs only. They show a strong warm toy-render look, expressive rounded characters, and child-friendly humor. They also show the exact production hazards GlimmerTales must avoid: baked-in speech bubbles, signs, captions, title banners, bright daytime glare, and multi-panel drift. Phase 0 therefore uses clean art plus HTML text overlay.
+The supplied images are useful as mood/reference inputs only. They show a strong warm toy-render look, expressive rounded characters, and child-friendly humor. They also show the exact production hazards Mini Dream Time must avoid: baked-in speech bubbles, signs, captions, title banners, bright daytime glare, and multi-panel drift. Phase 0 therefore uses clean art plus HTML text overlay.
 
 ## Consistency method used in this scaffold
 

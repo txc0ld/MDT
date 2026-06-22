@@ -1,4 +1,4 @@
-# GlimmerTales Character Bible v0.1
+# Mini Dream Time Character Bible v0.1
 
 Status: locked for Phase 0 prototype.  
 IP rule: all characters are original. Do not evoke protected characters, studios, franchises, or existing children’s properties. Keep dated prompts, specs, and assets as independent-creation records.

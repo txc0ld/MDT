@@ -19,7 +19,6 @@ Recommended hierarchy:
 
 - Product/domain brand: **Mini Dream Time**
 - Domain: `minidreamtime.com`
-- First collection/world: **GlimmerTales**
 
 ## One-sentence positioning
 
@@ -44,7 +43,6 @@ The site should own the topic cluster around:
 
 ```text
 /                                  Mini Dream Time home
-├── /glimmertales                  First story collection hub
 ├── /bedtime-stories-for-kids      Pillar page: category definition + benefits
 ├── /read-aloud-bedtime-stories    Pillar page: parent-read routine
 ├── /calm-bedtime-stories          Pillar page: sleep-friendly story principles
@@ -81,7 +79,7 @@ Primary CTA:
 
 Secondary CTA:
 
-> Explore GlimmerTales
+> Explore Stories
 
 ## Extractable answer blocks for AI search
 

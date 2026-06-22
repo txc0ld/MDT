@@ -91,7 +91,7 @@ function renderHome() {
   const items = filteredStories();
   app.innerHTML = `<section class="shell parent-mode">
     <header class="topbar">
-      <button class="brand-lockup" id="homeBtn" aria-label="Mini Dream Time home"><span class="brand-mark">✦</span><span><strong>Mini Dream Time</strong><small>GlimmerTales story shelf</small></span></button>
+      <button class="brand-lockup" id="homeBtn" aria-label="Mini Dream Time home"><span class="brand-mark">✦</span><span><strong>Mini Dream Time</strong><small>Story shelf preview</small></span></button>
       <nav class="top-actions" aria-label="Parent tools"><button class="soft-pill" id="qaToggle">Review notes</button><span class="privacy">Made for reading together</span></nav>
     </header>
 

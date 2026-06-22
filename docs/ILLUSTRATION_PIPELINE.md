@@ -1,4 +1,4 @@
-# GlimmerTales Illustration Pipeline
+# Mini Dream Time Illustration Pipeline
 
 Status: Phase 0 v0.1. Use this before producing any catalog art.
 

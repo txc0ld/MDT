@@ -1,6 +1,6 @@
 # Bedtime Story Length Guide
 
-Status: production standard for GlimmerTales manuscripts.
+Status: production standard for Mini Dream Time manuscripts.
 
 ## Target ranges
 

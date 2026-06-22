@@ -6,7 +6,7 @@ Status: planned pricing for public launch. Final prices may change before releas
 
 - Price: $0/month
 - Intended for: early parents and testers
-- Includes: sample GlimmerTales stories, age-range browsing, parent-paced reading, no autoplay
+- Includes: sample Mini Dream Time stories, age-range browsing, parent-paced reading, no autoplay
 - Limits: preview catalog only
 
 ## Family

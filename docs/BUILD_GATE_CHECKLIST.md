@@ -1,10 +1,10 @@
-# GlimmerTales Phase 0 / MVP Build Gate Checklist
+# Mini Dream Time Phase 0 / MVP Build Gate Checklist
 
-Reviewed against `doc_e9fe15020fa9_GlimmerTales-PRD-v1.md` plus Apple App Review Kids Category guidance and Google Play Families policy.
+Reviewed against `doc_e9fe15020fa9_Mini-Dream-Time-PRD-v1.md` plus Apple App Review Kids Category guidance and Google Play Families policy.
 
 ## Executive risk read
 
-GlimmerTales is directionally strong because it avoids the riskiest children’s-app patterns: no runtime AI generation, no child profiles, no voice/photo/name collection, no ads, fixed human-reviewed catalog, and parent-paced read-together UX.
+Mini Dream Time is directionally strong because it avoids the riskiest children’s-app patterns: no runtime AI generation, no child profiles, no voice/photo/name collection, no ads, fixed human-reviewed catalog, and parent-paced read-together UX.
 
 The main build risks are implementation drift:
 
@@ -46,7 +46,7 @@ The build gate below should be used as a release blocker list, not a nice-to-hav
 
 ### 3. IP clearance before brand/content spend
 
-- [ ] Run trademark clearance for “GlimmerTales” in Class 9, 16, 28, and 41 across USPTO, EUIPO, IP Australia, UK if launching there.
+- [ ] Run trademark clearance for “Mini Dream Time” in Class 9, 16, 28, and 41 across USPTO, EUIPO, IP Australia, UK if launching there.
 - [ ] Check App Store / Google Play name collisions and `.com` / `.app` domains.
 - [ ] Clear every core character name: Daisy, Dino, Pip, Itsy, plus category names if heavily branded.
 - [ ] Write a “no famous-property resemblance” content rule into the production prompt templates and art direction docs.

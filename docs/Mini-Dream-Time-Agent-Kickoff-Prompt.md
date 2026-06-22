@@ -1,6 +1,6 @@
-# Agent Kickoff Prompt — GlimmerTales Phase 0 (Art Direction + Consistency + Viewer Scaffold)
+# Agent Kickoff Prompt — Mini Dream Time Phase 0 (Art Direction + Consistency + Viewer Scaffold)
 
-> Copy everything inside the rule below into your agent. Attach: (1) the PRD (`GlimmerTales-PRD-v1.md`), (2) the example illustration images, as visual reference for the target aesthetic only — not to copy.
+> Copy everything inside the rule below into your agent. Attach: (1) the PRD (`Mini-Dream-Time-PRD-v1.md`), (2) the example illustration images, as visual reference for the target aesthetic only — not to copy.
 
 ---
 

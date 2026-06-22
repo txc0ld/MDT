@@ -1,4 +1,4 @@
-# GlimmerTales Phase 0 QA Report
+# Mini Dream Time Phase 0 QA Report
 
 Status: v0.2 checklist for the expanded scaffold.  
 Latest automated verification is produced by `npm test`.
@@ -47,6 +47,9 @@ Browser checks completed:
 
 - Browser title/meta/schema checked after Mini Dream Time rename: title `Mini Dream Time — Calm Bedtime Stories for Kids`, brand lockup `Mini Dream Time`, one JSON-LD block present, no console errors.
 - Root SEO/AEO files now exist: `llms.txt`, `pricing.md`, `robots.txt`, and `sitemap.xml`.
+- Launch architecture pages smoke-tested: `/bedtime-stories-for-kids/`, `/read-aloud-bedtime-stories/`, `/calm-bedtime-stories/`, `/stories/1-3-years/`, `/stories/3-5-years/`, `/stories/5-7-years/`.
+- Legacy collection-name copy was removed from public files and app chrome; verifier guards against it returning.
+- Gemini/Nano Banana pilot generated `art-output/moonlit-meadow/p1-nano-banana-pro-preview.jpg`; QA says do not promote yet because character identity drifted even though quality/no-text/composition improved.
 
 `scripts/verify.mjs` checks:
 
