@@ -61,10 +61,12 @@ if (/setTimeout\s*\(|setInterval\s*\(|autoplay\s*=|gtag\s*\(|posthog\.|plausible
 
 const files = [
   'index.html', 'src/app.js', 'src/styles.css',
+  'llms.txt', 'pricing.md', 'robots.txt', 'sitemap.xml',
   'PRODUCT.md', 'DESIGN.md',
   'docs/STYLE_GUIDE.md', 'docs/CHARACTER_BIBLE.md', 'docs/ILLUSTRATION_PIPELINE.md',
   'docs/BUILD_GATE_CHECKLIST.md', 'docs/TECHNICAL_SCAFFOLD_PLAN.md', 'docs/PHASE_0_REPORT.md',
-  'docs/CONTENT_CATALOG.md', 'docs/CHARACTER_SET_EXPANSION.md', 'docs/BEDTIME_STORY_LENGTH_GUIDE.md', 'docs/DOMAIN_AND_AEO_PLAN.md', 'docs/NANO_BANANA_2_PRODUCTION_PLAN.md', 'docs/QA_REPORT.md'
+  'docs/CONTENT_CATALOG.md', 'docs/CHARACTER_SET_EXPANSION.md', 'docs/BEDTIME_STORY_LENGTH_GUIDE.md',
+  'docs/DOMAIN_AND_AEO_PLAN.md', 'docs/MINI_DREAM_TIME_SEO_AEO_ARCHITECTURE.md', 'docs/NANO_BANANA_2_PRODUCTION_PLAN.md', 'docs/QA_REPORT.md'
 ];
 for (const f of files) if (!existsSync(f)) failures.push(`missing ${f}`);
 

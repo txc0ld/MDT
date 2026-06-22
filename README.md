@@ -1,8 +1,8 @@
-# Mini Dreamtime / GlimmerTales Phase 0
+# Mini Dream Time / GlimmerTales Phase 0
 
 Expanded local Phase 0 scaffold for the read-together bedtime story product.
 
-Primary launch domain: `minidreamtime.com`. GlimmerTales is the first story world/collection inside Mini Dreamtime.
+Primary launch domain: `minidreamtime.com`. GlimmerTales is the first story world/collection inside Mini Dream Time.
 
 ## Run
 
@@ -35,12 +35,15 @@ Open <http://localhost:4173>.
 - `docs/BUILD_GATE_CHECKLIST.md`
 - `docs/TECHNICAL_SCAFFOLD_PLAN.md`
 - `docs/CONTENT_CATALOG.md`
+- `docs/DOMAIN_AND_AEO_PLAN.md`
+- `docs/MINI_DREAM_TIME_SEO_AEO_ARCHITECTURE.md`
 - `docs/QA_REPORT.md`
 - `docs/PHASE_0_REPORT.md`
 - `assets/characters/*.svg` text-free master sheets
 - `assets/stories/*/*.svg` text-free reference story pages
 - `data/stories.json` story-as-data schema
 - `index.html` + `src/` read-together viewer scaffold
+- `llms.txt`, `pricing.md`, `robots.txt`, `sitemap.xml` for launch SEO/AEO scaffolding
 
 ## Phase 0 limitation
 

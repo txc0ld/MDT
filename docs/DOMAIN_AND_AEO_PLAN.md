@@ -4,34 +4,43 @@
 
 Primary launch domain: `minidreamtime.com`
 
+## Brand decision
+
+Use **Mini Dream Time** as the customer-facing brand.
+
+- **Mini Dream Time**: primary brand spelling for website copy, SEO titles, app chrome, and parent-facing materials.
+- **Mini Dreamtime**: compact lockup/domain variant only when spacing requires it.
+- **Mini Dream**: casual shorthand only; do not use as the main SEO brand.
+- **GlimmerTales**: first story world/collection inside Mini Dream Time.
+
 ## Verdict
 
-`minidreamtime.com` is a good domain for this project if the product positioning is softened from “AI story app” into a warm bedtime ritual brand.
+`minidreamtime.com` is a strong domain for this project when the product positioning is a warm bedtime ritual brand.
 
 Strengths:
 
 - Easy to say and remember.
 - `.com` is the best trust signal for parents.
-- “Dream time” maps directly to bedtime and sleep.
+- “Dream Time” maps directly to bedtime and sleep.
 - “Mini” makes the product feel small, gentle, child-sized, and cute.
 - It gives the brand room to expand beyond one title like GlimmerTales.
 
 Watch-outs:
 
 - It is less descriptive than an exact-match SEO domain, so the landing page needs clear copy around “bedtime stories for kids” and “read-aloud stories for parents.”
-- “Mini Dreamtime” has a slightly broader sleep/wellness feel; the homepage must immediately anchor it as a children’s read-together story library.
-- Keep “Dreamtime” culturally sensitive. Avoid using Aboriginal Dreamtime stories, motifs, names, or visual references unless specifically licensed and culturally reviewed. Use the phrase as ordinary bedtime/dream language only.
+- “Mini Dream Time” has a slightly broader sleep/wellness feel; the homepage must immediately anchor it as a children’s read-together story library.
+- Keep “Dream Time” culturally sensitive. Avoid using Aboriginal Dreamtime stories, motifs, names, or visual references unless specifically licensed and culturally reviewed. Use the phrase as ordinary bedtime/dream language only.
 
 ## Recommended brand architecture
 
 Use:
 
-- Product/domain brand: **Mini Dreamtime**
+- Product/domain brand: **Mini Dream Time**
 - Collection/world name: **GlimmerTales**
 
 Example copy:
 
-> Mini Dreamtime is a cozy read-aloud storybook library for bedtime. Start with GlimmerTales: gentle illustrated stories for parents to read one page at a time.
+> Mini Dream Time is a cozy read-aloud storybook library for bedtime. Start with GlimmerTales: gentle illustrated stories for parents to read one page at a time.
 
 ## SEO/AEO positioning
 
@@ -50,7 +59,7 @@ Primary query cluster:
 
 Recommended launch pages:
 
-- `/` — Mini Dreamtime home
+- `/` — Mini Dream Time home
 - `/bedtime-stories-for-kids`
 - `/read-aloud-bedtime-stories`
 - `/calm-bedtime-stories`
@@ -65,7 +74,7 @@ Recommended launch pages:
 
 Title:
 
-> Mini Dreamtime — Calm Bedtime Stories for Kids
+> Mini Dream Time — Calm Bedtime Stories for Kids
 
 Meta description:
 
@@ -77,7 +86,7 @@ H1:
 
 Support line:
 
-> Mini Dreamtime gives parents a beautiful shelf of gentle read-aloud stories, one cozy page at a time.
+> Mini Dream Time gives parents a beautiful shelf of gentle read-aloud stories, one cozy page at a time.
 
 ## Technical setup checklist
 

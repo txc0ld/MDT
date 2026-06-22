@@ -16,7 +16,7 @@ Latest automated verification is produced by `npm test`.
 Latest run:
 
 ```txt
-> glimmertales-phase0@0.1.0 test
+> mini-dream-time-phase0@0.1.0 test
 > node scripts/verify.mjs
 
 ok: 7 stories, 37 pages, text-free SVG/data/docs checks passed
@@ -44,6 +44,9 @@ Browser checks completed:
 - Story Mode opened `Nori and the Bubble Tide`, page 1 of 5, from a filtered story card.
 - Story Mode right-side tap zone advanced from page 1 to page 2; left-side tap zone returned from page 2 to page 1.
 - Story Mode still renders visible read-aloud text and usable controls.
+
+- Browser title/meta/schema checked after Mini Dream Time rename: title `Mini Dream Time — Calm Bedtime Stories for Kids`, brand lockup `Mini Dream Time`, one JSON-LD block present, no console errors.
+- Root SEO/AEO files now exist: `llms.txt`, `pricing.md`, `robots.txt`, and `sitemap.xml`.
 
 `scripts/verify.mjs` checks:
 

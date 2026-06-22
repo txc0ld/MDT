@@ -5,6 +5,6 @@
     "export:image-briefs": "node scripts/export-image-briefs.mjs"
   },
   "private": true,
-  "name": "glimmertales-phase0",
+  "name": "mini-dream-time-phase0",
   "version": "0.1.0"
 }

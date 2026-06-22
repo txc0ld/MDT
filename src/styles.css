@@ -28,11 +28,21 @@ body {
   min-height: 100vh;
   color: var(--ink);
   background:
-    radial-gradient(circle at 10% 8%, rgba(255, 143, 200, .45) 0 13%, transparent 32%),
-    radial-gradient(circle at 92% 14%, rgba(149, 239, 194, .58) 0 15%, transparent 34%),
-    radial-gradient(circle at 42% 0%, rgba(255, 214, 110, .55) 0 12%, transparent 32%),
-    linear-gradient(135deg, #f8fbff 0%, #e9f8ff 38%, #fff1f7 72%, #fff7dc 100%);
+    radial-gradient(circle at 10% 10%, rgba(255, 214, 110, .72), transparent 25%),
+    radial-gradient(circle at 88% 4%, rgba(255, 143, 200, .68), transparent 30%),
+    linear-gradient(135deg, #d9f4ff 0%, #fff3c8 42%, #ffcbdc 100%);
 }
+
+.seo-fallback {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 80px 24px;
+  text-align: center;
+}
+.seo-fallback h1 { font-family: Georgia, serif; font-size: clamp(2.6rem, 7vw, 5rem); line-height: .94; color: var(--berry); margin: 0 0 18px; }
+.seo-fallback p { font-size: 1.15rem; line-height: 1.7; color: var(--muted); }
+
+button, select { font: inherit; }
 body::before {
   content: "";
   position: fixed;
