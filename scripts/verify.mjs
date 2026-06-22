@@ -5,14 +5,14 @@ const stories = JSON.parse(readFileSync('data/stories.json', 'utf8'));
 const appJs = readFileSync('src/app.js', 'utf8');
 let failures = [];
 
-if (!Array.isArray(stories) || stories.length < 3) failures.push('stories.json must contain at least three Phase 0 reference stories');
+if (!Array.isArray(stories) || stories.length < 7) failures.push('stories.json must contain at least seven Phase 0 reference stories and story seeds');
 
 const storyIds = new Set();
 const storySlugs = new Set();
 let totalPages = 0;
 
 for (const s of stories) {
-  for (const required of ['id', 'storyId', 'slug', 'title', 'category', 'categorySlug', 'tier', 'readTime', 'theme', 'parentSummary', 'contentSafety', 'publication']) {
+  for (const required of ['id', 'storyId', 'slug', 'title', 'category', 'categorySlug', 'tier', 'readTime', 'theme', 'parentSummary', 'themeTags', 'characterSet', 'mood', 'contentSafety', 'publication']) {
     if (!(required in s)) failures.push(`story ${s.id || '<unknown>'} missing ${required}`);
   }
   if (storyIds.has(s.id)) failures.push(`duplicate story id ${s.id}`);
@@ -58,7 +58,7 @@ const files = [
   'PRODUCT.md', 'DESIGN.md',
   'docs/STYLE_GUIDE.md', 'docs/CHARACTER_BIBLE.md', 'docs/ILLUSTRATION_PIPELINE.md',
   'docs/BUILD_GATE_CHECKLIST.md', 'docs/TECHNICAL_SCAFFOLD_PLAN.md', 'docs/PHASE_0_REPORT.md',
-  'docs/CONTENT_CATALOG.md', 'docs/QA_REPORT.md'
+  'docs/CONTENT_CATALOG.md', 'docs/CHARACTER_SET_EXPANSION.md', 'docs/QA_REPORT.md'
 ];
 for (const f of files) if (!existsSync(f)) failures.push(`missing ${f}`);
 

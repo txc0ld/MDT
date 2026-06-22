@@ -5,8 +5,8 @@ Latest automated verification is produced by `npm test`.
 
 ## Scope covered
 
-- Structured catalog grew from 1 story / 5 pages to 3 stories / 17 pages.
-- Parent Mode now includes library filters, status card, release-gate panel, and richer story cards.
+- Structured catalog grew from 3 stories / 17 pages to 7 stories / 37 pages.
+- Parent Mode now includes random/surprise story, quick mood selection, category filters, character-set filters, status card, release-gate panel, and richer story cards.
 - Story Mode now includes hash routes, progress dots, swipe/keyboard page turns, dim-light toggle, placement-aware read-aloud overlays, and page-level review drawer.
 - Data now includes richer story/page metadata and release-blocking QA fields.
 
@@ -18,7 +18,7 @@ Latest run:
 > glimmertales-phase0@0.1.0 test
 > node scripts/verify.mjs
 
-ok: 3 stories, 17 pages, text-free SVG/data/docs checks passed
+ok: 7 stories, 37 pages, text-free SVG/data/docs checks passed
 ```
 
 Impeccable detector:
@@ -32,14 +32,16 @@ HTTP smoke checks against local server:
 ```txt
 / 200 text/html
 /data/stories.json 200 application/json
-/assets/stories/sleepy-lantern-leaf/page-01.svg 200 image/svg+xml
+/assets/brand/seed-nori-bubble-tide.png 200 image/png
 ```
 
 Browser checks completed:
 
-- Parent Mode rendered with 3 stories and no console errors.
-- Story Mode rendered for `The Sleepy Lantern Leaf` with visible read-aloud text and usable controls.
-- Next page + tier-switch interaction returned `true` in browser evaluation.
+- Parent Mode rendered with 7 stories, quick mood buttons, category filters, and character-set filters with no console errors.
+- Quick `New friends` selector changed the surprise card to a non-Meadow-Friends story.
+- Character-set filter `Ocean Dreamers` narrowed the shelf to `Nori and the Bubble Tide`.
+- Story Mode opened `Nori and the Bubble Tide`, page 1 of 5, from a filtered story card.
+- Story Mode still renders visible read-aloud text and usable controls.
 
 `scripts/verify.mjs` checks:
 

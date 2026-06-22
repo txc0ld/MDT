@@ -141,7 +141,10 @@
     ],
     "artDirection": {
       "coverQualityTarget": "assets/brand/premium-cast-target.png"
-    }
+    },
+    "characterSet": "Meadow Friends",
+    "mood": "soft-brave",
+    "quickPickLabel": "A little brave"
   },
   {
     "id": "sleepy-lantern-leaf",
@@ -304,7 +307,10 @@
     ],
     "artDirection": {
       "coverQualityTarget": "assets/brand/premium-sleepy-lantern-leaf.png"
-    }
+    },
+    "characterSet": "Meadow Friends",
+    "mood": "sleepy",
+    "quickPickLabel": "Soft and sleepy"
   },
   {
     "id": "itsy-soft-bridge",
@@ -467,6 +473,593 @@
     ],
     "artDirection": {
       "coverQualityTarget": "assets/brand/premium-itsy-soft-bridge.png"
+    },
+    "characterSet": "Meadow Friends",
+    "mood": "teamwork",
+    "quickPickLabel": "Helpful friends"
+  },
+  {
+    "id": "pillow-hill-parade",
+    "title": "The Pillow Hill Parade",
+    "category": "Silly & Giggly",
+    "categorySlug": "silly-giggly",
+    "tier": "Wonder",
+    "readTime": "5 min",
+    "approxReadMinutes": 5,
+    "theme": "A sleepy parade gets quieter with every step.",
+    "parentSummary": "Momo Puffin and Bibi Bunny lead a tiny pillow parade that turns into a cozy cuddle pile.",
+    "themeTags": [
+      "silly",
+      "wind-down",
+      "new-friends",
+      "bedtime"
+    ],
+    "characters": [
+      "momo-puffin",
+      "bibi-bunny",
+      "tula-turtle"
+    ],
+    "characterSet": "Pillow Pals",
+    "mood": "silly",
+    "storyId": "pillow-hill-parade",
+    "slug": "pillow-hill-parade",
+    "recommendedTier": "Wonder",
+    "supportedTiers": [
+      "Drift",
+      "Wonder",
+      "Explore"
+    ],
+    "coverIllustrationRef": "assets/brand/seed-pillow-hill-parade.png",
+    "audioRef": null,
+    "quickPickLabel": "Tiny giggles",
+    "contentSafety": {
+      "reviewed": false,
+      "reviewer": "",
+      "reviewedAt": "",
+      "notes": "Story seed scaffold only; requires human editorial/IP/safety approval before release."
+    },
+    "publication": {
+      "status": "reference",
+      "version": "0.3.0",
+      "updatedAt": "2026-06-23"
+    },
+    "pages": [
+      {
+        "pageId": "p1",
+        "order": 0,
+        "illustrationRef": "assets/stories/pillow-hill-parade/page-01.svg",
+        "illustrationAlt": "Text-free illustration for The Pillow Hill Parade, page 1",
+        "lightingMood": "evening",
+        "textPlacement": "bottom-panel",
+        "audioRef": null,
+        "readAloudText": {
+          "Drift": "A pillow rolled down the soft hill.",
+          "Wonder": "Momo Puffin found one runaway pillow rolling gently down the hill.",
+          "Explore": "Momo Puffin waddled after a plump pillow as it tumbled softly through the grass."
+        },
+        "qa": {
+          "noBakedText": true,
+          "characterConsistency": "story-seed-svg-scaffold",
+          "releaseApproved": false
+        }
+      },
+      {
+        "pageId": "p2",
+        "order": 1,
+        "illustrationRef": "assets/stories/pillow-hill-parade/page-02.svg",
+        "illustrationAlt": "Text-free illustration for The Pillow Hill Parade, page 2",
+        "lightingMood": "evening",
+        "textPlacement": "bottom-panel",
+        "audioRef": null,
+        "readAloudText": {
+          "Drift": "Bibi Bunny hopped beside it.",
+          "Wonder": "Bibi Bunny hopped once, then twice, and the pillow parade began.",
+          "Explore": "Bibi Bunny gave three careful hops, just enough to make everyone laugh without waking the moon."
+        },
+        "qa": {
+          "noBakedText": true,
+          "characterConsistency": "story-seed-svg-scaffold",
+          "releaseApproved": false
+        }
+      },
+      {
+        "pageId": "p3",
+        "order": 2,
+        "illustrationRef": "assets/stories/pillow-hill-parade/page-03.svg",
+        "illustrationAlt": "Text-free illustration for The Pillow Hill Parade, page 3",
+        "lightingMood": "bedtime",
+        "textPlacement": "top-left",
+        "audioRef": null,
+        "readAloudText": {
+          "Drift": "Tula Turtle brought a blanket.",
+          "Wonder": "Tula Turtle carried the smallest blanket and the biggest smile.",
+          "Explore": "Tula Turtle arrived slowly with a blanket folded like a warm square of evening."
+        },
+        "qa": {
+          "noBakedText": true,
+          "characterConsistency": "story-seed-svg-scaffold",
+          "releaseApproved": false
+        }
+      },
+      {
+        "pageId": "p4",
+        "order": 3,
+        "illustrationRef": "assets/stories/pillow-hill-parade/page-04.svg",
+        "illustrationAlt": "Text-free illustration for The Pillow Hill Parade, page 4",
+        "lightingMood": "bedtime",
+        "textPlacement": "right-panel",
+        "audioRef": null,
+        "readAloudText": {
+          "Drift": "The parade grew sleepy.",
+          "Wonder": "Step by step, the parade became quieter, softer, and slower.",
+          "Explore": "The friends marched in tiny steps until even their giggles turned into whispers."
+        },
+        "qa": {
+          "noBakedText": true,
+          "characterConsistency": "story-seed-svg-scaffold",
+          "releaseApproved": false
+        }
+      },
+      {
+        "pageId": "p5",
+        "order": 4,
+        "illustrationRef": "assets/stories/pillow-hill-parade/page-05.svg",
+        "illustrationAlt": "Text-free illustration for The Pillow Hill Parade, page 5",
+        "lightingMood": "bedtime",
+        "textPlacement": "bottom-panel",
+        "audioRef": null,
+        "readAloudText": {
+          "Drift": "Everyone rested on Pillow Hill.",
+          "Wonder": "At the top of Pillow Hill, the friends curled into a happy little heap.",
+          "Explore": "The pillow parade ended exactly where it should: in a moonlit cuddle pile at the top of the hill."
+        },
+        "qa": {
+          "noBakedText": true,
+          "characterConsistency": "story-seed-svg-scaffold",
+          "releaseApproved": false
+        }
+      }
+    ],
+    "artDirection": {
+      "coverQualityTarget": "assets/brand/seed-pillow-hill-parade.png"
+    }
+  },
+  {
+    "id": "button-moon-bakery",
+    "title": "Button Moon Bakery",
+    "category": "Dream Big",
+    "categorySlug": "dream-big",
+    "tier": "Explore",
+    "readTime": "6 min",
+    "approxReadMinutes": 6,
+    "theme": "Big dreams can be mixed gently.",
+    "parentSummary": "Coco Cricket and Luma Lamb pretend to bake the moon one soft sparkle at a time.",
+    "themeTags": [
+      "imagination",
+      "dreams",
+      "cozy",
+      "new-friends"
+    ],
+    "characters": [
+      "coco-cricket",
+      "luma-lamb",
+      "nib-starling"
+    ],
+    "characterSet": "Sky Bakers",
+    "mood": "dreamy",
+    "storyId": "button-moon-bakery",
+    "slug": "button-moon-bakery",
+    "recommendedTier": "Explore",
+    "supportedTiers": [
+      "Drift",
+      "Wonder",
+      "Explore"
+    ],
+    "coverIllustrationRef": "assets/brand/seed-button-moon-bakery.png",
+    "audioRef": null,
+    "quickPickLabel": "Big dreams",
+    "contentSafety": {
+      "reviewed": false,
+      "reviewer": "",
+      "reviewedAt": "",
+      "notes": "Story seed scaffold only; requires human editorial/IP/safety approval before release."
+    },
+    "publication": {
+      "status": "reference",
+      "version": "0.3.0",
+      "updatedAt": "2026-06-23"
+    },
+    "pages": [
+      {
+        "pageId": "p1",
+        "order": 0,
+        "illustrationRef": "assets/stories/button-moon-bakery/page-01.svg",
+        "illustrationAlt": "Text-free illustration for Button Moon Bakery, page 1",
+        "lightingMood": "evening",
+        "textPlacement": "bottom-panel",
+        "audioRef": null,
+        "readAloudText": {
+          "Drift": "The moon looked like a button.",
+          "Wonder": "Coco Cricket thought the moon looked like a bright button on the sky.",
+          "Explore": "Coco Cricket tilted his tiny head. The moon looked round and buttony, like it had been sewn onto the dark."
+        },
+        "qa": {
+          "noBakedText": true,
+          "characterConsistency": "story-seed-svg-scaffold",
+          "releaseApproved": false
+        }
+      },
+      {
+        "pageId": "p2",
+        "order": 1,
+        "illustrationRef": "assets/stories/button-moon-bakery/page-02.svg",
+        "illustrationAlt": "Text-free illustration for Button Moon Bakery, page 2",
+        "lightingMood": "evening",
+        "textPlacement": "bottom-panel",
+        "audioRef": null,
+        "readAloudText": {
+          "Drift": "Luma found a spoon-shaped leaf.",
+          "Wonder": "Luma Lamb found a leaf that was just right for stirring pretend moon batter.",
+          "Explore": "Luma Lamb lifted a curved leaf and declared it perfect for stirring moonlight, very slowly."
+        },
+        "qa": {
+          "noBakedText": true,
+          "characterConsistency": "story-seed-svg-scaffold",
+          "releaseApproved": false
+        }
+      },
+      {
+        "pageId": "p3",
+        "order": 2,
+        "illustrationRef": "assets/stories/button-moon-bakery/page-03.svg",
+        "illustrationAlt": "Text-free illustration for Button Moon Bakery, page 3",
+        "lightingMood": "bedtime",
+        "textPlacement": "top-left",
+        "audioRef": null,
+        "readAloudText": {
+          "Drift": "Nib sprinkled sleepy stars.",
+          "Wonder": "Nib Starling shook a few soft sparkles into the pretend bowl.",
+          "Explore": "Nib Starling fluttered once, and three sleepy sparkles drifted down like sugar."
+        },
+        "qa": {
+          "noBakedText": true,
+          "characterConsistency": "story-seed-svg-scaffold",
+          "releaseApproved": false
+        }
+      },
+      {
+        "pageId": "p4",
+        "order": 3,
+        "illustrationRef": "assets/stories/button-moon-bakery/page-04.svg",
+        "illustrationAlt": "Text-free illustration for Button Moon Bakery, page 4",
+        "lightingMood": "bedtime",
+        "textPlacement": "right-panel",
+        "audioRef": null,
+        "readAloudText": {
+          "Drift": "The bakery smelled like dreams.",
+          "Wonder": "Their little bakery smelled like grass, warm air, and almost-dreams.",
+          "Explore": "Nothing was really baking, but somehow the night smelled cozy, as if dreams had a recipe."
+        },
+        "qa": {
+          "noBakedText": true,
+          "characterConsistency": "story-seed-svg-scaffold",
+          "releaseApproved": false
+        }
+      },
+      {
+        "pageId": "p5",
+        "order": 4,
+        "illustrationRef": "assets/stories/button-moon-bakery/page-05.svg",
+        "illustrationAlt": "Text-free illustration for Button Moon Bakery, page 5",
+        "lightingMood": "bedtime",
+        "textPlacement": "bottom-panel",
+        "audioRef": null,
+        "readAloudText": {
+          "Drift": "They saved one sparkle for morning.",
+          "Wonder": "Coco tucked one tiny sparkle away for tomorrow.",
+          "Explore": "Before bed, Coco saved the smallest sparkle in a safe little acorn cup for morning wishes."
+        },
+        "qa": {
+          "noBakedText": true,
+          "characterConsistency": "story-seed-svg-scaffold",
+          "releaseApproved": false
+        }
+      }
+    ],
+    "artDirection": {
+      "coverQualityTarget": "assets/brand/seed-button-moon-bakery.png"
+    }
+  },
+  {
+    "id": "nori-bubble-tide",
+    "title": "Nori and the Bubble Tide",
+    "category": "Curious World",
+    "categorySlug": "curious-world",
+    "tier": "Drift",
+    "readTime": "5 min",
+    "approxReadMinutes": 5,
+    "theme": "A busy tide can become a breathing game.",
+    "parentSummary": "Nori Narwhal and Puddle Otter count soft bubbles until the water feels calm.",
+    "themeTags": [
+      "ocean",
+      "breathing",
+      "calm",
+      "new-friends"
+    ],
+    "characters": [
+      "nori-narwhal",
+      "puddle-otter",
+      "mimi-minnow"
+    ],
+    "characterSet": "Ocean Dreamers",
+    "mood": "sleepy",
+    "storyId": "nori-bubble-tide",
+    "slug": "nori-bubble-tide",
+    "recommendedTier": "Drift",
+    "supportedTiers": [
+      "Drift",
+      "Wonder",
+      "Explore"
+    ],
+    "coverIllustrationRef": "assets/brand/seed-nori-bubble-tide.png",
+    "audioRef": null,
+    "quickPickLabel": "Soft and sleepy",
+    "contentSafety": {
+      "reviewed": false,
+      "reviewer": "",
+      "reviewedAt": "",
+      "notes": "Story seed scaffold only; requires human editorial/IP/safety approval before release."
+    },
+    "publication": {
+      "status": "reference",
+      "version": "0.3.0",
+      "updatedAt": "2026-06-23"
+    },
+    "pages": [
+      {
+        "pageId": "p1",
+        "order": 0,
+        "illustrationRef": "assets/stories/nori-bubble-tide/page-01.svg",
+        "illustrationAlt": "Text-free illustration for Nori and the Bubble Tide, page 1",
+        "lightingMood": "evening",
+        "textPlacement": "bottom-panel",
+        "audioRef": null,
+        "readAloudText": {
+          "Drift": "Nori watched one bubble rise.",
+          "Wonder": "Nori Narwhal watched one round bubble float up and pop softly.",
+          "Explore": "Nori Narwhal held very still and watched a single bubble wobble toward the moonlit surface."
+        },
+        "qa": {
+          "noBakedText": true,
+          "characterConsistency": "story-seed-svg-scaffold",
+          "releaseApproved": false
+        }
+      },
+      {
+        "pageId": "p2",
+        "order": 1,
+        "illustrationRef": "assets/stories/nori-bubble-tide/page-02.svg",
+        "illustrationAlt": "Text-free illustration for Nori and the Bubble Tide, page 2",
+        "lightingMood": "evening",
+        "textPlacement": "bottom-panel",
+        "audioRef": null,
+        "readAloudText": {
+          "Drift": "Puddle counted two more.",
+          "Wonder": "Puddle Otter counted two bubbles, then smiled at the quiet water.",
+          "Explore": "Puddle Otter counted two more bubbles, not quickly, not loudly, just enough to hear the water breathe."
+        },
+        "qa": {
+          "noBakedText": true,
+          "characterConsistency": "story-seed-svg-scaffold",
+          "releaseApproved": false
+        }
+      },
+      {
+        "pageId": "p3",
+        "order": 2,
+        "illustrationRef": "assets/stories/nori-bubble-tide/page-03.svg",
+        "illustrationAlt": "Text-free illustration for Nori and the Bubble Tide, page 3",
+        "lightingMood": "bedtime",
+        "textPlacement": "top-left",
+        "audioRef": null,
+        "readAloudText": {
+          "Drift": "Mimi made a tiny trail.",
+          "Wonder": "Mimi Minnow swam a gentle loop and left a string of sleepy bubbles.",
+          "Explore": "Mimi Minnow turned in a silver loop, leaving little bubbles like pearls on a string."
+        },
+        "qa": {
+          "noBakedText": true,
+          "characterConsistency": "story-seed-svg-scaffold",
+          "releaseApproved": false
+        }
+      },
+      {
+        "pageId": "p4",
+        "order": 3,
+        "illustrationRef": "assets/stories/nori-bubble-tide/page-04.svg",
+        "illustrationAlt": "Text-free illustration for Nori and the Bubble Tide, page 4",
+        "lightingMood": "bedtime",
+        "textPlacement": "right-panel",
+        "audioRef": null,
+        "readAloudText": {
+          "Drift": "The tide slowed down.",
+          "Wonder": "With every bubble, the tide seemed to rock more slowly.",
+          "Explore": "The water still moved, but it moved like a cradle now, rocking the friends toward rest."
+        },
+        "qa": {
+          "noBakedText": true,
+          "characterConsistency": "story-seed-svg-scaffold",
+          "releaseApproved": false
+        }
+      },
+      {
+        "pageId": "p5",
+        "order": 4,
+        "illustrationRef": "assets/stories/nori-bubble-tide/page-05.svg",
+        "illustrationAlt": "Text-free illustration for Nori and the Bubble Tide, page 5",
+        "lightingMood": "bedtime",
+        "textPlacement": "bottom-panel",
+        "audioRef": null,
+        "readAloudText": {
+          "Drift": "Nori closed sleepy eyes.",
+          "Wonder": "Nori counted one last bubble and let his eyes grow soft.",
+          "Explore": "The final bubble rose, shimmered, and vanished. Nori smiled, because calm had found him."
+        },
+        "qa": {
+          "noBakedText": true,
+          "characterConsistency": "story-seed-svg-scaffold",
+          "releaseApproved": false
+        }
+      }
+    ],
+    "artDirection": {
+      "coverQualityTarget": "assets/brand/seed-nori-bubble-tide.png"
+    }
+  },
+  {
+    "id": "fennel-lantern-lane",
+    "title": "Fennel\u2019s Lantern Lane",
+    "category": "Sleepy Meadow",
+    "categorySlug": "sleepy-meadow",
+    "tier": "Wonder",
+    "readTime": "5 min",
+    "approxReadMinutes": 5,
+    "theme": "Finding the way home can feel warm and safe.",
+    "parentSummary": "Fennel Fox and Roo Mouse light tiny lantern seeds along a safe path home.",
+    "themeTags": [
+      "sleepy",
+      "home",
+      "comfort",
+      "new-friends"
+    ],
+    "characters": [
+      "fennel-fox",
+      "roo-mouse",
+      "opal-owl"
+    ],
+    "characterSet": "Lantern Lane",
+    "mood": "sleepy",
+    "storyId": "fennel-lantern-lane",
+    "slug": "fennel-lantern-lane",
+    "recommendedTier": "Wonder",
+    "supportedTiers": [
+      "Drift",
+      "Wonder",
+      "Explore"
+    ],
+    "coverIllustrationRef": "assets/brand/seed-fennel-lantern-lane.png",
+    "audioRef": null,
+    "quickPickLabel": "Soft and sleepy",
+    "contentSafety": {
+      "reviewed": false,
+      "reviewer": "",
+      "reviewedAt": "",
+      "notes": "Story seed scaffold only; requires human editorial/IP/safety approval before release."
+    },
+    "publication": {
+      "status": "reference",
+      "version": "0.3.0",
+      "updatedAt": "2026-06-23"
+    },
+    "pages": [
+      {
+        "pageId": "p1",
+        "order": 0,
+        "illustrationRef": "assets/stories/fennel-lantern-lane/page-01.svg",
+        "illustrationAlt": "Text-free illustration for Fennel\u2019s Lantern Lane, page 1",
+        "lightingMood": "evening",
+        "textPlacement": "bottom-panel",
+        "audioRef": null,
+        "readAloudText": {
+          "Drift": "Fennel found a lantern seed.",
+          "Wonder": "Fennel Fox found a lantern seed glowing beside the path.",
+          "Explore": "Fennel Fox paused by a seed that glowed as warmly as a small cup of honey."
+        },
+        "qa": {
+          "noBakedText": true,
+          "characterConsistency": "story-seed-svg-scaffold",
+          "releaseApproved": false
+        }
+      },
+      {
+        "pageId": "p2",
+        "order": 1,
+        "illustrationRef": "assets/stories/fennel-lantern-lane/page-02.svg",
+        "illustrationAlt": "Text-free illustration for Fennel\u2019s Lantern Lane, page 2",
+        "lightingMood": "evening",
+        "textPlacement": "bottom-panel",
+        "audioRef": null,
+        "readAloudText": {
+          "Drift": "Roo held it carefully.",
+          "Wonder": "Roo Mouse held the seed with both tiny paws.",
+          "Explore": "Roo Mouse carried the lantern seed with both paws, careful as a bedtime promise."
+        },
+        "qa": {
+          "noBakedText": true,
+          "characterConsistency": "story-seed-svg-scaffold",
+          "releaseApproved": false
+        }
+      },
+      {
+        "pageId": "p3",
+        "order": 2,
+        "illustrationRef": "assets/stories/fennel-lantern-lane/page-03.svg",
+        "illustrationAlt": "Text-free illustration for Fennel\u2019s Lantern Lane, page 3",
+        "lightingMood": "bedtime",
+        "textPlacement": "top-left",
+        "audioRef": null,
+        "readAloudText": {
+          "Drift": "Opal saw the next light.",
+          "Wonder": "Opal Owl blinked and spotted another glow waiting ahead.",
+          "Explore": "From a low branch, Opal Owl blinked once and found the next gentle light in the grass."
+        },
+        "qa": {
+          "noBakedText": true,
+          "characterConsistency": "story-seed-svg-scaffold",
+          "releaseApproved": false
+        }
+      },
+      {
+        "pageId": "p4",
+        "order": 3,
+        "illustrationRef": "assets/stories/fennel-lantern-lane/page-04.svg",
+        "illustrationAlt": "Text-free illustration for Fennel\u2019s Lantern Lane, page 4",
+        "lightingMood": "bedtime",
+        "textPlacement": "right-panel",
+        "audioRef": null,
+        "readAloudText": {
+          "Drift": "The lane became golden.",
+          "Wonder": "One by one, the tiny lights made a golden lane.",
+          "Explore": "The friends placed each seed with care until the path looked like a necklace for the night."
+        },
+        "qa": {
+          "noBakedText": true,
+          "characterConsistency": "story-seed-svg-scaffold",
+          "releaseApproved": false
+        }
+      },
+      {
+        "pageId": "p5",
+        "order": 4,
+        "illustrationRef": "assets/stories/fennel-lantern-lane/page-05.svg",
+        "illustrationAlt": "Text-free illustration for Fennel\u2019s Lantern Lane, page 5",
+        "lightingMood": "bedtime",
+        "textPlacement": "bottom-panel",
+        "audioRef": null,
+        "readAloudText": {
+          "Drift": "Home was close and warm.",
+          "Wonder": "At the end of Lantern Lane, home waited with a sleepy glow.",
+          "Explore": "The last lantern seed shone beside the door, and everyone knew they had arrived exactly where rest begins."
+        },
+        "qa": {
+          "noBakedText": true,
+          "characterConsistency": "story-seed-svg-scaffold",
+          "releaseApproved": false
+        }
+      }
+    ],
+    "artDirection": {
+      "coverQualityTarget": "assets/brand/seed-fennel-lantern-lane.png"
     }
   }
 ]

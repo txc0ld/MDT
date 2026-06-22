@@ -17,16 +17,23 @@ Status: in progress, updated after scaffold creation.
 - Created deterministic, text-free SVG master sheets for Daisy, Dino, Pip, and Itsy under `assets/characters/`.
 - Regenerated reference SVGs with brighter kid-facing palette, gradients, soft shadows, more expressive details, and polished bubbly materials.
 - Added a high-end generated art-direction target at `assets/brand/premium-cast-target.png` for subscription-quality character/material ambition.
-- Expanded from one story to three reference stories with 17 text-free pages:
+- Expanded from three stories to seven selectable stories/story seeds with 37 text-free pages:
   - `Moonlit Meadow Echo`
   - `The Sleepy Lantern Leaf`
   - `Itsy’s Soft Bridge`
+  - `The Pillow Hill Parade`
+  - `Button Moon Bakery`
+  - `Nori and the Bubble Tide`
+  - `Fennel’s Lantern Lane`
 - Built an expanded static read-together viewer scaffold with Parent Mode and Story Mode:
   - story-as-data in `data/stories.json`
   - enriched page metadata: `order`, `illustrationAlt`, `lightingMood`, `textPlacement`, and QA markers
   - story-level release metadata: `contentSafety` and `publication`
   - parent browse/home screen
+  - random/surprise story card
+  - quick mood selection: Sleepy, Silly, Brave, Dreamy, Helpful, New friends
   - library category filters
+  - character-set filters for Meadow Friends, Pillow Pals, Sky Bakers, Ocean Dreamers, Lantern Lane
   - QA/release-gate panel
   - story mode with one page at a time
   - hash routes for story/page QA

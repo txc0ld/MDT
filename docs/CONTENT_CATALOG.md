@@ -83,9 +83,19 @@ Page-level:
 
 ## Next catalog expansion
 
-Before production art, add two more reference records without new systems work:
+Completed in v0.4:
 
-1. `Pip’s Little Brave Step`, Friends & Feelings, 6 pages.
-2. `Dino Carries the Moon`, Dream Big, 6 pages.
+- Added four quick-selection story seeds:
+  - `The Pillow Hill Parade`, Pillow Pals, Silly & Giggly.
+  - `Button Moon Bakery`, Sky Bakers, Dream Big.
+  - `Nori and the Bubble Tide`, Ocean Dreamers, Curious World.
+  - `Fennel’s Lantern Lane`, Lantern Lane, Sleepy Meadow.
+- Added quick-pick moods: Sleepy, Silly, Brave, Dreamy, Helpful, New friends.
+- Added character-set filtering: Meadow Friends, Pillow Pals, Sky Bakers, Ocean Dreamers, Lantern Lane.
+- Expanded catalog to 7 stories / 37 pages.
 
-Only after the reference-locking art workflow is selected should those become production-image tasks.
+Next production expansion:
+
+1. Replace reused scaffold interiors for the four new story seeds with character-specific production art.
+2. Add final character bibles for the new sets before any paid production-art pass.
+3. Add a parent preference model that stays local/account-level: preferred reading length, mood, and favorite character set.
