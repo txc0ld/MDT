@@ -1,0 +1,63 @@
+[
+  {
+    "id": "moonlit-meadow",
+    "title": "Moonlit Meadow Echo",
+    "category": "Brave Little Adventures",
+    "tier": "Wonder",
+    "readTime": "5 min",
+    "theme": "Fear becomes silly when friends understand it.",
+    "audioRef": null,
+    "pages": [
+      {
+        "pageId": "p1",
+        "illustrationRef": "assets/stories/moonlit-meadow/page-01.svg",
+        "audioRef": null,
+        "readAloudText": {
+          "Drift": "Daisy, Dino, and Pip walked slowly through the warm meadow.",
+          "Wonder": "Daisy, Dino, and Pip followed a soft golden path as the meadow began to yawn good night.",
+          "Explore": "Daisy, Dino, and Pip followed the last warm light of the day, listening as the meadow settled into its evening hush."
+        }
+      },
+      {
+        "pageId": "p2",
+        "illustrationRef": "assets/stories/moonlit-meadow/page-02.svg",
+        "audioRef": null,
+        "readAloudText": {
+          "Drift": "A tiny friend waited near a quiet old tree.",
+          "Wonder": "Near the old tree, a tiny shape waved eight little legs. Itsy had found the perfect echo spot.",
+          "Explore": "Beside an old tree root, Itsy bounced with excitement. He had discovered a hollow place where every whisper came back smiling."
+        }
+      },
+      {
+        "pageId": "p3",
+        "illustrationRef": "assets/stories/moonlit-meadow/page-03.svg",
+        "audioRef": null,
+        "readAloudText": {
+          "Drift": "The cave made a big sound. Dino held his breath.",
+          "Wonder": "A deep boo-boom rolled from the cave. Dino squeezed his gentle hands, and Daisy moved close beside him.",
+          "Explore": "The little cave answered their footsteps with a round, rumbling boom. Dino tried to be brave, but his knees felt like jelly leaves."
+        }
+      },
+      {
+        "pageId": "p4",
+        "illustrationRef": "assets/stories/moonlit-meadow/page-04.svg",
+        "audioRef": null,
+        "readAloudText": {
+          "Drift": "Itsy laughed softly. It was only an echo.",
+          "Wonder": "Itsy bowed and called, \u201chello,\u201d and the cave called hello right back. The big sound was only a silly echo.",
+          "Explore": "Itsy lifted one fuzzy foot and whispered into the dark. When the cave whispered back, everyone blinked, then giggled. The monster was only sound bouncing home."
+        }
+      },
+      {
+        "pageId": "p5",
+        "illustrationRef": "assets/stories/moonlit-meadow/page-05.svg",
+        "audioRef": null,
+        "readAloudText": {
+          "Drift": "The friends went home sleepy and safe.",
+          "Wonder": "Under the moon, the friends walked home together. The meadow was quiet, and Dino\u2019s brave heart felt soft again.",
+          "Explore": "Moonlight silvered the path as the friends wandered home. Dino still felt small butterflies inside, but now they fluttered gently, like sleepy wings."
+        }
+      }
+    ]
+  }
+]
