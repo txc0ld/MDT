@@ -11,6 +11,7 @@ Parents should be able to choose quickly without reading a whole catalog. Charac
 - dream friends
 - ocean friends
 - sleepy lane friends
+- older-kid gentle heroes
 
 ## Character sets
 
@@ -62,6 +63,19 @@ Characters:
 - Opal Owl: soft lavender owl, round glasses-like eye markings without actual glasses, nighttime watcher.
 
 Best moods: Sleepy, home, comfort, safe path.
+
+### Starlight Helpers
+
+Stories: `Starblanket Helpers`.  
+Older-kid, superhero-inspired but bedtime-safe: no villains, combat, weapons, or city-destruction stakes. Heroism is framed as noticing, waiting, helping, and making the night feel safe.
+
+Characters:
+
+- Nova Glow: warm gold-pink soft-caped child hero, brave but learning to slow down.
+- Ollie Bluebeam: sky-blue helper with careful noticing energy and calm problem-solving.
+- Mica Mosslight: green helper with encouraging voice, listening-map motif, and steady teamwork.
+
+Best moods: Gentle heroes, confidence, teamwork, older read-aloud, soft brave.
 
 ## Rules for all new sets
 

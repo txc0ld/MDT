@@ -19,6 +19,7 @@ const quickPicks = [
   { id: 'soft-brave', label: 'Brave', hint: 'gentle courage' },
   { id: 'dreamy', label: 'Dreamy', hint: 'big imagination' },
   { id: 'teamwork', label: 'Helpful', hint: 'friends solve it' },
+  { id: 'gentle-heroes', label: 'Heroes', hint: 'older-kid brave' },
   { id: 'new-friends', label: 'New friends', hint: 'different cast' },
 ];
 

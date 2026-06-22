@@ -5,7 +5,7 @@ Purpose: prove repeatable catalog structure, parent browsing, story metadata, an
 
 ## Catalog rules
 
-- Each story has 5-6 pages, fixed order, and tiered read-aloud text.
+- Each story has 5-8 pages, fixed order, and tiered read-aloud text.
 - Every page has a text-free illustration asset and app-layer read-aloud copy.
 - Every story is `publication.status: reference`, not `published`.
 - Every story has `contentSafety.reviewed: false` until real human editorial, IP, provenance, and child-safety review occurs.
@@ -22,6 +22,7 @@ Age range labels are surfaced in Parent Mode and Story Mode. They are story cont
 - `Button Moon Bakery`: 5-7 yrs, early reader imagination.
 - `Nori and the Bubble Tide`: 2-4 yrs, toddler / preschool calm.
 - `Fennel’s Lantern Lane`: 3-5 yrs, preschool comfort.
+- `Starblanket Helpers`: 6-8 yrs, older-kid gentle heroes.
 
 ### Moonlit Meadow Echo
 
@@ -52,6 +53,16 @@ Age range labels are surfaced in Parent Mode and Story Mode. They are story cont
 - Purpose: tests Itsy as a spider-sensitive but lovable problem-solver, teamwork, puddle crossing, and safe physical stakes.
 - Characters: Daisy, Dino, Pip, Itsy
 - Production risk: keep spider/web language gentle; no trap, fang, Halloween, or realistic arachnid cues.
+
+### Starblanket Helpers
+
+- Category: Soft Superhero Adventures
+- Tier: Explore
+- Pages: 8
+- Theme: Quiet bravery, cooperation, and making the night feel safe.
+- Purpose: gives older children a more aspirational hero category without fighting, villains, peril, or high-stimulation action.
+- Characters: Nova Glow, Ollie Bluebeam, Mica Mosslight
+- Production risk: keep superhero cues original and soft; avoid masks, logos, weapons, punching, city-danger tropes, and franchise-adjacent silhouettes.
 
 ## Metadata fields now represented
 
@@ -100,9 +111,9 @@ Completed in v0.4:
   - `Button Moon Bakery`, Sky Bakers, Dream Big.
   - `Nori and the Bubble Tide`, Ocean Dreamers, Curious World.
   - `Fennel’s Lantern Lane`, Lantern Lane, Sleepy Meadow.
-- Added quick-pick moods: Sleepy, Silly, Brave, Dreamy, Helpful, New friends.
-- Added character-set filtering: Meadow Friends, Pillow Pals, Sky Bakers, Ocean Dreamers, Lantern Lane.
-- Expanded catalog to 7 stories / 37 pages.
+- Added quick-pick moods: Sleepy, Silly, Brave, Dreamy, Helpful, Heroes, New friends.
+- Added character-set filtering: Meadow Friends, Pillow Pals, Sky Bakers, Ocean Dreamers, Lantern Lane, Starlight Helpers.
+- Expanded catalog to 8 stories / 45 pages.
 
 Next production expansion:
 

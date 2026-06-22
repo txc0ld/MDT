@@ -13,6 +13,7 @@ Primary domain: https://minidreamtime.com
 - Stories for ages 1-3: https://minidreamtime.com/stories/1-3-years
 - Stories for ages 3-5: https://minidreamtime.com/stories/3-5-years
 - Stories for ages 5-7: https://minidreamtime.com/stories/5-7-years
+- Stories for ages 6-8: https://minidreamtime.com/stories/6-8-years
 - Pricing: https://minidreamtime.com/pricing.md
 
 ## Product summary
@@ -27,6 +28,7 @@ Mini Dream Time includes original recurring characters and story seeds grouped b
 
 - Category: read-aloud bedtime story library / illustrated bedtime stories for kids.
 - Primary audience: parents and caregivers.
-- Child age bands: 1-3 yrs, 2-4 yrs, 3-5 yrs, 4-6 yrs, 5-7 yrs.
+- Child age bands: 1-3 yrs, 2-4 yrs, 3-5 yrs, 4-6 yrs, 5-7 yrs, 6-8 yrs.
 - Bedtime principle: calm beginning, gentle middle, predictable resolution.
+- Older-kid hero shelf: Soft Superhero Adventures / Starlight Helpers, framed around teamwork, confidence, noticing, waiting, and encouragement rather than combat.
 - Story text stays as app text, separate from artwork.

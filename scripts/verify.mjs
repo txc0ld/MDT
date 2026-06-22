@@ -76,7 +76,8 @@ const launchPages = [
   'calm-bedtime-stories/index.html',
   'stories/1-3-years/index.html',
   'stories/3-5-years/index.html',
-  'stories/5-7-years/index.html'
+  'stories/5-7-years/index.html',
+  'stories/6-8-years/index.html'
 ];
 for (const f of launchPages) if (!existsSync(f)) failures.push(`missing launch page ${f}`);
 

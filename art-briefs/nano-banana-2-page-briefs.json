@@ -1088,5 +1088,237 @@
       "Reserved visual breathing room for the app text placement",
       "Suitable for the listed age range"
     ]
+  },
+  {
+    "id": "starblanket-helpers-p1",
+    "storyId": "starblanket-helpers",
+    "storyTitle": "Starblanket Helpers",
+    "pageId": "p1",
+    "ageRange": "6-8 yrs",
+    "ageBand": "older-read-aloud",
+    "characterSet": "Starlight Helpers",
+    "characters": [
+      "nova",
+      "ollie",
+      "mica"
+    ],
+    "mood": "soft-brave",
+    "textPlacement": "bottom-panel",
+    "lightingMood": "evening",
+    "currentIllustrationRef": "assets/stories/starblanket-helpers/page-01.svg",
+    "outputTarget": "assets/stories/starblanket-helpers/p1-nano-banana-2.png",
+    "prompt": "high-end soft 3D children storybook art, original gentle superhero-inspired plush characters, premium subscription quality, bedtime-safe heroic adventure, rounded tactile forms, expressive safe faces, capes as soft blanket-like shapes, no combat, no villains, no text, no logos, no signs. Story: Starblanket Helpers. Age range: 6-8 yrs. Character set: Starlight Helpers. Scene/page beat: Nova, Ollie, and Mica folded their soft capes and listened as the older kids on Starblanket Hill wished for a quiet kind of brave. Render the exact moment described. Keep heroes original, cozy, helpful, and emotionally clear. Leave clean space for app text placement: bottom-panel. Lighting mood: evening. Story length target: 1,000-2,000 words / 10-15 min; page role: beginning.",
+    "negative": "no words, no letters, no numbers, no readable marks, no signage, no logos, no watermarks, no franchise resemblance, no scary detail, no weapons, no photoreal insects, no uncanny faces, no malformed limbs",
+    "acceptance": [
+      "High-end soft 3D children storybook quality",
+      "The image clearly depicts the exact story beat",
+      "Characters match the relevant character set and remain original",
+      "No visible text or symbols inside the image",
+      "Reserved visual breathing room for the app text placement",
+      "Suitable for the listed age range"
+    ]
+  },
+  {
+    "id": "starblanket-helpers-p2",
+    "storyId": "starblanket-helpers",
+    "storyTitle": "Starblanket Helpers",
+    "pageId": "p2",
+    "ageRange": "6-8 yrs",
+    "ageBand": "older-read-aloud",
+    "characterSet": "Starlight Helpers",
+    "characters": [
+      "nova",
+      "ollie",
+      "mica"
+    ],
+    "mood": "soft-brave",
+    "textPlacement": "bottom-panel",
+    "lightingMood": "evening",
+    "currentIllustrationRef": "assets/stories/starblanket-helpers/page-02.svg",
+    "outputTarget": "assets/stories/starblanket-helpers/p2-nano-banana-2.png",
+    "prompt": "high-end soft 3D children storybook art, original gentle superhero-inspired plush characters, premium subscription quality, bedtime-safe heroic adventure, rounded tactile forms, expressive safe faces, capes as soft blanket-like shapes, no combat, no villains, no text, no logos, no signs. Story: Starblanket Helpers. Age range: 6-8 yrs. Character set: Starlight Helpers. Scene/page beat: A small falling-star lantern blinked near the hill path, asking for help finding its way back to the sky quilt before bedtime. Render the exact moment described. Keep heroes original, cozy, helpful, and emotionally clear. Leave clean space for app text placement: bottom-panel. Lighting mood: evening. Story length target: 1,000-2,000 words / 10-15 min; page role: beginning.",
+    "negative": "no words, no letters, no numbers, no readable marks, no signage, no logos, no watermarks, no franchise resemblance, no scary detail, no weapons, no photoreal insects, no uncanny faces, no malformed limbs",
+    "acceptance": [
+      "High-end soft 3D children storybook quality",
+      "The image clearly depicts the exact story beat",
+      "Characters match the relevant character set and remain original",
+      "No visible text or symbols inside the image",
+      "Reserved visual breathing room for the app text placement",
+      "Suitable for the listed age range"
+    ]
+  },
+  {
+    "id": "starblanket-helpers-p3",
+    "storyId": "starblanket-helpers",
+    "storyTitle": "Starblanket Helpers",
+    "pageId": "p3",
+    "ageRange": "6-8 yrs",
+    "ageBand": "older-read-aloud",
+    "characterSet": "Starlight Helpers",
+    "characters": [
+      "nova",
+      "ollie",
+      "mica"
+    ],
+    "mood": "soft-brave",
+    "textPlacement": "top-left",
+    "lightingMood": "bedtime",
+    "currentIllustrationRef": "assets/stories/starblanket-helpers/page-03.svg",
+    "outputTarget": "assets/stories/starblanket-helpers/p3-nano-banana-2.png",
+    "prompt": "high-end soft 3D children storybook art, original gentle superhero-inspired plush characters, premium subscription quality, bedtime-safe heroic adventure, rounded tactile forms, expressive safe faces, capes as soft blanket-like shapes, no combat, no villains, no text, no logos, no signs. Story: Starblanket Helpers. Age range: 6-8 yrs. Character set: Starlight Helpers. Scene/page beat: Nova wanted to fly fast, but Ollie noticed the lantern dimmed whenever the helpers hurried. Render the exact moment described. Keep heroes original, cozy, helpful, and emotionally clear. Leave clean space for app text placement: top-left. Lighting mood: bedtime. Story length target: 1,000-2,000 words / 10-15 min; page role: middle.",
+    "negative": "no words, no letters, no numbers, no readable marks, no signage, no logos, no watermarks, no franchise resemblance, no scary detail, no weapons, no photoreal insects, no uncanny faces, no malformed limbs",
+    "acceptance": [
+      "High-end soft 3D children storybook quality",
+      "The image clearly depicts the exact story beat",
+      "Characters match the relevant character set and remain original",
+      "No visible text or symbols inside the image",
+      "Reserved visual breathing room for the app text placement",
+      "Suitable for the listed age range"
+    ]
+  },
+  {
+    "id": "starblanket-helpers-p4",
+    "storyId": "starblanket-helpers",
+    "storyTitle": "Starblanket Helpers",
+    "pageId": "p4",
+    "ageRange": "6-8 yrs",
+    "ageBand": "older-read-aloud",
+    "characterSet": "Starlight Helpers",
+    "characters": [
+      "nova",
+      "ollie",
+      "mica"
+    ],
+    "mood": "soft-brave",
+    "textPlacement": "right-panel",
+    "lightingMood": "bedtime",
+    "currentIllustrationRef": "assets/stories/starblanket-helpers/page-04.svg",
+    "outputTarget": "assets/stories/starblanket-helpers/p4-nano-banana-2.png",
+    "prompt": "high-end soft 3D children storybook art, original gentle superhero-inspired plush characters, premium subscription quality, bedtime-safe heroic adventure, rounded tactile forms, expressive safe faces, capes as soft blanket-like shapes, no combat, no villains, no text, no logos, no signs. Story: Starblanket Helpers. Age range: 6-8 yrs. Character set: Starlight Helpers. Scene/page beat: Mica spread a green listening map across the grass, and each friend added one calm idea instead of shouting over the others. Render the exact moment described. Keep heroes original, cozy, helpful, and emotionally clear. Leave clean space for app text placement: right-panel. Lighting mood: bedtime. Story length target: 1,000-2,000 words / 10-15 min; page role: middle.",
+    "negative": "no words, no letters, no numbers, no readable marks, no signage, no logos, no watermarks, no franchise resemblance, no scary detail, no weapons, no photoreal insects, no uncanny faces, no malformed limbs",
+    "acceptance": [
+      "High-end soft 3D children storybook quality",
+      "The image clearly depicts the exact story beat",
+      "Characters match the relevant character set and remain original",
+      "No visible text or symbols inside the image",
+      "Reserved visual breathing room for the app text placement",
+      "Suitable for the listed age range"
+    ]
+  },
+  {
+    "id": "starblanket-helpers-p5",
+    "storyId": "starblanket-helpers",
+    "storyTitle": "Starblanket Helpers",
+    "pageId": "p5",
+    "ageRange": "6-8 yrs",
+    "ageBand": "older-read-aloud",
+    "characterSet": "Starlight Helpers",
+    "characters": [
+      "nova",
+      "ollie",
+      "mica"
+    ],
+    "mood": "soft-brave",
+    "textPlacement": "bottom-panel",
+    "lightingMood": "bedtime",
+    "currentIllustrationRef": "assets/stories/starblanket-helpers/page-05.svg",
+    "outputTarget": "assets/stories/starblanket-helpers/p5-nano-banana-2.png",
+    "prompt": "high-end soft 3D children storybook art, original gentle superhero-inspired plush characters, premium subscription quality, bedtime-safe heroic adventure, rounded tactile forms, expressive safe faces, capes as soft blanket-like shapes, no combat, no villains, no text, no logos, no signs. Story: Starblanket Helpers. Age range: 6-8 yrs. Character set: Starlight Helpers. Scene/page beat: The helpers crossed the whisper bridge by matching their steps to the lantern’s slow glow. Render the exact moment described. Keep heroes original, cozy, helpful, and emotionally clear. Leave clean space for app text placement: bottom-panel. Lighting mood: bedtime. Story length target: 1,000-2,000 words / 10-15 min; page role: middle.",
+    "negative": "no words, no letters, no numbers, no readable marks, no signage, no logos, no watermarks, no franchise resemblance, no scary detail, no weapons, no photoreal insects, no uncanny faces, no malformed limbs",
+    "acceptance": [
+      "High-end soft 3D children storybook quality",
+      "The image clearly depicts the exact story beat",
+      "Characters match the relevant character set and remain original",
+      "No visible text or symbols inside the image",
+      "Reserved visual breathing room for the app text placement",
+      "Suitable for the listed age range"
+    ]
+  },
+  {
+    "id": "starblanket-helpers-p6",
+    "storyId": "starblanket-helpers",
+    "storyTitle": "Starblanket Helpers",
+    "pageId": "p6",
+    "ageRange": "6-8 yrs",
+    "ageBand": "older-read-aloud",
+    "characterSet": "Starlight Helpers",
+    "characters": [
+      "nova",
+      "ollie",
+      "mica"
+    ],
+    "mood": "soft-brave",
+    "textPlacement": "top-left",
+    "lightingMood": "bedtime",
+    "currentIllustrationRef": "assets/stories/starblanket-helpers/page-06.svg",
+    "outputTarget": "assets/stories/starblanket-helpers/p6-nano-banana-2.png",
+    "prompt": "high-end soft 3D children storybook art, original gentle superhero-inspired plush characters, premium subscription quality, bedtime-safe heroic adventure, rounded tactile forms, expressive safe faces, capes as soft blanket-like shapes, no combat, no villains, no text, no logos, no signs. Story: Starblanket Helpers. Age range: 6-8 yrs. Character set: Starlight Helpers. Scene/page beat: At the sleepy lookout, each friend used a different gentle power: noticing, waiting, and encouraging. Render the exact moment described. Keep heroes original, cozy, helpful, and emotionally clear. Leave clean space for app text placement: top-left. Lighting mood: bedtime. Story length target: 1,000-2,000 words / 10-15 min; page role: middle.",
+    "negative": "no words, no letters, no numbers, no readable marks, no signage, no logos, no watermarks, no franchise resemblance, no scary detail, no weapons, no photoreal insects, no uncanny faces, no malformed limbs",
+    "acceptance": [
+      "High-end soft 3D children storybook quality",
+      "The image clearly depicts the exact story beat",
+      "Characters match the relevant character set and remain original",
+      "No visible text or symbols inside the image",
+      "Reserved visual breathing room for the app text placement",
+      "Suitable for the listed age range"
+    ]
+  },
+  {
+    "id": "starblanket-helpers-p7",
+    "storyId": "starblanket-helpers",
+    "storyTitle": "Starblanket Helpers",
+    "pageId": "p7",
+    "ageRange": "6-8 yrs",
+    "ageBand": "older-read-aloud",
+    "characterSet": "Starlight Helpers",
+    "characters": [
+      "nova",
+      "ollie",
+      "mica"
+    ],
+    "mood": "soft-brave",
+    "textPlacement": "right-panel",
+    "lightingMood": "bedtime",
+    "currentIllustrationRef": "assets/stories/starblanket-helpers/page-07.svg",
+    "outputTarget": "assets/stories/starblanket-helpers/p7-nano-banana-2.png",
+    "prompt": "high-end soft 3D children storybook art, original gentle superhero-inspired plush characters, premium subscription quality, bedtime-safe heroic adventure, rounded tactile forms, expressive safe faces, capes as soft blanket-like shapes, no combat, no villains, no text, no logos, no signs. Story: Starblanket Helpers. Age range: 6-8 yrs. Character set: Starlight Helpers. Scene/page beat: The lantern rose into the sky quilt, brighter because the helpers had moved together instead of trying to be the loudest hero. Render the exact moment described. Keep heroes original, cozy, helpful, and emotionally clear. Leave clean space for app text placement: right-panel. Lighting mood: bedtime. Story length target: 1,000-2,000 words / 10-15 min; page role: resolution.",
+    "negative": "no words, no letters, no numbers, no readable marks, no signage, no logos, no watermarks, no franchise resemblance, no scary detail, no weapons, no photoreal insects, no uncanny faces, no malformed limbs",
+    "acceptance": [
+      "High-end soft 3D children storybook quality",
+      "The image clearly depicts the exact story beat",
+      "Characters match the relevant character set and remain original",
+      "No visible text or symbols inside the image",
+      "Reserved visual breathing room for the app text placement",
+      "Suitable for the listed age range"
+    ]
+  },
+  {
+    "id": "starblanket-helpers-p8",
+    "storyId": "starblanket-helpers",
+    "storyTitle": "Starblanket Helpers",
+    "pageId": "p8",
+    "ageRange": "6-8 yrs",
+    "ageBand": "older-read-aloud",
+    "characterSet": "Starlight Helpers",
+    "characters": [
+      "nova",
+      "ollie",
+      "mica"
+    ],
+    "mood": "soft-brave",
+    "textPlacement": "bottom-panel",
+    "lightingMood": "dawn",
+    "currentIllustrationRef": "assets/stories/starblanket-helpers/page-08.svg",
+    "outputTarget": "assets/stories/starblanket-helpers/p8-nano-banana-2.png",
+    "prompt": "high-end soft 3D children storybook art, original gentle superhero-inspired plush characters, premium subscription quality, bedtime-safe heroic adventure, rounded tactile forms, expressive safe faces, capes as soft blanket-like shapes, no combat, no villains, no text, no logos, no signs. Story: Starblanket Helpers. Age range: 6-8 yrs. Character set: Starlight Helpers. Scene/page beat: Nova, Ollie, and Mica folded their capes beside the hill and learned that the strongest superpower before sleep was helping the night feel safe. Render the exact moment described. Keep heroes original, cozy, helpful, and emotionally clear. Leave clean space for app text placement: bottom-panel. Lighting mood: dawn. Story length target: 1,000-2,000 words / 10-15 min; page role: resolution.",
+    "negative": "no words, no letters, no numbers, no readable marks, no signage, no logos, no watermarks, no franchise resemblance, no scary detail, no weapons, no photoreal insects, no uncanny faces, no malformed limbs",
+    "acceptance": [
+      "High-end soft 3D children storybook quality",
+      "The image clearly depicts the exact story beat",
+      "Characters match the relevant character set and remain original",
+      "No visible text or symbols inside the image",
+      "Reserved visual breathing room for the app text placement",
+      "Suitable for the listed age range"
+    ]
   }
 ]

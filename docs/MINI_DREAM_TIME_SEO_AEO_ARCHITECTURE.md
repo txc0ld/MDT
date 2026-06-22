@@ -35,6 +35,9 @@ The site should own the topic cluster around:
 - bedtime stories for toddlers
 - bedtime stories for 3 year olds
 - bedtime stories for 5 year olds
+- bedtime stories for 6 year olds
+- gentle superhero bedtime stories
+- superhero stories for kids without fighting
 - short bedtime stories for children
 - parent-read bedtime stories
 - bedtime routine stories
@@ -49,6 +52,7 @@ The site should own the topic cluster around:
 ├── /stories/1-3-years             Age-band story shelf
 ├── /stories/3-5-years             Age-band story shelf
 ├── /stories/5-7-years             Age-band story shelf
+├── /stories/6-8-years             Older-kid gentle hero shelf
 ├── /pricing.md                    AI-agent-readable pricing/status
 ├── /llms.txt                      AI-agent-readable product summary
 ├── /robots.txt                    Crawler access

@@ -50,6 +50,7 @@ Browser checks completed:
 - Launch architecture pages smoke-tested: `/bedtime-stories-for-kids/`, `/read-aloud-bedtime-stories/`, `/calm-bedtime-stories/`, `/stories/1-3-years/`, `/stories/3-5-years/`, `/stories/5-7-years/`.
 - Legacy collection-name copy was removed from public files and app chrome; verifier guards against it returning.
 - Gemini/Nano Banana pilot generated `art-output/moonlit-meadow/p1-nano-banana-pro-preview.jpg`; QA says do not promote yet because character identity drifted even though quality/no-text/composition improved.
+- Added older-kid gentle hero category: `Soft Superhero Adventures`, `Starlight Helpers`, story seed `Starblanket Helpers` for ages 6-8; verified app filters/quick-pick and `/stories/6-8-years/` launch page.
 
 `scripts/verify.mjs` checks:
 

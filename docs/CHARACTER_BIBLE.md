@@ -54,6 +54,21 @@ IP rule: all characters are original. Do not evoke protected characters, studios
 
 **Locked descriptor:** Itsy is a small original fuzzy spider friend, round charcoal-gray plush body, eight soft noodle-like legs with rounded feet, faint silver fuzz rim, two oversized warm friendly eyes, tiny peach smile, harmless comic posture, slightly shorter than Daisy but wider, palette charcoal #3C3835 silver #A39A90 warm eye #EEE2D0 peach #D79C83.
 
+## Starlight Helpers, gentle hero trio
+
+**Role:** older-kid aspirational heroes without high-action stakes.  
+**Personality:** cooperative, thoughtful, brave in quiet ways: noticing, waiting, encouraging, and helping the night feel safe.  
+**Signature features:** three original childlike plush helpers with soft blanket-capes and rounded hood/collar shapes; no masks, armor, weapons, insignias, lightning logos, city skyline, or franchise-adjacent motifs.
+
+- **Nova Glow:** warm gold-pink soft-caped helper; eager and heart-forward, learns that brave can mean slowing down. Palette gold `#FFD36E`, pink `#FF8FC8`, plum hood `#6D3C87`.
+- **Ollie Bluebeam:** sky-blue careful helper; notices details and safe paths before anyone rushes. Palette sky `#9AF2FF`, beam blue `#5BA8FF`, deep blue hood `#315DAA`.
+- **Mica Mosslight:** green steady helper; encouraging voice and listening-map motif. Palette leaf `#B8FFA5`, moss `#56C98F`, deep green hood `#2C8B72`.
+
+**Canonical expressions:** focused listening, quiet pride, careful planning, gentle encouragement, sleepy contentment.  
+**Do not:** add villains, combat, punching, peril, destruction, tactical armor, masks, logos, readable symbols, or existing superhero silhouettes.
+
+**Locked descriptor:** The Starlight Helpers are an original gentle hero trio for older bedtime stories: Nova Glow in warm gold-pink blanket-cape, Ollie Bluebeam in sky-blue soft cape, and Mica Mosslight in moss-green soft cape, all with rounded plush proportions, huge expressive friendly eyes, simple childlike silhouettes, no masks/logos/weapons, and powers expressed as noticing, waiting, encouraging, and helping.
+
 ## Cross-character QA
 
 A scene is rejected if any character loses its locked palette, eye shape, proportions, signature features, or relative scale; if a character looks like a different individual; if any visual text appears; if a scared beat becomes genuinely frightening; or if the scene feels too bright/interactive for bedtime.
