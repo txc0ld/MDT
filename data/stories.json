@@ -16,6 +16,15 @@
           "Drift": "Daisy, Dino, and Pip walked slowly through the warm meadow.",
           "Wonder": "Daisy, Dino, and Pip followed a soft golden path as the meadow began to yawn good night.",
           "Explore": "Daisy, Dino, and Pip followed the last warm light of the day, listening as the meadow settled into its evening hush."
+        },
+        "order": 0,
+        "illustrationAlt": "Text-free illustration for Moonlit Meadow Echo, page 1",
+        "lightingMood": "evening",
+        "textPlacement": "bottom-panel",
+        "qa": {
+          "noBakedText": true,
+          "characterConsistency": "svg-scaffold",
+          "releaseApproved": false
         }
       },
       {
@@ -26,6 +35,15 @@
           "Drift": "A tiny friend waited near a quiet old tree.",
           "Wonder": "Near the old tree, a tiny shape waved eight little legs. Itsy had found the perfect echo spot.",
           "Explore": "Beside an old tree root, Itsy bounced with excitement. He had discovered a hollow place where every whisper came back smiling."
+        },
+        "order": 1,
+        "illustrationAlt": "Text-free illustration for Moonlit Meadow Echo, page 2",
+        "lightingMood": "evening",
+        "textPlacement": "bottom-panel",
+        "qa": {
+          "noBakedText": true,
+          "characterConsistency": "svg-scaffold",
+          "releaseApproved": false
         }
       },
       {
@@ -36,6 +54,15 @@
           "Drift": "The cave made a big sound. Dino held his breath.",
           "Wonder": "A deep boo-boom rolled from the cave. Dino squeezed his gentle hands, and Daisy moved close beside him.",
           "Explore": "The little cave answered their footsteps with a round, rumbling boom. Dino tried to be brave, but his knees felt like jelly leaves."
+        },
+        "order": 2,
+        "illustrationAlt": "Text-free illustration for Moonlit Meadow Echo, page 3",
+        "lightingMood": "bedtime",
+        "textPlacement": "bottom-panel",
+        "qa": {
+          "noBakedText": true,
+          "characterConsistency": "svg-scaffold",
+          "releaseApproved": false
         }
       },
       {
@@ -46,6 +73,15 @@
           "Drift": "Itsy laughed softly. It was only an echo.",
           "Wonder": "Itsy bowed and called, \u201chello,\u201d and the cave called hello right back. The big sound was only a silly echo.",
           "Explore": "Itsy lifted one fuzzy foot and whispered into the dark. When the cave whispered back, everyone blinked, then giggled. The monster was only sound bouncing home."
+        },
+        "order": 3,
+        "illustrationAlt": "Text-free illustration for Moonlit Meadow Echo, page 4",
+        "lightingMood": "bedtime",
+        "textPlacement": "bottom-panel",
+        "qa": {
+          "noBakedText": true,
+          "characterConsistency": "svg-scaffold",
+          "releaseApproved": false
         }
       },
       {
@@ -56,8 +92,50 @@
           "Drift": "The friends went home sleepy and safe.",
           "Wonder": "Under the moon, the friends walked home together. The meadow was quiet, and Dino\u2019s brave heart felt soft again.",
           "Explore": "Moonlight silvered the path as the friends wandered home. Dino still felt small butterflies inside, but now they fluttered gently, like sleepy wings."
+        },
+        "order": 4,
+        "illustrationAlt": "Text-free illustration for Moonlit Meadow Echo, page 5",
+        "lightingMood": "bedtime",
+        "textPlacement": "bottom-panel",
+        "qa": {
+          "noBakedText": true,
+          "characterConsistency": "svg-scaffold",
+          "releaseApproved": false
         }
       }
-    ]
+    ],
+    "slug": "moonlit-meadow",
+    "storyId": "moonlit-meadow",
+    "recommendedTier": "Wonder",
+    "supportedTiers": [
+      "Drift",
+      "Wonder",
+      "Explore"
+    ],
+    "approxReadMinutes": 5,
+    "themeTags": [
+      "friendship",
+      "bedtime",
+      "gentle-courage"
+    ],
+    "parentSummary": "Fear becomes silly when friends understand it.",
+    "coverIllustrationRef": "assets/stories/moonlit-meadow/page-01.svg",
+    "characters": [
+      "daisy",
+      "dino",
+      "pip",
+      "itsy"
+    ],
+    "contentSafety": {
+      "reviewed": false,
+      "reviewer": "",
+      "reviewedAt": "",
+      "notes": "Reference scaffold only; requires human editorial/IP/safety approval before release."
+    },
+    "publication": {
+      "status": "reference",
+      "version": "0.1.0",
+      "updatedAt": "2026-06-23"
+    }
   }
 ]

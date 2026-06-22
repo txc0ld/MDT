@@ -8,10 +8,15 @@ Status: in progress, updated after scaffold creation.
 - Locked a Phase 0 style guide in `docs/STYLE_GUIDE.md`.
 - Locked a four-character bible in `docs/CHARACTER_BIBLE.md`.
 - Wrote production prompt and rejection-log workflow in `docs/ILLUSTRATION_PIPELINE.md`.
+- Integrated specialist art direction, compliance, and technical scaffold outputs into:
+  - `docs/BUILD_GATE_CHECKLIST.md`
+  - `docs/TECHNICAL_SCAFFOLD_PLAN.md`
 - Created deterministic, text-free SVG master sheets for Daisy, Dino, Pip, and Itsy under `assets/characters/`.
 - Created one 5-page text-free reference story set under `assets/stories/moonlit-meadow/`.
 - Built a static read-together viewer scaffold with Parent Mode and Story Mode:
   - story-as-data in `data/stories.json`
+  - enriched page metadata: `order`, `illustrationAlt`, `lightingMood`, `textPlacement`, and QA markers
+  - story-level release metadata: `contentSafety` and `publication`
   - parent browse/home screen
   - story mode with one page at a time
   - parent-paced Previous/Next controls
