@@ -15,6 +15,7 @@ Open <http://localhost:4173>.
 
 - 7 reference stories and story seeds
 - 5 selectable character sets
+- visible age-range tags and filters
 - 6 quick-pick mood buttons plus a random story card
 - 3 premium generated story covers as art-direction targets
 - 37 upgraded text-free SVG interior scaffold pages

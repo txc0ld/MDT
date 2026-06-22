@@ -6,7 +6,8 @@ Latest automated verification is produced by `npm test`.
 ## Scope covered
 
 - Structured catalog grew from 3 stories / 17 pages to 7 stories / 37 pages.
-- Parent Mode now includes random/surprise story, quick mood selection, category filters, character-set filters, status card, release-gate panel, and richer story cards.
+- Parent Mode now includes random/surprise story, quick mood selection, age-range filters, category filters, character-set filters, status card, release-gate panel, and richer story cards.
+- Story data now includes visible age-range tags plus per-page Nano Banana 2 art-production prompts.
 - Story Mode now includes hash routes, progress dots, swipe/keyboard page turns, dim-light toggle, placement-aware read-aloud overlays, and page-level review drawer.
 - Data now includes richer story/page metadata and release-blocking QA fields.
 

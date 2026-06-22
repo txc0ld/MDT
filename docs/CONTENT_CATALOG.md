@@ -13,6 +13,16 @@ Purpose: prove repeatable catalog structure, parent browsing, story metadata, an
 
 ## Stories
 
+Age range labels are surfaced in Parent Mode and Story Mode. They are story content bands, not child profiles.
+
+- `Moonlit Meadow Echo`: 4-6 yrs, Pre-K / early school.
+- `The Sleepy Lantern Leaf`: 1-3 yrs, toddler wind-down.
+- `Itsy’s Soft Bridge`: 3-5 yrs, preschool.
+- `The Pillow Hill Parade`: 1-3 yrs, toddler giggles.
+- `Button Moon Bakery`: 5-7 yrs, early reader imagination.
+- `Nori and the Bubble Tide`: 2-4 yrs, toddler / preschool calm.
+- `Fennel’s Lantern Lane`: 3-5 yrs, preschool comfort.
+
 ### Moonlit Meadow Echo
 
 - Category: Brave Little Adventures

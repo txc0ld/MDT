@@ -12,7 +12,7 @@ const storySlugs = new Set();
 let totalPages = 0;
 
 for (const s of stories) {
-  for (const required of ['id', 'storyId', 'slug', 'title', 'category', 'categorySlug', 'tier', 'readTime', 'theme', 'parentSummary', 'themeTags', 'characterSet', 'mood', 'contentSafety', 'publication']) {
+  for (const required of ['id', 'storyId', 'slug', 'title', 'category', 'categorySlug', 'tier', 'readTime', 'theme', 'parentSummary', 'themeTags', 'characterSet', 'mood', 'ageRange', 'ageBand', 'ageRationale', 'contentSafety', 'publication']) {
     if (!(required in s)) failures.push(`story ${s.id || '<unknown>'} missing ${required}`);
   }
   if (storyIds.has(s.id)) failures.push(`duplicate story id ${s.id}`);
@@ -41,6 +41,9 @@ for (const s of stories) {
       if (!tiers[tier] || tiers[tier].length < 10) failures.push(`missing/short ${tier} text ${s.id}/${page.pageId}`);
     }
     if (!page.illustrationAlt) failures.push(`missing illustrationAlt ${s.id}/${page.pageId}`);
+    if (!page.storyBeat || page.storyBeat.length < 20) failures.push(`missing storyBeat ${s.id}/${page.pageId}`);
+    if (!page.illustrationPrompt || !/no text/i.test(page.illustrationPrompt)) failures.push(`missing no-text illustrationPrompt ${s.id}/${page.pageId}`);
+    if (page.artProductionStatus !== 'needs-nano-banana-2-production') failures.push(`unexpected artProductionStatus ${s.id}/${page.pageId}`);
     if (!['bottom-panel', 'top-left', 'right-panel'].includes(page.textPlacement)) failures.push(`unsupported textPlacement ${s.id}/${page.pageId}`);
     if (!['evening', 'bedtime', 'dawn'].includes(page.lightingMood)) failures.push(`unsupported lightingMood ${s.id}/${page.pageId}`);
     if (page.audioRef !== null) failures.push(`audioRef must be null in Phase 0 ${s.id}/${page.pageId}`);
@@ -58,7 +61,7 @@ const files = [
   'PRODUCT.md', 'DESIGN.md',
   'docs/STYLE_GUIDE.md', 'docs/CHARACTER_BIBLE.md', 'docs/ILLUSTRATION_PIPELINE.md',
   'docs/BUILD_GATE_CHECKLIST.md', 'docs/TECHNICAL_SCAFFOLD_PLAN.md', 'docs/PHASE_0_REPORT.md',
-  'docs/CONTENT_CATALOG.md', 'docs/CHARACTER_SET_EXPANSION.md', 'docs/QA_REPORT.md'
+  'docs/CONTENT_CATALOG.md', 'docs/CHARACTER_SET_EXPANSION.md', 'docs/NANO_BANANA_2_PRODUCTION_PLAN.md', 'docs/QA_REPORT.md'
 ];
 for (const f of files) if (!existsSync(f)) failures.push(`missing ${f}`);
 

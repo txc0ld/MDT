@@ -5,6 +5,7 @@ const state = {
   tier: 'Wonder',
   category: 'all',
   characterSet: 'all',
+  ageRange: 'all',
   quiet: false,
   qaOpen: false,
   surprise: null,
@@ -41,11 +42,13 @@ function uniquePairs(field, fallbackField) {
 }
 function categoryList() { return uniquePairs('category', 'categorySlug'); }
 function characterSetList() { return uniquePairs('characterSet', 'characterSet'); }
+function ageRangeList() { return uniquePairs('ageRange', 'ageRange'); }
 function filteredStories() {
   return state.stories.filter(s => {
     const cat = state.category === 'all' || (s.categorySlug || slug(s.category)) === state.category;
     const set = state.characterSet === 'all' || slug(s.characterSet) === state.characterSet;
-    return cat && set;
+    const age = state.ageRange === 'all' || slug(s.ageRange) === state.ageRange;
+    return cat && set && age;
   });
 }
 function completionLabel(story) { return `${story.pages.length} cozy pages · ${story.characterSet || 'Story friends'}`; }
@@ -84,6 +87,7 @@ function renderHome() {
   const surprise = state.surprise || pickRandom(state.stories);
   const categories = categoryList();
   const sets = characterSetList();
+  const ages = ageRangeList();
   const items = filteredStories();
   app.innerHTML = `<section class="shell parent-mode">
     <header class="topbar">
@@ -101,14 +105,14 @@ function renderHome() {
       <aside class="ritual-card" aria-label="Story shelf status">
         <p class="label">Story shelf</p><strong>${state.stories.length} stories · ${pagesCount()} pages</strong>
         <span>Multiple friend groups, simple choices, and quick starts for tired parents.</span>
-        <div class="status-rows"><span><b></b> Pick by mood</span><span><b></b> Choose familiar or new friends</span><span><b></b> One tap starts reading</span></div>
+        <div class="status-rows"><span><b></b> Pick by mood</span><span><b></b> Choose an age range</span><span><b></b> Choose familiar or new friends</span><span><b></b> One tap starts reading</span></div>
       </aside>
     </section>
 
     <section class="quick-pick" aria-label="Quick story picker">
       <div class="quick-card surprise-card">
         <img src="${esc(surprise.coverIllustrationRef)}" alt="">
-        <div><p class="label">Surprise story</p><h2>${esc(surprise.title)}</h2><p>${esc(surprise.parentSummary || surprise.theme)}</p><div class="chips"><span>${esc(surprise.characterSet)}</span><span>${esc(surprise.readTime)}</span></div></div>
+        <div><p class="label">Surprise story</p><h2>${esc(surprise.title)}</h2><p>${esc(surprise.parentSummary || surprise.theme)}</p><div class="chips"><span>${esc(surprise.ageRange)}</span><span>${esc(surprise.characterSet)}</span><span>${esc(surprise.readTime)}</span></div></div>
         <button class="primary" data-start="${esc(surprise.id)}">Read this one</button>
       </div>
       <div class="mood-grid" aria-label="Quick choices">
@@ -118,13 +122,14 @@ function renderHome() {
 
     <section class="pick" aria-label="Tonight's pick">
       <img src="${esc(pick.coverIllustrationRef)}" alt="">
-      <div class="pick-copy"><p class="label">Featured tonight</p><h2>${esc(pick.title)}</h2><p>${esc(pick.parentSummary || pick.theme)}</p><div class="chips"><span>${esc(pick.tier)}</span><span>${esc(pick.category)}</span><span>${esc(pick.readTime)}</span></div></div>
+      <div class="pick-copy"><p class="label">Featured tonight</p><h2>${esc(pick.title)}</h2><p>${esc(pick.parentSummary || pick.theme)}</p><div class="chips"><span>${esc(pick.ageRange)}</span><span>${esc(pick.tier)}</span><span>${esc(pick.category)}</span><span>${esc(pick.readTime)}</span></div></div>
       <button class="primary" data-start="${esc(pick.id)}">Open story</button>
     </section>
 
     <section class="filters" id="library">
       <div><h2>Story shelf</h2><p>Filter by feeling, world, or friend group. Keep it broad, or pick quickly and start reading.</p></div>
       <div class="filter-stack">
+        <div class="filter-row" role="list" aria-label="Age range filters"><button class="filter ${state.ageRange === 'all' ? 'is-active' : ''}" data-age="all">All ages</button>${ages.map(([id, label]) => `<button class="filter ${state.ageRange === id ? 'is-active' : ''}" data-age="${esc(id)}">${esc(label)}</button>`).join('')}</div>
         <div class="filter-row" role="list" aria-label="Story category filters"><button class="filter ${state.category === 'all' ? 'is-active' : ''}" data-cat="all">All worlds</button>${categories.map(([id, label]) => `<button class="filter ${state.category === id ? 'is-active' : ''}" data-cat="${esc(id)}">${esc(label)}</button>`).join('')}</div>
         <div class="filter-row" role="list" aria-label="Character set filters"><button class="filter ${state.characterSet === 'all' ? 'is-active' : ''}" data-set="all">All friends</button>${sets.map(([id, label]) => `<button class="filter ${state.characterSet === id ? 'is-active' : ''}" data-set="${esc(id)}">${esc(label)}</button>`).join('')}</div>
       </div>
@@ -145,6 +150,7 @@ function renderHome() {
   document.querySelector('#qaToggle').addEventListener('click', () => { state.qaOpen = !state.qaOpen; renderHome(); });
   document.querySelectorAll('[data-start]').forEach(btn => btn.addEventListener('click', () => startStory(btn.dataset.start)));
   document.querySelectorAll('[data-cat]').forEach(btn => btn.addEventListener('click', () => { state.category = btn.dataset.cat; renderHome(); }));
+  document.querySelectorAll('[data-age]').forEach(btn => btn.addEventListener('click', () => { state.ageRange = btn.dataset.age; renderHome(); }));
   document.querySelectorAll('[data-set]').forEach(btn => btn.addEventListener('click', () => { state.characterSet = btn.dataset.set; renderHome(); }));
   document.querySelectorAll('[data-quick]').forEach(btn => btn.addEventListener('click', () => {
     const list = storiesForQuick(btn.dataset.quick);
@@ -156,7 +162,7 @@ function renderHome() {
 
 function storyCard(s) {
   const tags = (s.themeTags || []).slice(0, 3).map(t => `<span>${esc(t)}</span>`).join('');
-  return `<article class="story-card"><button class="cover-button" data-start="${esc(s.id)}" aria-label="Open ${esc(s.title)}"><img src="${esc(s.coverIllustrationRef || s.pages[0].illustrationRef)}" alt=""></button><div class="story-card-body"><div class="story-card-top"><span class="mini-badge">${esc(s.quickPickLabel || s.tier)}</span><span>${esc(s.readTime)}</span></div><h3>${esc(s.title)}</h3><p>${esc(s.parentSummary || s.theme)}</p><div class="tag-row"><span>${esc(s.characterSet)}</span>${tags}</div><small>${esc(completionLabel(s))}</small></div></article>`;
+  return `<article class="story-card"><button class="cover-button" data-start="${esc(s.id)}" aria-label="Open ${esc(s.title)}"><img src="${esc(s.coverIllustrationRef || s.pages[0].illustrationRef)}" alt=""></button><div class="story-card-body"><div class="story-card-top"><span class="mini-badge">${esc(s.quickPickLabel || s.tier)}</span><span>${esc(s.readTime)}</span></div><h3>${esc(s.title)}</h3><p>${esc(s.parentSummary || s.theme)}</p><div class="tag-row"><span>${esc(s.ageRange)}</span><span>${esc(s.characterSet)}</span>${tags}</div><small>${esc(completionLabel(s))}</small></div></article>`;
 }
 
 function startStory(id) {
@@ -179,7 +185,7 @@ function renderStory() {
   const total = story.pages.length;
   const placement = page.textPlacement || 'bottom-panel';
   app.innerHTML = `<section class="story-mode ${state.quiet ? 'is-quiet' : ''}" aria-label="Story mode">
-    <div class="story-top"><button class="ghost" id="backHome">Close book</button><div class="story-title"><strong>${esc(story.title)}</strong><span>Page ${state.page + 1} of ${total} · ${esc(story.characterSet || story.category)}</span></div><label class="tier-select">Reading tier <select id="tierSel">${tiers.map(t => `<option>${t}</option>`).join('')}</select></label><button class="ghost" id="quietBtn">${state.quiet ? 'Raise light' : 'Dim light'}</button></div>
+    <div class="story-top"><button class="ghost" id="backHome">Close book</button><div class="story-title"><strong>${esc(story.title)}</strong><span>${esc(story.ageRange)} · Page ${state.page + 1} of ${total} · ${esc(story.characterSet || story.category)}</span></div><label class="tier-select">Reading tier <select id="tierSel">${tiers.map(t => `<option>${t}</option>`).join('')}</select></label><button class="ghost" id="quietBtn">${state.quiet ? 'Raise light' : 'Dim light'}</button></div>
     <article class="page-frame placement-${esc(placement)}"><img class="story-art" src="${esc(page.illustrationRef)}" alt="${esc(page.illustrationAlt || `Text-free illustration for ${story.title}`)}"><div class="read-text"><p>${esc(textFor(page))}</p></div><aside class="page-meta"><span>${esc(page.lightingMood)}</span><span>${esc(placement.replace('-', ' '))}</span></aside></article>
     <div class="progress-dots" aria-label="Story progress">${story.pages.map((p, i) => `<button class="dot ${i === state.page ? 'is-active' : ''}" data-page="${i}" aria-label="Go to page ${i + 1}"></button>`).join('')}</div>
     <nav class="turns" aria-label="Page turns"><button id="prev" ${state.page === 0 ? 'disabled' : ''}>Previous page</button><button id="next">${state.page === total - 1 ? 'Finish softly' : 'Next page'}</button></nav>
