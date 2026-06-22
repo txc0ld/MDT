@@ -13,7 +13,7 @@
       "Wonder",
       "Explore"
     ],
-    "readTime": "5 min",
+    "readTime": "8-12 min",
     "approxReadMinutes": 5,
     "theme": "Unknown sounds feel smaller when someone helps you understand them.",
     "parentSummary": "A gentle echo story about naming a strange sound, staying close to friends, and letting fear shrink into laughter.",
@@ -63,7 +63,8 @@
         },
         "storyBeat": "Daisy, Dino, and Pip followed the last warm light of the day, listening as the meadow settled into its evening hush.",
         "artProductionStatus": "needs-nano-banana-2-production",
-        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Moonlit Meadow Echo. Age range: 4-6 yrs. Character set: Meadow Friends. Scene/page beat: Daisy, Dino, and Pip followed the last warm light of the day, listening as the meadow settled into its evening hush. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: evening."
+        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Moonlit Meadow Echo. Age range: 4-6 yrs. Character set: Meadow Friends. Scene/page beat: Daisy, Dino, and Pip followed the last warm light of the day, listening as the meadow settled into its evening hush. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: evening. Story length target: 700-1,400 words / 8-12 min; page role: beginning.",
+        "manuscriptRole": "beginning"
       },
       {
         "pageId": "p2",
@@ -85,7 +86,8 @@
         },
         "storyBeat": "Beside an old tree root, Itsy bounced with excitement. He had discovered a hollow place where every whisper came back smiling.",
         "artProductionStatus": "needs-nano-banana-2-production",
-        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Moonlit Meadow Echo. Age range: 4-6 yrs. Character set: Meadow Friends. Scene/page beat: Beside an old tree root, Itsy bounced with excitement. He had discovered a hollow place where every whisper came back smiling. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: evening."
+        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Moonlit Meadow Echo. Age range: 4-6 yrs. Character set: Meadow Friends. Scene/page beat: Beside an old tree root, Itsy bounced with excitement. He had discovered a hollow place where every whisper came back smiling. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: evening. Story length target: 700-1,400 words / 8-12 min; page role: middle.",
+        "manuscriptRole": "middle"
       },
       {
         "pageId": "p3",
@@ -107,7 +109,8 @@
         },
         "storyBeat": "The little cave answered their footsteps with a round, rumbling boom. Dino tried to be brave, but his knees felt like jelly leaves.",
         "artProductionStatus": "needs-nano-banana-2-production",
-        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Moonlit Meadow Echo. Age range: 4-6 yrs. Character set: Meadow Friends. Scene/page beat: The little cave answered their footsteps with a round, rumbling boom. Dino tried to be brave, but his knees felt like jelly leaves. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: bedtime."
+        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Moonlit Meadow Echo. Age range: 4-6 yrs. Character set: Meadow Friends. Scene/page beat: The little cave answered their footsteps with a round, rumbling boom. Dino tried to be brave, but his knees felt like jelly leaves. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: bedtime. Story length target: 700-1,400 words / 8-12 min; page role: middle.",
+        "manuscriptRole": "middle"
       },
       {
         "pageId": "p4",
@@ -129,7 +132,8 @@
         },
         "storyBeat": "Itsy lifted one fuzzy foot and whispered into the dark. When the cave whispered back, everyone blinked, then giggled. The monster was only sound bouncing home.",
         "artProductionStatus": "needs-nano-banana-2-production",
-        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Moonlit Meadow Echo. Age range: 4-6 yrs. Character set: Meadow Friends. Scene/page beat: Itsy lifted one fuzzy foot and whispered into the dark. When the cave whispered back, everyone blinked, then giggled. The monster was only sound bouncing home. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: bedtime."
+        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Moonlit Meadow Echo. Age range: 4-6 yrs. Character set: Meadow Friends. Scene/page beat: Itsy lifted one fuzzy foot and whispered into the dark. When the cave whispered back, everyone blinked, then giggled. The monster was only sound bouncing home. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: bedtime. Story length target: 700-1,400 words / 8-12 min; page role: middle.",
+        "manuscriptRole": "middle"
       },
       {
         "pageId": "p5",
@@ -151,7 +155,8 @@
         },
         "storyBeat": "Moonlight silvered the path as the friends wandered home. Dino still felt small butterflies inside, but now they fluttered gently, like sleepy wings.",
         "artProductionStatus": "needs-nano-banana-2-production",
-        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Moonlit Meadow Echo. Age range: 4-6 yrs. Character set: Meadow Friends. Scene/page beat: Moonlight silvered the path as the friends wandered home. Dino still felt small butterflies inside, but now they fluttered gently, like sleepy wings. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: bedtime."
+        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Moonlit Meadow Echo. Age range: 4-6 yrs. Character set: Meadow Friends. Scene/page beat: Moonlight silvered the path as the friends wandered home. Dino still felt small butterflies inside, but now they fluttered gently, like sleepy wings. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: bedtime. Story length target: 700-1,400 words / 8-12 min; page role: resolution.",
+        "manuscriptRole": "resolution"
       }
     ],
     "artDirection": {
@@ -162,7 +167,17 @@
     "quickPickLabel": "A little brave",
     "ageRange": "4-6 yrs",
     "ageBand": "Pre-K / early school",
-    "ageRationale": "Gentle courage and understanding echoes."
+    "ageRationale": "Gentle courage and understanding echoes.",
+    "bedtimeLengthGuide": {
+      "sourceBand": "3-5 to 6-8 bridge",
+      "wordRange": "700-1,400 words",
+      "minutes": "8-12 min",
+      "sweetSpot": "8-12 minutes",
+      "structure": "clear beginning, thoughtful middle, emotionally calm resolution"
+    },
+    "storyStructureRule": "clear beginning, middle, and gentle resolution; no scary content, no cliffhanger, no high-stimulation action before sleep",
+    "nightlyRoutineFit": "2-3 minutes cuddle/talk, story, then 1 minute lights-out chat",
+    "draftLengthStatus": "seed copy only; expand final manuscript to target word range before release"
   },
   {
     "id": "sleepy-lantern-leaf",
@@ -178,7 +193,7 @@
       "Wonder",
       "Explore"
     ],
-    "readTime": "6 min",
+    "readTime": "2-5 min",
     "approxReadMinutes": 6,
     "theme": "Looking closely can be enough.",
     "parentSummary": "A quiet observation story where the friends learn that some wonders are better watched than grabbed.",
@@ -228,7 +243,8 @@
         },
         "storyBeat": "Daisy stopped beside a broad green leaf. A warm speck of light rested there, quiet as a secret.",
         "artProductionStatus": "needs-nano-banana-2-production",
-        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: The Sleepy Lantern Leaf. Age range: 1-3 yrs. Character set: Meadow Friends. Scene/page beat: Daisy stopped beside a broad green leaf. A warm speck of light rested there, quiet as a secret. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: bedtime."
+        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: The Sleepy Lantern Leaf. Age range: 1-3 yrs. Character set: Meadow Friends. Scene/page beat: Daisy stopped beside a broad green leaf. A warm speck of light rested there, quiet as a secret. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: bedtime. Story length target: 200-500 words / 2-5 min; page role: beginning.",
+        "manuscriptRole": "beginning"
       },
       {
         "pageId": "p2",
@@ -250,7 +266,8 @@
         },
         "storyBeat": "Dino crouched low and held his breath. The glow trembled in the dew, but the leaf did not mind him looking.",
         "artProductionStatus": "needs-nano-banana-2-production",
-        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: The Sleepy Lantern Leaf. Age range: 1-3 yrs. Character set: Meadow Friends. Scene/page beat: Dino crouched low and held his breath. The glow trembled in the dew, but the leaf did not mind him looking. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: bedtime."
+        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: The Sleepy Lantern Leaf. Age range: 1-3 yrs. Character set: Meadow Friends. Scene/page beat: Dino crouched low and held his breath. The glow trembled in the dew, but the leaf did not mind him looking. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: bedtime. Story length target: 200-500 words / 2-5 min; page role: middle.",
+        "manuscriptRole": "middle"
       },
       {
         "pageId": "p3",
@@ -272,7 +289,8 @@
         },
         "storyBeat": "Pip wanted to tap the shine, then changed his mind. Some wonders felt better when they were left exactly where they were.",
         "artProductionStatus": "needs-nano-banana-2-production",
-        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: The Sleepy Lantern Leaf. Age range: 1-3 yrs. Character set: Meadow Friends. Scene/page beat: Pip wanted to tap the shine, then changed his mind. Some wonders felt better when they were left exactly where they were. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: right-panel. Lighting mood: bedtime."
+        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: The Sleepy Lantern Leaf. Age range: 1-3 yrs. Character set: Meadow Friends. Scene/page beat: Pip wanted to tap the shine, then changed his mind. Some wonders felt better when they were left exactly where they were. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: right-panel. Lighting mood: bedtime. Story length target: 200-500 words / 2-5 min; page role: middle.",
+        "manuscriptRole": "middle"
       },
       {
         "pageId": "p4",
@@ -294,7 +312,8 @@
         },
         "storyBeat": "Itsy lifted one little leg toward a bead of dew. Inside the bead, the moon had made a miniature lantern.",
         "artProductionStatus": "needs-nano-banana-2-production",
-        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: The Sleepy Lantern Leaf. Age range: 1-3 yrs. Character set: Meadow Friends. Scene/page beat: Itsy lifted one little leg toward a bead of dew. Inside the bead, the moon had made a miniature lantern. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: bedtime."
+        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: The Sleepy Lantern Leaf. Age range: 1-3 yrs. Character set: Meadow Friends. Scene/page beat: Itsy lifted one little leg toward a bead of dew. Inside the bead, the moon had made a miniature lantern. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: bedtime. Story length target: 200-500 words / 2-5 min; page role: middle.",
+        "manuscriptRole": "middle"
       },
       {
         "pageId": "p5",
@@ -316,7 +335,8 @@
         },
         "storyBeat": "The four friends sat close together, letting the leaf keep its small light. The quiet felt like a blanket.",
         "artProductionStatus": "needs-nano-banana-2-production",
-        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: The Sleepy Lantern Leaf. Age range: 1-3 yrs. Character set: Meadow Friends. Scene/page beat: The four friends sat close together, letting the leaf keep its small light. The quiet felt like a blanket. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: top-left. Lighting mood: bedtime."
+        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: The Sleepy Lantern Leaf. Age range: 1-3 yrs. Character set: Meadow Friends. Scene/page beat: The four friends sat close together, letting the leaf keep its small light. The quiet felt like a blanket. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: top-left. Lighting mood: bedtime. Story length target: 200-500 words / 2-5 min; page role: middle.",
+        "manuscriptRole": "middle"
       },
       {
         "pageId": "p6",
@@ -338,7 +358,8 @@
         },
         "storyBeat": "At last the moonbeam slipped away. The leaf became just a leaf again, and somehow that felt magical too.",
         "artProductionStatus": "needs-nano-banana-2-production",
-        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: The Sleepy Lantern Leaf. Age range: 1-3 yrs. Character set: Meadow Friends. Scene/page beat: At last the moonbeam slipped away. The leaf became just a leaf again, and somehow that felt magical too. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: bedtime."
+        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: The Sleepy Lantern Leaf. Age range: 1-3 yrs. Character set: Meadow Friends. Scene/page beat: At last the moonbeam slipped away. The leaf became just a leaf again, and somehow that felt magical too. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: bedtime. Story length target: 200-500 words / 2-5 min; page role: resolution.",
+        "manuscriptRole": "resolution"
       }
     ],
     "artDirection": {
@@ -349,7 +370,17 @@
     "quickPickLabel": "Soft and sleepy",
     "ageRange": "1-3 yrs",
     "ageBand": "Toddler wind-down",
-    "ageRationale": "Very simple observation, soft pacing, low conflict."
+    "ageRationale": "Very simple observation, soft pacing, low conflict.",
+    "bedtimeLengthGuide": {
+      "sourceBand": "0-2 / early 3",
+      "wordRange": "200-500 words",
+      "minutes": "2-5 min",
+      "sweetSpot": "end while they still want a little more",
+      "structure": "tiny beginning, gentle middle, sleepy resolution"
+    },
+    "storyStructureRule": "clear beginning, middle, and gentle resolution; no scary content, no cliffhanger, no high-stimulation action before sleep",
+    "nightlyRoutineFit": "2-3 minutes cuddle/talk, story, then 1 minute lights-out chat",
+    "draftLengthStatus": "seed copy only; expand final manuscript to target word range before release"
   },
   {
     "id": "itsy-soft-bridge",
@@ -365,7 +396,7 @@
       "Wonder",
       "Explore"
     ],
-    "readTime": "6 min",
+    "readTime": "5-10 min",
     "approxReadMinutes": 6,
     "theme": "Thoughtful helpers do not need to be loud to be important.",
     "parentSummary": "A careful making story where the smallest friend builds the safest way across.",
@@ -415,7 +446,8 @@
         },
         "storyBeat": "The path ended at a puddle full of moon and stars. It was not scary, just too wide for little feet.",
         "artProductionStatus": "needs-nano-banana-2-production",
-        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Itsy\u2019s Soft Bridge. Age range: 3-5 yrs. Character set: Meadow Friends. Scene/page beat: The path ended at a puddle full of moon and stars. It was not scary, just too wide for little feet. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: bedtime."
+        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Itsy\u2019s Soft Bridge. Age range: 3-5 yrs. Character set: Meadow Friends. Scene/page beat: The path ended at a puddle full of moon and stars. It was not scary, just too wide for little feet. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: bedtime. Story length target: 500-1,000 words / 5-10 min; page role: beginning.",
+        "manuscriptRole": "beginning"
       },
       {
         "pageId": "p2",
@@ -437,7 +469,8 @@
         },
         "storyBeat": "Pip\u2019s reflection stretched and wobbled. He giggled so softly that the moon in the puddle giggled too.",
         "artProductionStatus": "needs-nano-banana-2-production",
-        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Itsy\u2019s Soft Bridge. Age range: 3-5 yrs. Character set: Meadow Friends. Scene/page beat: Pip\u2019s reflection stretched and wobbled. He giggled so softly that the moon in the puddle giggled too. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: top-left. Lighting mood: bedtime."
+        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Itsy\u2019s Soft Bridge. Age range: 3-5 yrs. Character set: Meadow Friends. Scene/page beat: Pip\u2019s reflection stretched and wobbled. He giggled so softly that the moon in the puddle giggled too. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: top-left. Lighting mood: bedtime. Story length target: 500-1,000 words / 5-10 min; page role: middle.",
+        "manuscriptRole": "middle"
       },
       {
         "pageId": "p3",
@@ -459,7 +492,8 @@
         },
         "storyBeat": "Daisy tested the little stones beside the puddle. They were smooth and round, but they did not make a whole path.",
         "artProductionStatus": "needs-nano-banana-2-production",
-        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Itsy\u2019s Soft Bridge. Age range: 3-5 yrs. Character set: Meadow Friends. Scene/page beat: Daisy tested the little stones beside the puddle. They were smooth and round, but they did not make a whole path. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: bedtime."
+        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Itsy\u2019s Soft Bridge. Age range: 3-5 yrs. Character set: Meadow Friends. Scene/page beat: Daisy tested the little stones beside the puddle. They were smooth and round, but they did not make a whole path. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: bedtime. Story length target: 500-1,000 words / 5-10 min; page role: middle.",
+        "manuscriptRole": "middle"
       },
       {
         "pageId": "p4",
@@ -481,7 +515,8 @@
         },
         "storyBeat": "Dino placed a broad leaf on the water. It floated beautifully, then twirled right back to where it started.",
         "artProductionStatus": "needs-nano-banana-2-production",
-        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Itsy\u2019s Soft Bridge. Age range: 3-5 yrs. Character set: Meadow Friends. Scene/page beat: Dino placed a broad leaf on the water. It floated beautifully, then twirled right back to where it started. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: right-panel. Lighting mood: bedtime."
+        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Itsy\u2019s Soft Bridge. Age range: 3-5 yrs. Character set: Meadow Friends. Scene/page beat: Dino placed a broad leaf on the water. It floated beautifully, then twirled right back to where it started. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: right-panel. Lighting mood: bedtime. Story length target: 500-1,000 words / 5-10 min; page role: middle.",
+        "manuscriptRole": "middle"
       },
       {
         "pageId": "p5",
@@ -503,7 +538,8 @@
         },
         "storyBeat": "Itsy did not rush. He looped one gentle thread, then another, until the moonlight showed a tiny bridge.",
         "artProductionStatus": "needs-nano-banana-2-production",
-        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Itsy\u2019s Soft Bridge. Age range: 3-5 yrs. Character set: Meadow Friends. Scene/page beat: Itsy did not rush. He looped one gentle thread, then another, until the moonlight showed a tiny bridge. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: bedtime."
+        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Itsy\u2019s Soft Bridge. Age range: 3-5 yrs. Character set: Meadow Friends. Scene/page beat: Itsy did not rush. He looped one gentle thread, then another, until the moonlight showed a tiny bridge. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: bedtime. Story length target: 500-1,000 words / 5-10 min; page role: middle.",
+        "manuscriptRole": "middle"
       },
       {
         "pageId": "p6",
@@ -525,7 +561,8 @@
         },
         "storyBeat": "Daisy, Pip, and Dino crossed slowly, each step soft and sure. Itsy\u2019s small idea had made the way safe.",
         "artProductionStatus": "needs-nano-banana-2-production",
-        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Itsy\u2019s Soft Bridge. Age range: 3-5 yrs. Character set: Meadow Friends. Scene/page beat: Daisy, Pip, and Dino crossed slowly, each step soft and sure. Itsy\u2019s small idea had made the way safe. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: bedtime."
+        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Itsy\u2019s Soft Bridge. Age range: 3-5 yrs. Character set: Meadow Friends. Scene/page beat: Daisy, Pip, and Dino crossed slowly, each step soft and sure. Itsy\u2019s small idea had made the way safe. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: bedtime. Story length target: 500-1,000 words / 5-10 min; page role: resolution.",
+        "manuscriptRole": "resolution"
       }
     ],
     "artDirection": {
@@ -536,7 +573,17 @@
     "quickPickLabel": "Helpful friends",
     "ageRange": "3-5 yrs",
     "ageBand": "Preschool",
-    "ageRationale": "Problem-solving, confidence, and taking turns."
+    "ageRationale": "Problem-solving, confidence, and taking turns.",
+    "bedtimeLengthGuide": {
+      "sourceBand": "3-5",
+      "wordRange": "500-1,000 words",
+      "minutes": "5-10 min",
+      "sweetSpot": "8-10 minutes when attention allows",
+      "structure": "clear beginning, middle, and resolution"
+    },
+    "storyStructureRule": "clear beginning, middle, and gentle resolution; no scary content, no cliffhanger, no high-stimulation action before sleep",
+    "nightlyRoutineFit": "2-3 minutes cuddle/talk, story, then 1 minute lights-out chat",
+    "draftLengthStatus": "seed copy only; expand final manuscript to target word range before release"
   },
   {
     "id": "pillow-hill-parade",
@@ -544,7 +591,7 @@
     "category": "Silly & Giggly",
     "categorySlug": "silly-giggly",
     "tier": "Wonder",
-    "readTime": "5 min",
+    "readTime": "2-5 min",
     "approxReadMinutes": 5,
     "theme": "Play can gently become rest.",
     "parentSummary": "A soft silly story where movement, laughter, and friends all slow down into bedtime.",
@@ -604,7 +651,8 @@
         },
         "storyBeat": "Momo Puffin waddled after a plump pillow as it tumbled softly through the grass.",
         "artProductionStatus": "needs-nano-banana-2-production",
-        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: The Pillow Hill Parade. Age range: 1-3 yrs. Character set: Pillow Pals. Scene/page beat: Momo Puffin waddled after a plump pillow as it tumbled softly through the grass. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: evening."
+        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: The Pillow Hill Parade. Age range: 1-3 yrs. Character set: Pillow Pals. Scene/page beat: Momo Puffin waddled after a plump pillow as it tumbled softly through the grass. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: evening. Story length target: 200-500 words / 2-5 min; page role: beginning.",
+        "manuscriptRole": "beginning"
       },
       {
         "pageId": "p2",
@@ -626,7 +674,8 @@
         },
         "storyBeat": "Bibi Bunny gave three careful hops, just enough to make everyone laugh without waking the moon.",
         "artProductionStatus": "needs-nano-banana-2-production",
-        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: The Pillow Hill Parade. Age range: 1-3 yrs. Character set: Pillow Pals. Scene/page beat: Bibi Bunny gave three careful hops, just enough to make everyone laugh without waking the moon. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: evening."
+        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: The Pillow Hill Parade. Age range: 1-3 yrs. Character set: Pillow Pals. Scene/page beat: Bibi Bunny gave three careful hops, just enough to make everyone laugh without waking the moon. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: evening. Story length target: 200-500 words / 2-5 min; page role: middle.",
+        "manuscriptRole": "middle"
       },
       {
         "pageId": "p3",
@@ -648,7 +697,8 @@
         },
         "storyBeat": "Tula Turtle arrived slowly with a blanket folded like a warm square of evening.",
         "artProductionStatus": "needs-nano-banana-2-production",
-        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: The Pillow Hill Parade. Age range: 1-3 yrs. Character set: Pillow Pals. Scene/page beat: Tula Turtle arrived slowly with a blanket folded like a warm square of evening. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: top-left. Lighting mood: bedtime."
+        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: The Pillow Hill Parade. Age range: 1-3 yrs. Character set: Pillow Pals. Scene/page beat: Tula Turtle arrived slowly with a blanket folded like a warm square of evening. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: top-left. Lighting mood: bedtime. Story length target: 200-500 words / 2-5 min; page role: middle.",
+        "manuscriptRole": "middle"
       },
       {
         "pageId": "p4",
@@ -670,7 +720,8 @@
         },
         "storyBeat": "The friends marched in tiny steps until even their giggles turned into whispers.",
         "artProductionStatus": "needs-nano-banana-2-production",
-        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: The Pillow Hill Parade. Age range: 1-3 yrs. Character set: Pillow Pals. Scene/page beat: The friends marched in tiny steps until even their giggles turned into whispers. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: right-panel. Lighting mood: bedtime."
+        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: The Pillow Hill Parade. Age range: 1-3 yrs. Character set: Pillow Pals. Scene/page beat: The friends marched in tiny steps until even their giggles turned into whispers. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: right-panel. Lighting mood: bedtime. Story length target: 200-500 words / 2-5 min; page role: middle.",
+        "manuscriptRole": "middle"
       },
       {
         "pageId": "p5",
@@ -692,7 +743,8 @@
         },
         "storyBeat": "The pillow parade ended exactly where it should: in a moonlit cuddle pile at the top of the hill.",
         "artProductionStatus": "needs-nano-banana-2-production",
-        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: The Pillow Hill Parade. Age range: 1-3 yrs. Character set: Pillow Pals. Scene/page beat: The pillow parade ended exactly where it should: in a moonlit cuddle pile at the top of the hill. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: bedtime."
+        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: The Pillow Hill Parade. Age range: 1-3 yrs. Character set: Pillow Pals. Scene/page beat: The pillow parade ended exactly where it should: in a moonlit cuddle pile at the top of the hill. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: bedtime. Story length target: 200-500 words / 2-5 min; page role: resolution.",
+        "manuscriptRole": "resolution"
       }
     ],
     "artDirection": {
@@ -700,7 +752,17 @@
     },
     "ageRange": "1-3 yrs",
     "ageBand": "Toddler giggles",
-    "ageRationale": "Silly motion that slows into rest."
+    "ageRationale": "Silly motion that slows into rest.",
+    "bedtimeLengthGuide": {
+      "sourceBand": "0-2 / early 3",
+      "wordRange": "200-500 words",
+      "minutes": "2-5 min",
+      "sweetSpot": "end while they still want a little more",
+      "structure": "tiny beginning, gentle middle, sleepy resolution"
+    },
+    "storyStructureRule": "clear beginning, middle, and gentle resolution; no scary content, no cliffhanger, no high-stimulation action before sleep",
+    "nightlyRoutineFit": "2-3 minutes cuddle/talk, story, then 1 minute lights-out chat",
+    "draftLengthStatus": "seed copy only; expand final manuscript to target word range before release"
   },
   {
     "id": "button-moon-bakery",
@@ -708,7 +770,7 @@
     "category": "Dream Big",
     "categorySlug": "dream-big",
     "tier": "Explore",
-    "readTime": "6 min",
+    "readTime": "10-12 min",
     "approxReadMinutes": 6,
     "theme": "Big dreams can be handled softly.",
     "parentSummary": "A dreamy pretend-play story about mixing moonlight, saving a sparkle, and carrying imagination into sleep.",
@@ -768,7 +830,8 @@
         },
         "storyBeat": "Coco Cricket tilted his tiny head. The moon looked round and buttony, like it had been sewn onto the dark.",
         "artProductionStatus": "needs-nano-banana-2-production",
-        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Button Moon Bakery. Age range: 5-7 yrs. Character set: Sky Bakers. Scene/page beat: Coco Cricket tilted his tiny head. The moon looked round and buttony, like it had been sewn onto the dark. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: evening."
+        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Button Moon Bakery. Age range: 5-7 yrs. Character set: Sky Bakers. Scene/page beat: Coco Cricket tilted his tiny head. The moon looked round and buttony, like it had been sewn onto the dark. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: evening. Story length target: 900-1,600 words / 10-12 min; page role: beginning.",
+        "manuscriptRole": "beginning"
       },
       {
         "pageId": "p2",
@@ -790,7 +853,8 @@
         },
         "storyBeat": "Luma Lamb lifted a curved leaf and declared it perfect for stirring moonlight, very slowly.",
         "artProductionStatus": "needs-nano-banana-2-production",
-        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Button Moon Bakery. Age range: 5-7 yrs. Character set: Sky Bakers. Scene/page beat: Luma Lamb lifted a curved leaf and declared it perfect for stirring moonlight, very slowly. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: evening."
+        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Button Moon Bakery. Age range: 5-7 yrs. Character set: Sky Bakers. Scene/page beat: Luma Lamb lifted a curved leaf and declared it perfect for stirring moonlight, very slowly. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: evening. Story length target: 900-1,600 words / 10-12 min; page role: middle.",
+        "manuscriptRole": "middle"
       },
       {
         "pageId": "p3",
@@ -812,7 +876,8 @@
         },
         "storyBeat": "Nib Starling fluttered once, and three sleepy sparkles drifted down like sugar.",
         "artProductionStatus": "needs-nano-banana-2-production",
-        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Button Moon Bakery. Age range: 5-7 yrs. Character set: Sky Bakers. Scene/page beat: Nib Starling fluttered once, and three sleepy sparkles drifted down like sugar. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: top-left. Lighting mood: bedtime."
+        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Button Moon Bakery. Age range: 5-7 yrs. Character set: Sky Bakers. Scene/page beat: Nib Starling fluttered once, and three sleepy sparkles drifted down like sugar. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: top-left. Lighting mood: bedtime. Story length target: 900-1,600 words / 10-12 min; page role: middle.",
+        "manuscriptRole": "middle"
       },
       {
         "pageId": "p4",
@@ -834,7 +899,8 @@
         },
         "storyBeat": "Nothing was really baking, but somehow the night smelled cozy, as if dreams had a recipe.",
         "artProductionStatus": "needs-nano-banana-2-production",
-        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Button Moon Bakery. Age range: 5-7 yrs. Character set: Sky Bakers. Scene/page beat: Nothing was really baking, but somehow the night smelled cozy, as if dreams had a recipe. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: right-panel. Lighting mood: bedtime."
+        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Button Moon Bakery. Age range: 5-7 yrs. Character set: Sky Bakers. Scene/page beat: Nothing was really baking, but somehow the night smelled cozy, as if dreams had a recipe. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: right-panel. Lighting mood: bedtime. Story length target: 900-1,600 words / 10-12 min; page role: middle.",
+        "manuscriptRole": "middle"
       },
       {
         "pageId": "p5",
@@ -856,7 +922,8 @@
         },
         "storyBeat": "Before bed, Coco saved the smallest sparkle in a safe little acorn cup for morning wishes.",
         "artProductionStatus": "needs-nano-banana-2-production",
-        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Button Moon Bakery. Age range: 5-7 yrs. Character set: Sky Bakers. Scene/page beat: Before bed, Coco saved the smallest sparkle in a safe little acorn cup for morning wishes. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: bedtime."
+        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Button Moon Bakery. Age range: 5-7 yrs. Character set: Sky Bakers. Scene/page beat: Before bed, Coco saved the smallest sparkle in a safe little acorn cup for morning wishes. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: bedtime. Story length target: 900-1,600 words / 10-12 min; page role: resolution.",
+        "manuscriptRole": "resolution"
       }
     ],
     "artDirection": {
@@ -864,7 +931,17 @@
     },
     "ageRange": "5-7 yrs",
     "ageBand": "Early reader imagination",
-    "ageRationale": "More metaphor and pretend-play language."
+    "ageRationale": "More metaphor and pretend-play language.",
+    "bedtimeLengthGuide": {
+      "sourceBand": "6-8 bridge",
+      "wordRange": "900-1,600 words",
+      "minutes": "10-12 min",
+      "sweetSpot": "10-12 minutes, not a cliffhanger",
+      "structure": "imaginative beginning, richer middle, predictable bedtime resolution"
+    },
+    "storyStructureRule": "clear beginning, middle, and gentle resolution; no scary content, no cliffhanger, no high-stimulation action before sleep",
+    "nightlyRoutineFit": "2-3 minutes cuddle/talk, story, then 1 minute lights-out chat",
+    "draftLengthStatus": "seed copy only; expand final manuscript to target word range before release"
   },
   {
     "id": "nori-bubble-tide",
@@ -872,7 +949,7 @@
     "category": "Curious World",
     "categorySlug": "curious-world",
     "tier": "Drift",
-    "readTime": "5 min",
+    "readTime": "4-8 min",
     "approxReadMinutes": 5,
     "theme": "Counting slowly can help the body feel calm.",
     "parentSummary": "A bubble-counting ocean story that turns a busy tide into a breathing rhythm.",
@@ -932,7 +1009,8 @@
         },
         "storyBeat": "Nori Narwhal held very still and watched a single bubble wobble toward the moonlit surface.",
         "artProductionStatus": "needs-nano-banana-2-production",
-        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Nori and the Bubble Tide. Age range: 2-4 yrs. Character set: Ocean Dreamers. Scene/page beat: Nori Narwhal held very still and watched a single bubble wobble toward the moonlit surface. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: evening."
+        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Nori and the Bubble Tide. Age range: 2-4 yrs. Character set: Ocean Dreamers. Scene/page beat: Nori Narwhal held very still and watched a single bubble wobble toward the moonlit surface. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: evening. Story length target: 350-750 words / 4-8 min; page role: beginning.",
+        "manuscriptRole": "beginning"
       },
       {
         "pageId": "p2",
@@ -954,7 +1032,8 @@
         },
         "storyBeat": "Puddle Otter counted two more bubbles, not quickly, not loudly, just enough to hear the water breathe.",
         "artProductionStatus": "needs-nano-banana-2-production",
-        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Nori and the Bubble Tide. Age range: 2-4 yrs. Character set: Ocean Dreamers. Scene/page beat: Puddle Otter counted two more bubbles, not quickly, not loudly, just enough to hear the water breathe. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: evening."
+        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Nori and the Bubble Tide. Age range: 2-4 yrs. Character set: Ocean Dreamers. Scene/page beat: Puddle Otter counted two more bubbles, not quickly, not loudly, just enough to hear the water breathe. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: evening. Story length target: 350-750 words / 4-8 min; page role: middle.",
+        "manuscriptRole": "middle"
       },
       {
         "pageId": "p3",
@@ -976,7 +1055,8 @@
         },
         "storyBeat": "Mimi Minnow turned in a silver loop, leaving little bubbles like pearls on a string.",
         "artProductionStatus": "needs-nano-banana-2-production",
-        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Nori and the Bubble Tide. Age range: 2-4 yrs. Character set: Ocean Dreamers. Scene/page beat: Mimi Minnow turned in a silver loop, leaving little bubbles like pearls on a string. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: top-left. Lighting mood: bedtime."
+        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Nori and the Bubble Tide. Age range: 2-4 yrs. Character set: Ocean Dreamers. Scene/page beat: Mimi Minnow turned in a silver loop, leaving little bubbles like pearls on a string. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: top-left. Lighting mood: bedtime. Story length target: 350-750 words / 4-8 min; page role: middle.",
+        "manuscriptRole": "middle"
       },
       {
         "pageId": "p4",
@@ -998,7 +1078,8 @@
         },
         "storyBeat": "The water still moved, but it moved like a cradle now, rocking the friends toward rest.",
         "artProductionStatus": "needs-nano-banana-2-production",
-        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Nori and the Bubble Tide. Age range: 2-4 yrs. Character set: Ocean Dreamers. Scene/page beat: The water still moved, but it moved like a cradle now, rocking the friends toward rest. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: right-panel. Lighting mood: bedtime."
+        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Nori and the Bubble Tide. Age range: 2-4 yrs. Character set: Ocean Dreamers. Scene/page beat: The water still moved, but it moved like a cradle now, rocking the friends toward rest. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: right-panel. Lighting mood: bedtime. Story length target: 350-750 words / 4-8 min; page role: middle.",
+        "manuscriptRole": "middle"
       },
       {
         "pageId": "p5",
@@ -1020,7 +1101,8 @@
         },
         "storyBeat": "The final bubble rose, shimmered, and vanished. Nori smiled, because calm had found him.",
         "artProductionStatus": "needs-nano-banana-2-production",
-        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Nori and the Bubble Tide. Age range: 2-4 yrs. Character set: Ocean Dreamers. Scene/page beat: The final bubble rose, shimmered, and vanished. Nori smiled, because calm had found him. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: bedtime."
+        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Nori and the Bubble Tide. Age range: 2-4 yrs. Character set: Ocean Dreamers. Scene/page beat: The final bubble rose, shimmered, and vanished. Nori smiled, because calm had found him. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: bedtime. Story length target: 350-750 words / 4-8 min; page role: resolution.",
+        "manuscriptRole": "resolution"
       }
     ],
     "artDirection": {
@@ -1028,7 +1110,17 @@
     },
     "ageRange": "2-4 yrs",
     "ageBand": "Toddler / preschool calm",
-    "ageRationale": "Counting, breathing rhythm, sensory calm."
+    "ageRationale": "Counting, breathing rhythm, sensory calm.",
+    "bedtimeLengthGuide": {
+      "sourceBand": "0-2 to 3-5 bridge",
+      "wordRange": "350-750 words",
+      "minutes": "4-8 min",
+      "sweetSpot": "short enough for toddlers, satisfying enough for preschoolers",
+      "structure": "clear beginning, repeated middle, soft resolution"
+    },
+    "storyStructureRule": "clear beginning, middle, and gentle resolution; no scary content, no cliffhanger, no high-stimulation action before sleep",
+    "nightlyRoutineFit": "2-3 minutes cuddle/talk, story, then 1 minute lights-out chat",
+    "draftLengthStatus": "seed copy only; expand final manuscript to target word range before release"
   },
   {
     "id": "fennel-lantern-lane",
@@ -1036,7 +1128,7 @@
     "category": "Sleepy Meadow",
     "categorySlug": "sleepy-meadow",
     "tier": "Wonder",
-    "readTime": "5 min",
+    "readTime": "5-10 min",
     "approxReadMinutes": 5,
     "theme": "A small light can make the way home feel close.",
     "parentSummary": "A homecoming story where tiny lantern seeds make the path feel warm, known, and safe.",
@@ -1096,7 +1188,8 @@
         },
         "storyBeat": "Fennel Fox paused by a seed that glowed as warmly as a small cup of honey.",
         "artProductionStatus": "needs-nano-banana-2-production",
-        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Fennel\u2019s Lantern Lane. Age range: 3-5 yrs. Character set: Lantern Lane. Scene/page beat: Fennel Fox paused by a seed that glowed as warmly as a small cup of honey. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: evening."
+        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Fennel\u2019s Lantern Lane. Age range: 3-5 yrs. Character set: Lantern Lane. Scene/page beat: Fennel Fox paused by a seed that glowed as warmly as a small cup of honey. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: evening. Story length target: 500-1,000 words / 5-10 min; page role: beginning.",
+        "manuscriptRole": "beginning"
       },
       {
         "pageId": "p2",
@@ -1118,7 +1211,8 @@
         },
         "storyBeat": "Roo Mouse carried the lantern seed with both paws, careful as a bedtime promise.",
         "artProductionStatus": "needs-nano-banana-2-production",
-        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Fennel\u2019s Lantern Lane. Age range: 3-5 yrs. Character set: Lantern Lane. Scene/page beat: Roo Mouse carried the lantern seed with both paws, careful as a bedtime promise. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: evening."
+        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Fennel\u2019s Lantern Lane. Age range: 3-5 yrs. Character set: Lantern Lane. Scene/page beat: Roo Mouse carried the lantern seed with both paws, careful as a bedtime promise. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: evening. Story length target: 500-1,000 words / 5-10 min; page role: middle.",
+        "manuscriptRole": "middle"
       },
       {
         "pageId": "p3",
@@ -1140,7 +1234,8 @@
         },
         "storyBeat": "From a low branch, Opal Owl blinked once and found the next gentle light in the grass.",
         "artProductionStatus": "needs-nano-banana-2-production",
-        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Fennel\u2019s Lantern Lane. Age range: 3-5 yrs. Character set: Lantern Lane. Scene/page beat: From a low branch, Opal Owl blinked once and found the next gentle light in the grass. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: top-left. Lighting mood: bedtime."
+        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Fennel\u2019s Lantern Lane. Age range: 3-5 yrs. Character set: Lantern Lane. Scene/page beat: From a low branch, Opal Owl blinked once and found the next gentle light in the grass. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: top-left. Lighting mood: bedtime. Story length target: 500-1,000 words / 5-10 min; page role: middle.",
+        "manuscriptRole": "middle"
       },
       {
         "pageId": "p4",
@@ -1162,7 +1257,8 @@
         },
         "storyBeat": "The friends placed each seed with care until the path looked like a necklace for the night.",
         "artProductionStatus": "needs-nano-banana-2-production",
-        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Fennel\u2019s Lantern Lane. Age range: 3-5 yrs. Character set: Lantern Lane. Scene/page beat: The friends placed each seed with care until the path looked like a necklace for the night. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: right-panel. Lighting mood: bedtime."
+        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Fennel\u2019s Lantern Lane. Age range: 3-5 yrs. Character set: Lantern Lane. Scene/page beat: The friends placed each seed with care until the path looked like a necklace for the night. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: right-panel. Lighting mood: bedtime. Story length target: 500-1,000 words / 5-10 min; page role: middle.",
+        "manuscriptRole": "middle"
       },
       {
         "pageId": "p5",
@@ -1184,7 +1280,8 @@
         },
         "storyBeat": "The last lantern seed shone beside the door, and everyone knew they had arrived exactly where rest begins.",
         "artProductionStatus": "needs-nano-banana-2-production",
-        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Fennel\u2019s Lantern Lane. Age range: 3-5 yrs. Character set: Lantern Lane. Scene/page beat: The last lantern seed shone beside the door, and everyone knew they had arrived exactly where rest begins. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: bedtime."
+        "illustrationPrompt": "high-end soft 3D children storybook art, original plush toy characters, premium subscription quality, bubbly pastel color, cinematic depth, rounded tactile forms, expressive safe faces, soft global illumination, no text, no logos, no signs. Story: Fennel\u2019s Lantern Lane. Age range: 3-5 yrs. Character set: Lantern Lane. Scene/page beat: The last lantern seed shone beside the door, and everyone knew they had arrived exactly where rest begins. Render the exact moment described. Keep characters emotionally clear, safe, rounded, premium and original. Leave clean space for app text placement: bottom-panel. Lighting mood: bedtime. Story length target: 500-1,000 words / 5-10 min; page role: resolution.",
+        "manuscriptRole": "resolution"
       }
     ],
     "artDirection": {
@@ -1192,6 +1289,16 @@
     },
     "ageRange": "3-5 yrs",
     "ageBand": "Preschool comfort",
-    "ageRationale": "Finding home, safety, and predictable path-making."
+    "ageRationale": "Finding home, safety, and predictable path-making.",
+    "bedtimeLengthGuide": {
+      "sourceBand": "3-5",
+      "wordRange": "500-1,000 words",
+      "minutes": "5-10 min",
+      "sweetSpot": "8-10 minutes when attention allows",
+      "structure": "clear beginning, middle, and resolution"
+    },
+    "storyStructureRule": "clear beginning, middle, and gentle resolution; no scary content, no cliffhanger, no high-stimulation action before sleep",
+    "nightlyRoutineFit": "2-3 minutes cuddle/talk, story, then 1 minute lights-out chat",
+    "draftLengthStatus": "seed copy only; expand final manuscript to target word range before release"
   }
 ]

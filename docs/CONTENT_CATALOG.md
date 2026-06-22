@@ -13,7 +13,7 @@ Purpose: prove repeatable catalog structure, parent browsing, story metadata, an
 
 ## Stories
 
-Age range labels are surfaced in Parent Mode and Story Mode. They are story content bands, not child profiles.
+Age range labels are surfaced in Parent Mode and Story Mode. They are story content bands, not child profiles. Production manuscript lengths follow `docs/BEDTIME_STORY_LENGTH_GUIDE.md`; current short page copy is seed copy until expanded to the target word range.
 
 - `Moonlit Meadow Echo`: 4-6 yrs, Pre-K / early school.
 - `The Sleepy Lantern Leaf`: 1-3 yrs, toddler wind-down.

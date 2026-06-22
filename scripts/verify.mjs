@@ -12,7 +12,7 @@ const storySlugs = new Set();
 let totalPages = 0;
 
 for (const s of stories) {
-  for (const required of ['id', 'storyId', 'slug', 'title', 'category', 'categorySlug', 'tier', 'readTime', 'theme', 'parentSummary', 'themeTags', 'characterSet', 'mood', 'ageRange', 'ageBand', 'ageRationale', 'contentSafety', 'publication']) {
+  for (const required of ['id', 'storyId', 'slug', 'title', 'category', 'categorySlug', 'tier', 'readTime', 'theme', 'parentSummary', 'themeTags', 'characterSet', 'mood', 'ageRange', 'ageBand', 'ageRationale', 'bedtimeLengthGuide', 'storyStructureRule', 'draftLengthStatus', 'contentSafety', 'publication']) {
     if (!(required in s)) failures.push(`story ${s.id || '<unknown>'} missing ${required}`);
   }
   if (storyIds.has(s.id)) failures.push(`duplicate story id ${s.id}`);
@@ -20,6 +20,9 @@ for (const s of stories) {
   if (storySlugs.has(s.slug)) failures.push(`duplicate story slug ${s.slug}`);
   storySlugs.add(s.slug);
   if (s.contentSafety?.reviewed === true) failures.push(`reference scaffold should not be release-approved yet: ${s.id}`);
+  if (!/^\d+-\d+ yrs$/.test(s.ageRange)) failures.push(`invalid ageRange ${s.id}`);
+  if (!s.bedtimeLengthGuide?.wordRange || !s.bedtimeLengthGuide?.minutes) failures.push(`missing bedtime length guide ${s.id}`);
+  if (!/beginning/i.test(s.storyStructureRule) || !/resolution/i.test(s.storyStructureRule)) failures.push(`story structure rule must mention beginning and resolution ${s.id}`);
   if (s.audioRef !== null) failures.push(`story audioRef must be null in Phase 0 ${s.id}`);
   if (!existsSync(s.coverIllustrationRef)) failures.push(`missing cover illustration ${s.coverIllustrationRef}`);
   if (!Array.isArray(s.pages) || s.pages.length < 5) failures.push(`story ${s.id} needs at least 5 pages`);
@@ -61,7 +64,7 @@ const files = [
   'PRODUCT.md', 'DESIGN.md',
   'docs/STYLE_GUIDE.md', 'docs/CHARACTER_BIBLE.md', 'docs/ILLUSTRATION_PIPELINE.md',
   'docs/BUILD_GATE_CHECKLIST.md', 'docs/TECHNICAL_SCAFFOLD_PLAN.md', 'docs/PHASE_0_REPORT.md',
-  'docs/CONTENT_CATALOG.md', 'docs/CHARACTER_SET_EXPANSION.md', 'docs/NANO_BANANA_2_PRODUCTION_PLAN.md', 'docs/QA_REPORT.md'
+  'docs/CONTENT_CATALOG.md', 'docs/CHARACTER_SET_EXPANSION.md', 'docs/BEDTIME_STORY_LENGTH_GUIDE.md', 'docs/NANO_BANANA_2_PRODUCTION_PLAN.md', 'docs/QA_REPORT.md'
 ];
 for (const f of files) if (!existsSync(f)) failures.push(`missing ${f}`);
 
