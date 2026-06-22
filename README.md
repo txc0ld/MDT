@@ -1,6 +1,8 @@
-# GlimmerTales Phase 0
+# Mini Dreamtime / GlimmerTales Phase 0
 
 Expanded local Phase 0 scaffold for the read-together bedtime story product.
+
+Primary launch domain: `minidreamtime.com`. GlimmerTales is the first story world/collection inside Mini Dreamtime.
 
 ## Run
 

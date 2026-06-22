@@ -10,7 +10,9 @@ Primary users are tired parents or carers at bedtime, often using a phone or tab
 
 ## Product Purpose
 
-GlimmerTales is a curated, privacy-clean, read-together bedtime-story library with original recurring characters. It exists to preserve the shared bedtime reading ritual in a digital format: warm illustrated pages, parent-paced text, and stories that softly resolve toward sleep. Success means households return to favorite stories, repeat-read individual pages, trust the catalog, and pay for new curated content without the product collecting anything from the child.
+Mini Dreamtime is a curated, read-together bedtime-story library with original recurring characters. Its first story world is GlimmerTales. It exists to preserve the shared bedtime reading ritual in a digital format: warm illustrated pages, parent-paced text, and stories that softly resolve toward sleep. Success means households return to favorite stories, repeat-read individual pages, trust the catalog, and pay for new curated content.
+
+Primary launch domain: `minidreamtime.com`.
 
 ## Brand Personality
 
