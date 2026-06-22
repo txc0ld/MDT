@@ -15,6 +15,8 @@ Status: in progress, updated after scaffold creation.
   - `docs/CONTENT_CATALOG.md`
   - `docs/QA_REPORT.md`
 - Created deterministic, text-free SVG master sheets for Daisy, Dino, Pip, and Itsy under `assets/characters/`.
+- Regenerated reference SVGs with brighter kid-facing palette, gradients, soft shadows, more expressive details, and polished bubbly materials.
+- Added a high-end generated art-direction target at `assets/brand/premium-cast-target.png` for subscription-quality character/material ambition.
 - Expanded from one story to three reference stories with 17 text-free pages:
   - `Moonlit Meadow Echo`
   - `The Sleepy Lantern Leaf`

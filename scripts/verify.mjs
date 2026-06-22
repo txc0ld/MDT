@@ -21,6 +21,7 @@ for (const s of stories) {
   storySlugs.add(s.slug);
   if (s.contentSafety?.reviewed === true) failures.push(`reference scaffold should not be release-approved yet: ${s.id}`);
   if (s.audioRef !== null) failures.push(`story audioRef must be null in Phase 0 ${s.id}`);
+  if (!existsSync(s.coverIllustrationRef)) failures.push(`missing cover illustration ${s.coverIllustrationRef}`);
   if (!Array.isArray(s.pages) || s.pages.length < 5) failures.push(`story ${s.id} needs at least 5 pages`);
 
   const seenPages = new Set();

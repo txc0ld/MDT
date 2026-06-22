@@ -29,7 +29,7 @@
       "pip",
       "itsy"
     ],
-    "coverIllustrationRef": "assets/stories/moonlit-meadow/page-01.svg",
+    "coverIllustrationRef": "assets/brand/premium-cast-target.png",
     "audioRef": null,
     "contentSafety": {
       "reviewed": false,
@@ -138,7 +138,10 @@
           "releaseApproved": false
         }
       }
-    ]
+    ],
+    "artDirection": {
+      "coverQualityTarget": "assets/brand/premium-cast-target.png"
+    }
   },
   {
     "id": "sleepy-lantern-leaf",
@@ -170,7 +173,7 @@
       "pip",
       "itsy"
     ],
-    "coverIllustrationRef": "assets/stories/sleepy-lantern-leaf/page-01.svg",
+    "coverIllustrationRef": "assets/brand/premium-sleepy-lantern-leaf.png",
     "audioRef": null,
     "contentSafety": {
       "reviewed": false,
@@ -298,7 +301,10 @@
           "releaseApproved": false
         }
       }
-    ]
+    ],
+    "artDirection": {
+      "coverQualityTarget": "assets/brand/premium-sleepy-lantern-leaf.png"
+    }
   },
   {
     "id": "itsy-soft-bridge",
@@ -330,7 +336,7 @@
       "pip",
       "itsy"
     ],
-    "coverIllustrationRef": "assets/stories/itsy-soft-bridge/page-01.svg",
+    "coverIllustrationRef": "assets/brand/premium-itsy-soft-bridge.png",
     "audioRef": null,
     "contentSafety": {
       "reviewed": false,
@@ -458,6 +464,9 @@
           "releaseApproved": false
         }
       }
-    ]
+    ],
+    "artDirection": {
+      "coverQualityTarget": "assets/brand/premium-itsy-soft-bridge.png"
+    }
   }
 ]

@@ -34,8 +34,7 @@ function filteredStories() {
 }
 function completionLabel(story) {
   const count = story.pages.length;
-  const approved = story.pages.filter(p => p.qa?.releaseApproved).length;
-  return `${approved}/${count} release approved`;
+  return `${count} cozy pages · final review ahead`;
 }
 
 function applyRoute() {
@@ -68,28 +67,28 @@ function renderHome() {
   const items = filteredStories();
   app.innerHTML = `<section class="shell parent-mode">
     <header class="topbar">
-      <button class="brand-lockup" id="homeBtn" aria-label="GlimmerTales home"><span class="brand-mark">✦</span><span><strong>GlimmerTales</strong><small>Phase 0 library lab</small></span></button>
+      <button class="brand-lockup" id="homeBtn" aria-label="GlimmerTales home"><span class="brand-mark">✦</span><span><strong>GlimmerTales</strong><small>Story shelf preview</small></span></button>
       <nav class="top-actions" aria-label="Parent tools">
-        <button class="soft-pill" id="qaToggle">QA gates</button>
-        <span class="privacy">No child data collected</span>
+        <button class="soft-pill" id="qaToggle">Review notes</button>
+        <span class="privacy">Made for reading together</span>
       </nav>
     </header>
 
     <section class="hero-grid">
       <div class="hero-copy">
         <p class="kicker">Parent-paced bedtime library</p>
-        <h1>Three quiet stories, one small world, zero child tracking.</h1>
-        <p class="lede">A richer Phase 0 viewer for testing story rhythm, art consistency, release gates, and read-aloud comfort before any production-art spend.</p>
+        <h1>Gentle bedtime stories for a parent to read aloud.</h1>
+        <p class="lede">Choose a quiet little tale, settle into one illustrated page at a time, and let the night slow down without noise, games, or autoplay.</p>
         <div class="hero-actions"><button class="primary" id="startBtn">Read tonight’s pick</button><button class="secondary" id="browseBtn">Browse library</button></div>
       </div>
       <aside class="ritual-card" aria-label="Phase 0 status">
-        <p class="label">Build status</p>
+        <p class="label">Story shelf</p>
         <strong>${state.stories.length} stories · ${pagesCount()} pages</strong>
-        <span>Fixed catalog, app-layer text, no narration, no child profiles.</span>
+        <span>A small bedtime shelf for testing story rhythm, cozy art direction, and parent-paced page turns.</span>
         <div class="status-rows">
-          <span><b></b> Text-free SVG scaffold</span>
-          <span><b></b> Release approval intentionally blocked</span>
-          <span><b></b> Human safety/IP review required</span>
+          <span><b></b> Artwork leaves room for reading</span>
+          <span><b></b> Read-aloud words stay crisp and separate</span>
+          <span><b></b> Final polish and story review still ahead</span>
         </div>
       </aside>
     </section>
@@ -101,7 +100,7 @@ function renderHome() {
     </section>
 
     <section class="filters" id="library">
-      <div><h2>Reference library</h2><p>Built to test page pacing and compliance gates, not final illustration quality.</p></div>
+      <div><h2>Story shelf</h2><p>Three soft read-aloud drafts for checking pacing, page turns, and character consistency.</p></div>
       <div class="filter-row" role="list" aria-label="Story filters">
         <button class="filter ${state.category === 'all' ? 'is-active' : ''}" data-cat="all">All</button>
         ${categories.map(([id, label]) => `<button class="filter ${state.category === id ? 'is-active' : ''}" data-cat="${esc(id)}">${esc(label)}</button>`).join('')}
@@ -111,16 +110,16 @@ function renderHome() {
     <section class="story-grid">${items.map(storyCard).join('')}</section>
 
     <section class="qa-panel ${state.qaOpen ? 'is-open' : ''}" id="qaPanel" aria-label="Phase 0 release gates">
-      <div><p class="label">Release gate</p><h2>Nothing here is release-approved yet.</h2><p>That is intentional. The scaffold proves structure and reading experience; production art, legal review, and content safety still block launch.</p></div>
+      <div><p class="label">Review notes</p><h2>Prototype notes for grown-ups.</h2><p>This local build is here to shape the bedtime feel before final art and editorial sign-off. The reading experience is the part to judge tonight.</p></div>
       <ul>
-        <li>No child data, profiles, ads, or behavior analytics.</li>
-        <li>No baked-in text in illustration assets.</li>
-        <li>Every story requires editor, safety, IP, and provenance approval.</li>
-        <li>Final art needs reference-locking or illustrator workflow.</li>
+        <li>Stories are fixed, parent-paced, and calm by design.</li>
+        <li>Illustrations stay clean so the app can place readable text.</li>
+        <li>Final artwork still needs a character-locked production pass.</li>
+        <li>Every story gets safety, IP, and editorial review before launch.</li>
       </ul>
     </section>
 
-    <footer class="note">Prototype only. Story text is HTML overlay, not baked into illustration assets. Audio remains deferred with <code>audioRef: null</code>.</footer>
+    <footer class="note">Local prototype. Read-aloud words stay in HTML, separate from the illustration artwork. Audio remains deferred with <code>audioRef: null</code>.</footer>
   </section>`;
 
   document.querySelector('#startBtn').addEventListener('click', () => startStory(pick.id));
@@ -171,7 +170,7 @@ function renderStory() {
     </article>
     <div class="progress-dots" aria-label="Story progress">${story.pages.map((p, i) => `<button class="dot ${i === state.page ? 'is-active' : ''}" data-page="${i}" aria-label="Go to page ${i + 1}"></button>`).join('')}</div>
     <nav class="turns" aria-label="Page turns"><button id="prev" ${state.page === 0 ? 'disabled' : ''}>Previous page</button><button id="next">${state.page === total - 1 ? 'Finish softly' : 'Next page'}</button></nav>
-    <details class="review-drawer"><summary>Review gate for this page</summary><dl><dt>No baked text</dt><dd>${page.qa?.noBakedText ? 'Passed scaffold check' : 'Needs review'}</dd><dt>Character consistency</dt><dd>${esc(page.qa?.characterConsistency || 'not checked')}</dd><dt>Release approved</dt><dd>${page.qa?.releaseApproved ? 'Yes' : 'No, blocked pending human review'}</dd></dl></details>
+    <details class="review-drawer"><summary>Production notes for this page</summary><dl><dt>Clean illustration</dt><dd>${page.qa?.noBakedText ? 'Text stays separate from the artwork' : 'Needs review'}</dd><dt>Character consistency</dt><dd>${esc(page.qa?.characterConsistency || 'not checked')}</dd><dt>Launch review</dt><dd>${page.qa?.releaseApproved ? 'Complete' : 'Waiting for final art and editorial review'}</dd></dl></details>
   </section>`;
 
   document.querySelector('#tierSel').value = state.tier;

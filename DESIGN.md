@@ -6,18 +6,18 @@ GlimmerTales uses a warm low-luminance bedtime product UI around text-free story
 
 ## Color
 
-Use OKLCH-compatible CSS tokens where possible, with the current scaffold expressed as hex fallbacks.
+The v0.3 direction is brighter and more kid-facing while staying premium and readable.
 
-- Night base: `#151625`, deep indigo-black for bedtime surfaces.
-- Plum depth: `#21192b`, secondary background and panels.
-- Warm ink: `#fff3dc`, main text on dark surfaces.
-- Muted parent text: `#d8c8aa`, supporting copy.
-- Candle gold: `#e0b768`, trust accent, borders, dividers.
-- Soft amber: `#f1c777`, primary button surface.
-- Moss leaf: `#809958`, gentle natural accent.
-- Panel overlay: `rgba(31,24,35,.72)`, used sparingly for text overlays.
+- Sky bubble: `#bfe9ff`, airy background and storybook sky.
+- Mint meadow: `#95efc2`, fresh child-friendly field color.
+- Sun candy: `#ffd66e`, primary warmth and CTA base.
+- Peach pop: `#ffad8f`, CTA gradient and friendly highlights.
+- Bubble pink: `#ff8fc8`, playful accent used sparingly.
+- Story grape: `#7467d8`, filters, progress, focus, and premium contrast.
+- Deep berry ink: `#3c276b`, headings and critical text.
+- Card cream: `#fffaf4`, polished readable surfaces.
 
-Contrast rule: story text must remain readable in a dim room and hit WCAG AA against overlay panels. Avoid pale gray on tinted backgrounds.
+Contrast rule: large story text uses deep berry ink on warm cream overlays. Avoid privacy/legal phrasing in visible kid-facing hero copy; keep trust details in parent notes and docs.
 
 ## Typography
 

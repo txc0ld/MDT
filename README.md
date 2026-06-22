@@ -14,7 +14,8 @@ Open <http://localhost:4173>.
 ## Current scope
 
 - 3 reference stories
-- 17 text-free SVG pages
+- 3 premium generated story covers as art-direction targets
+- 17 upgraded text-free SVG interior scaffold pages
 - Parent Mode with library filters, status card, release-gate panel, and story cards
 - Story Mode with hash routes, tier selector, progress dots, keyboard/swipe/page controls, dim-light toggle, and page review drawer
 - Structured content metadata for release gates and future CMS migration

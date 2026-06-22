@@ -5,7 +5,7 @@ Rule: this guide describes visual attributes only. Do not reference, imitate, or
 
 ## Product mood
 
-GlimmerTales is a calm shared bedtime picture book: a parent reads aloud from warm, static illustrated pages while the child looks at friendly original characters. The art should feel tactile, cozy, rounded, premium, and low-arousal. It should never feel like a game, cartoon chase sequence, bright video, ad, or noisy app.
+GlimmerTales is a polished shared bedtime picture book: a parent reads aloud from bright, premium, softly illustrated pages while the child looks at friendly original characters. The art should feel tactile, cozy, rounded, subscription-worthy, and charming enough for children without turning into a noisy game. The visible product language should feel inviting first; privacy/compliance language belongs in parent notes and internal gates, not the hero line.
 
 ## Style Token Block, Daytime
 
