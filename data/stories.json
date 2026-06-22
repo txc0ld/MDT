@@ -1,12 +1,47 @@
 [
   {
     "id": "moonlit-meadow",
+    "storyId": "moonlit-meadow",
+    "slug": "moonlit-meadow",
     "title": "Moonlit Meadow Echo",
     "category": "Brave Little Adventures",
+    "categorySlug": "brave-little-adventures",
     "tier": "Wonder",
+    "recommendedTier": "Wonder",
+    "supportedTiers": [
+      "Drift",
+      "Wonder",
+      "Explore"
+    ],
     "readTime": "5 min",
+    "approxReadMinutes": 5,
     "theme": "Fear becomes silly when friends understand it.",
+    "parentSummary": "A gentle cave echo story for children who turn unknown sounds into shared giggles.",
+    "themeTags": [
+      "friendship",
+      "gentle-courage",
+      "sounds",
+      "bedtime"
+    ],
+    "characters": [
+      "daisy",
+      "dino",
+      "pip",
+      "itsy"
+    ],
+    "coverIllustrationRef": "assets/stories/moonlit-meadow/page-01.svg",
     "audioRef": null,
+    "contentSafety": {
+      "reviewed": false,
+      "reviewer": "",
+      "reviewedAt": "",
+      "notes": "Reference scaffold only; requires human editorial/IP/safety approval before release."
+    },
+    "publication": {
+      "status": "reference",
+      "version": "0.2.0",
+      "updatedAt": "2026-06-23"
+    },
     "pages": [
       {
         "pageId": "p1",
@@ -103,29 +138,40 @@
           "releaseApproved": false
         }
       }
-    ],
-    "slug": "moonlit-meadow",
-    "storyId": "moonlit-meadow",
-    "recommendedTier": "Wonder",
+    ]
+  },
+  {
+    "id": "sleepy-lantern-leaf",
+    "storyId": "sleepy-lantern-leaf",
+    "slug": "sleepy-lantern-leaf",
+    "title": "The Sleepy Lantern Leaf",
+    "category": "Curious World",
+    "categorySlug": "curious-world",
+    "tier": "Drift",
+    "recommendedTier": "Drift",
     "supportedTiers": [
       "Drift",
       "Wonder",
       "Explore"
     ],
-    "approxReadMinutes": 5,
+    "readTime": "6 min",
+    "approxReadMinutes": 6,
+    "theme": "A tiny glow becomes a quiet lesson in looking closely.",
+    "parentSummary": "The friends discover that a glowing leaf is moonlight resting on dew.",
     "themeTags": [
-      "friendship",
-      "bedtime",
-      "gentle-courage"
+      "curiosity",
+      "nature",
+      "wind-down",
+      "gentle-science"
     ],
-    "parentSummary": "Fear becomes silly when friends understand it.",
-    "coverIllustrationRef": "assets/stories/moonlit-meadow/page-01.svg",
     "characters": [
       "daisy",
       "dino",
       "pip",
       "itsy"
     ],
+    "coverIllustrationRef": "assets/stories/sleepy-lantern-leaf/page-01.svg",
+    "audioRef": null,
     "contentSafety": {
       "reviewed": false,
       "reviewer": "",
@@ -134,8 +180,284 @@
     },
     "publication": {
       "status": "reference",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "updatedAt": "2026-06-23"
-    }
+    },
+    "pages": [
+      {
+        "pageId": "p1",
+        "order": 0,
+        "illustrationRef": "assets/stories/sleepy-lantern-leaf/page-01.svg",
+        "illustrationAlt": "Text-free illustration for The Sleepy Lantern Leaf, page 1",
+        "lightingMood": "bedtime",
+        "textPlacement": "bottom-panel",
+        "audioRef": null,
+        "readAloudText": {
+          "Drift": "Daisy saw a tiny glow on a leaf.",
+          "Wonder": "Daisy found one leaf glowing softly, like it was holding a little bedtime lamp.",
+          "Explore": "Daisy stopped beside a broad green leaf. A warm speck of light rested there, quiet as a secret."
+        },
+        "qa": {
+          "noBakedText": true,
+          "characterConsistency": "svg-scaffold",
+          "releaseApproved": false
+        }
+      },
+      {
+        "pageId": "p2",
+        "order": 1,
+        "illustrationRef": "assets/stories/sleepy-lantern-leaf/page-02.svg",
+        "illustrationAlt": "Text-free illustration for The Sleepy Lantern Leaf, page 2",
+        "lightingMood": "bedtime",
+        "textPlacement": "bottom-panel",
+        "audioRef": null,
+        "readAloudText": {
+          "Drift": "Dino leaned close, very gently.",
+          "Wonder": "Dino bent his big soft head close, careful not to bump the glowing leaf.",
+          "Explore": "Dino crouched low and held his breath. The glow trembled in the dew, but the leaf did not mind him looking."
+        },
+        "qa": {
+          "noBakedText": true,
+          "characterConsistency": "svg-scaffold",
+          "releaseApproved": false
+        }
+      },
+      {
+        "pageId": "p3",
+        "order": 2,
+        "illustrationRef": "assets/stories/sleepy-lantern-leaf/page-03.svg",
+        "illustrationAlt": "Text-free illustration for The Sleepy Lantern Leaf, page 3",
+        "lightingMood": "bedtime",
+        "textPlacement": "right-panel",
+        "audioRef": null,
+        "readAloudText": {
+          "Drift": "Pip wondered if touching would make it go away.",
+          "Wonder": "Pip tucked his paws beneath him. \u201cMaybe it only shines when we look softly,\u201d he whispered.",
+          "Explore": "Pip wanted to tap the shine, then changed his mind. Some wonders felt better when they were left exactly where they were."
+        },
+        "qa": {
+          "noBakedText": true,
+          "characterConsistency": "svg-scaffold",
+          "releaseApproved": false
+        }
+      },
+      {
+        "pageId": "p4",
+        "order": 3,
+        "illustrationRef": "assets/stories/sleepy-lantern-leaf/page-04.svg",
+        "illustrationAlt": "Text-free illustration for The Sleepy Lantern Leaf, page 4",
+        "lightingMood": "bedtime",
+        "textPlacement": "bottom-panel",
+        "audioRef": null,
+        "readAloudText": {
+          "Drift": "Itsy showed the glow was moonlight.",
+          "Wonder": "Itsy pointed to a tiny dew drop. The moon was shining inside it, round and sweet.",
+          "Explore": "Itsy lifted one little leg toward a bead of dew. Inside the bead, the moon had made a miniature lantern."
+        },
+        "qa": {
+          "noBakedText": true,
+          "characterConsistency": "svg-scaffold",
+          "releaseApproved": false
+        }
+      },
+      {
+        "pageId": "p5",
+        "order": 4,
+        "illustrationRef": "assets/stories/sleepy-lantern-leaf/page-05.svg",
+        "illustrationAlt": "Text-free illustration for The Sleepy Lantern Leaf, page 5",
+        "lightingMood": "bedtime",
+        "textPlacement": "top-left",
+        "audioRef": null,
+        "readAloudText": {
+          "Drift": "The friends watched without hurry.",
+          "Wonder": "Nobody touched the leaf. They simply watched while the meadow breathed around them.",
+          "Explore": "The four friends sat close together, letting the leaf keep its small light. The quiet felt like a blanket."
+        },
+        "qa": {
+          "noBakedText": true,
+          "characterConsistency": "svg-scaffold",
+          "releaseApproved": false
+        }
+      },
+      {
+        "pageId": "p6",
+        "order": 5,
+        "illustrationRef": "assets/stories/sleepy-lantern-leaf/page-06.svg",
+        "illustrationAlt": "Text-free illustration for The Sleepy Lantern Leaf, page 6",
+        "lightingMood": "bedtime",
+        "textPlacement": "bottom-panel",
+        "audioRef": null,
+        "readAloudText": {
+          "Drift": "They wished the leaf good night.",
+          "Wonder": "When the moon moved on, the glow softened. \u201cGood night, little lantern leaf,\u201d Daisy said.",
+          "Explore": "At last the moonbeam slipped away. The leaf became just a leaf again, and somehow that felt magical too."
+        },
+        "qa": {
+          "noBakedText": true,
+          "characterConsistency": "svg-scaffold",
+          "releaseApproved": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "itsy-soft-bridge",
+    "storyId": "itsy-soft-bridge",
+    "slug": "itsy-soft-bridge",
+    "title": "Itsy\u2019s Soft Bridge",
+    "category": "Friends & Feelings",
+    "categorySlug": "friends-feelings",
+    "tier": "Wonder",
+    "recommendedTier": "Wonder",
+    "supportedTiers": [
+      "Drift",
+      "Wonder",
+      "Explore"
+    ],
+    "readTime": "6 min",
+    "approxReadMinutes": 6,
+    "theme": "Small helpers can make the safest way across.",
+    "parentSummary": "A puddle blocks the path, and Itsy shows that careful making can help everyone.",
+    "themeTags": [
+      "problem-solving",
+      "teamwork",
+      "confidence",
+      "bedtime"
+    ],
+    "characters": [
+      "daisy",
+      "dino",
+      "pip",
+      "itsy"
+    ],
+    "coverIllustrationRef": "assets/stories/itsy-soft-bridge/page-01.svg",
+    "audioRef": null,
+    "contentSafety": {
+      "reviewed": false,
+      "reviewer": "",
+      "reviewedAt": "",
+      "notes": "Reference scaffold only; requires human editorial/IP/safety approval before release."
+    },
+    "publication": {
+      "status": "reference",
+      "version": "0.2.0",
+      "updatedAt": "2026-06-23"
+    },
+    "pages": [
+      {
+        "pageId": "p1",
+        "order": 0,
+        "illustrationRef": "assets/stories/itsy-soft-bridge/page-01.svg",
+        "illustrationAlt": "Text-free illustration for Itsy\u2019s Soft Bridge, page 1",
+        "lightingMood": "bedtime",
+        "textPlacement": "bottom-panel",
+        "audioRef": null,
+        "readAloudText": {
+          "Drift": "A puddle waited in the path.",
+          "Wonder": "A round puddle shimmered across the path, too wide for Daisy\u2019s tiny steps.",
+          "Explore": "The path ended at a puddle full of moon and stars. It was not scary, just too wide for little feet."
+        },
+        "qa": {
+          "noBakedText": true,
+          "characterConsistency": "svg-scaffold",
+          "releaseApproved": false
+        }
+      },
+      {
+        "pageId": "p2",
+        "order": 1,
+        "illustrationRef": "assets/stories/itsy-soft-bridge/page-02.svg",
+        "illustrationAlt": "Text-free illustration for Itsy\u2019s Soft Bridge, page 2",
+        "lightingMood": "bedtime",
+        "textPlacement": "top-left",
+        "audioRef": null,
+        "readAloudText": {
+          "Drift": "Pip peeked at his reflection.",
+          "Wonder": "Pip leaned over the water and saw a wiggly tiger face smiling back.",
+          "Explore": "Pip\u2019s reflection stretched and wobbled. He giggled so softly that the moon in the puddle giggled too."
+        },
+        "qa": {
+          "noBakedText": true,
+          "characterConsistency": "svg-scaffold",
+          "releaseApproved": false
+        }
+      },
+      {
+        "pageId": "p3",
+        "order": 2,
+        "illustrationRef": "assets/stories/itsy-soft-bridge/page-03.svg",
+        "illustrationAlt": "Text-free illustration for Itsy\u2019s Soft Bridge, page 3",
+        "lightingMood": "bedtime",
+        "textPlacement": "bottom-panel",
+        "audioRef": null,
+        "readAloudText": {
+          "Drift": "Daisy checked the smooth stones.",
+          "Wonder": "Daisy tried the pebble edge, one careful step at a time.",
+          "Explore": "Daisy tested the little stones beside the puddle. They were smooth and round, but they did not make a whole path."
+        },
+        "qa": {
+          "noBakedText": true,
+          "characterConsistency": "svg-scaffold",
+          "releaseApproved": false
+        }
+      },
+      {
+        "pageId": "p4",
+        "order": 3,
+        "illustrationRef": "assets/stories/itsy-soft-bridge/page-04.svg",
+        "illustrationAlt": "Text-free illustration for Itsy\u2019s Soft Bridge, page 4",
+        "lightingMood": "bedtime",
+        "textPlacement": "right-panel",
+        "audioRef": null,
+        "readAloudText": {
+          "Drift": "Dino brought a leaf raft.",
+          "Wonder": "Dino found a broad leaf, but it spun in a sleepy circle.",
+          "Explore": "Dino placed a broad leaf on the water. It floated beautifully, then twirled right back to where it started."
+        },
+        "qa": {
+          "noBakedText": true,
+          "characterConsistency": "svg-scaffold",
+          "releaseApproved": false
+        }
+      },
+      {
+        "pageId": "p5",
+        "order": 4,
+        "illustrationRef": "assets/stories/itsy-soft-bridge/page-05.svg",
+        "illustrationAlt": "Text-free illustration for Itsy\u2019s Soft Bridge, page 5",
+        "lightingMood": "bedtime",
+        "textPlacement": "bottom-panel",
+        "audioRef": null,
+        "readAloudText": {
+          "Drift": "Itsy had a careful idea.",
+          "Wonder": "Itsy raised one fuzzy leg. A soft thread caught the moonlight between two flowers.",
+          "Explore": "Itsy did not rush. He looped one gentle thread, then another, until the moonlight showed a tiny bridge."
+        },
+        "qa": {
+          "noBakedText": true,
+          "characterConsistency": "svg-scaffold",
+          "releaseApproved": false
+        }
+      },
+      {
+        "pageId": "p6",
+        "order": 5,
+        "illustrationRef": "assets/stories/itsy-soft-bridge/page-06.svg",
+        "illustrationAlt": "Text-free illustration for Itsy\u2019s Soft Bridge, page 6",
+        "lightingMood": "bedtime",
+        "textPlacement": "bottom-panel",
+        "audioRef": null,
+        "readAloudText": {
+          "Drift": "Everyone crossed, slow and proud.",
+          "Wonder": "One by one, the friends crossed the soft bridge. Itsy smiled from the flower stem.",
+          "Explore": "Daisy, Pip, and Dino crossed slowly, each step soft and sure. Itsy\u2019s small idea had made the way safe."
+        },
+        "qa": {
+          "noBakedText": true,
+          "characterConsistency": "svg-scaffold",
+          "releaseApproved": false
+        }
+      }
+    ]
   }
 ]

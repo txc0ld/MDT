@@ -11,16 +11,29 @@ Status: in progress, updated after scaffold creation.
 - Integrated specialist art direction, compliance, and technical scaffold outputs into:
   - `docs/BUILD_GATE_CHECKLIST.md`
   - `docs/TECHNICAL_SCAFFOLD_PLAN.md`
+- Added catalog and QA documentation:
+  - `docs/CONTENT_CATALOG.md`
+  - `docs/QA_REPORT.md`
 - Created deterministic, text-free SVG master sheets for Daisy, Dino, Pip, and Itsy under `assets/characters/`.
-- Created one 5-page text-free reference story set under `assets/stories/moonlit-meadow/`.
-- Built a static read-together viewer scaffold with Parent Mode and Story Mode:
+- Expanded from one story to three reference stories with 17 text-free pages:
+  - `Moonlit Meadow Echo`
+  - `The Sleepy Lantern Leaf`
+  - `Itsy’s Soft Bridge`
+- Built an expanded static read-together viewer scaffold with Parent Mode and Story Mode:
   - story-as-data in `data/stories.json`
   - enriched page metadata: `order`, `illustrationAlt`, `lightingMood`, `textPlacement`, and QA markers
   - story-level release metadata: `contentSafety` and `publication`
   - parent browse/home screen
+  - library category filters
+  - QA/release-gate panel
   - story mode with one page at a time
+  - hash routes for story/page QA
   - parent-paced Previous/Next controls
+  - progress dots
+  - keyboard and swipe page turns
+  - dim-light toggle
   - Drift/Wonder/Explore text tier switcher
+  - page-level review drawer
   - no autoplay
   - no analytics SDKs
   - no child data collection
