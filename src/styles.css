@@ -158,8 +158,8 @@ select { min-width: 150px; appearance: none; color: var(--cream); background: va
   .shelf-intro { align-items: flex-start; flex-direction: column; }
   .shelf-controls { justify-content: flex-start; width: 100%; }
   .story-top { grid-template-columns: 1fr; }
-  .page-frame { aspect-ratio: auto; overflow: visible; border: 0; border-radius: 0; background: transparent; box-shadow: none; display: grid; gap: 12px; }
-  .story-art { border: 1px solid var(--line-strong); border-radius: 26px; box-shadow: var(--shadow); }
+  .page-frame { width: 100%; justify-self: stretch; aspect-ratio: auto; overflow: visible; border: 0; border-radius: 0; background: transparent; box-shadow: none; display: grid; gap: 12px; }
+  .story-art { width: 100%; height: auto; aspect-ratio: 4 / 3; border: 1px solid var(--line-strong); border-radius: 26px; box-shadow: var(--shadow); }
   .tap-zone { display: none; }
   .placement-right-panel .read-text, .placement-top-left .read-text, .placement-bottom-panel .read-text { position: static; width: auto; min-height: auto; }
   .turns { flex-direction: column; }
@@ -167,6 +167,8 @@ select { min-width: 150px; appearance: none; color: var(--cream); background: va
 }
 @media (max-width: 560px) {
   .shell { width: min(100% - 22px, 1160px); padding-top: 18px; }
+  .story-mode { width: calc(100% - 10px); padding: 8px 0 12px; gap: 10px; }
+  .story-top { gap: 9px; }
   .topbar { align-items: flex-start; flex-direction: column; }
   .hero-copy h1 { font-size: clamp(2.55rem, 13vw, 3.75rem); }
   .hero-actions, .shelf-controls { display: grid; width: 100%; }
