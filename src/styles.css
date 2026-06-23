@@ -18,6 +18,7 @@
   --radius-xl: 34px;
   --radius-lg: 24px;
   --radius-md: 16px;
+  --font-heading: "Plus Jakarta Sans", ui-rounded, "Avenir Next", Nunito, system-ui, sans-serif;
   font-family: ui-rounded, "Avenir Next", Nunito, system-ui, sans-serif;
 }
 
@@ -51,7 +52,7 @@ button:focus-visible, select:focus-visible { outline: 3px solid rgba(217, 182, 1
   padding: 80px 24px;
   text-align: center;
 }
-.seo-fallback h1 { font-family: Georgia, serif; font-size: clamp(2.6rem, 7vw, 5rem); line-height: .96; color: var(--cream); margin: 0 0 18px; }
+.seo-fallback h1 { font-family: var(--font-heading); font-weight: 800; font-size: clamp(2.6rem, 7vw, 5rem); line-height: .96; color: var(--cream); margin: 0 0 18px; }
 .seo-fallback p { font-size: 1.15rem; line-height: 1.7; color: var(--muted); }
 
 .shell { width: min(1160px, calc(100% - 36px)); margin: auto; padding: 28px 0 48px; position: relative; }
@@ -64,7 +65,7 @@ button:focus-visible, select:focus-visible { outline: 3px solid rgba(217, 182, 1
 
 .hero-panel { display: grid; grid-template-columns: minmax(0, .92fr) minmax(360px, .68fr); gap: 54px; align-items: center; min-height: 66vh; padding: 7vh 0 8vh; }
 .hero-copy { max-width: 720px; }
-.hero-copy h1 { font-family: Georgia, "Times New Roman", serif; font-size: clamp(3.15rem, 7.4vw, 6rem); line-height: .94; margin: 0; letter-spacing: -.045em; text-wrap: balance; color: var(--cream); }
+.hero-copy h1 { font-family: var(--font-heading); font-weight: 800; font-size: clamp(3.15rem, 7.4vw, 6rem); line-height: .94; margin: 0; letter-spacing: -.055em; text-wrap: balance; color: var(--cream); }
 .lede { font-size: clamp(1.08rem, 1.45vw, 1.25rem); color: var(--cream-soft); line-height: 1.68; max-width: 40ch; margin: 24px 0 0; }
 .hero-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 30px; }
 .primary, .secondary, .ghost, .turns button { border-radius: 999px; padding: 14px 19px; font-weight: 760; border: 1px solid transparent; transition: transform .18s ease, border-color .18s ease, background .18s ease, box-shadow .18s ease; }
@@ -77,10 +78,10 @@ button:focus-visible, select:focus-visible { outline: 3px solid rgba(217, 182, 1
 .featured-book img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; }
 .featured-copy { padding: 24px; background: rgba(8, 8, 20, .34); }
 .featured-copy span, .story-card-top { color: var(--muted); font-size: .92rem; }
-.featured-copy h2 { font-family: Georgia, serif; font-size: clamp(2rem, 3vw, 2.7rem); line-height: 1; letter-spacing: -.035em; margin: 10px 0 18px; color: var(--cream); }
+.featured-copy h2 { font-family: var(--font-heading); font-weight: 800; font-size: clamp(2rem, 3vw, 2.7rem); line-height: 1; letter-spacing: -.045em; margin: 10px 0 18px; color: var(--cream); }
 
 .shelf-intro { display: flex; justify-content: space-between; gap: 28px; align-items: end; margin: 0 0 22px; padding-top: 8px; }
-.shelf-intro h2 { font-family: Georgia, serif; font-size: clamp(2.2rem, 4vw, 3.4rem); line-height: 1; letter-spacing: -.035em; margin: 0; color: var(--cream); }
+.shelf-intro h2 { font-family: var(--font-heading); font-weight: 800; font-size: clamp(2.2rem, 4vw, 3.4rem); line-height: 1; letter-spacing: -.045em; margin: 0; color: var(--cream); }
 .shelf-controls { display: flex; gap: 10px; flex-wrap: wrap; justify-content: flex-end; }
 .shelf-controls label { display: grid; gap: 6px; color: var(--muted); font-size: .83rem; }
 select { min-width: 150px; appearance: none; color: var(--cream); background: var(--panel); border: 1px solid var(--line); border-radius: 999px; padding: 11px 36px 11px 14px; background-image: linear-gradient(45deg, transparent 50%, var(--gold) 50%), linear-gradient(135deg, var(--gold) 50%, transparent 50%); background-position: calc(100% - 18px) 50%, calc(100% - 13px) 50%; background-size: 5px 5px, 5px 5px; background-repeat: no-repeat; transition: border-color .18s ease, background-color .18s ease; }
@@ -94,15 +95,15 @@ select:hover { border-color: var(--line-strong); background-color: rgba(255,255,
 .cover-button img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; transition: transform .35s ease, filter .35s ease; }
 .story-card-body { padding: 18px; }
 .story-card-top { display: flex; justify-content: space-between; gap: 8px; }
-.story-card h3 { font-family: Georgia, serif; font-size: 1.48rem; line-height: 1.04; letter-spacing: -.025em; margin: 12px 0 0; color: var(--cream); }
+.story-card h3 { font-family: var(--font-heading); font-weight: 800; font-size: 1.48rem; line-height: 1.04; letter-spacing: -.035em; margin: 12px 0 0; color: var(--cream); }
 .empty-shelf { grid-column: 1 / -1; border: 1px solid var(--line); border-radius: 28px; background: rgba(255,255,255,.045); padding: 28px; }
-.empty-shelf h3 { margin: 0 0 8px; font-family: Georgia, serif; font-size: 1.7rem; }
+.empty-shelf h3 { margin: 0 0 8px; font-family: var(--font-heading); font-weight: 800; font-size: 1.7rem; letter-spacing: -.035em; }
 .empty-shelf p { margin: 0; color: var(--muted); }
 
 .story-mode { min-height: 100vh; display: grid; grid-template-rows: auto 1fr auto auto auto; gap: 12px; width: min(1240px, calc(100% - 30px)); margin: auto; padding: 16px 0; }
 .story-mode.is-quiet { background: radial-gradient(circle at 50% 35%, rgba(217,182,107,.08), transparent 45%); }
 .story-top { display: grid; grid-template-columns: auto 1fr auto auto; align-items: center; gap: 12px; }
-.story-title strong { display: block; color: var(--cream); }
+.story-title strong { display: block; color: var(--cream); font-family: var(--font-heading); font-weight: 800; letter-spacing: -.025em; }
 .story-title span { color: var(--muted); font-size: .92rem; }
 .page-frame { position: relative; align-self: center; justify-self: center; width: min(100%, 1140px); aspect-ratio: 4 / 3; border-radius: 34px; overflow: hidden; box-shadow: var(--shadow); background: var(--deep); border: 1px solid var(--line-strong); }
 .page-frame::after { content: ""; position: absolute; inset: 0; pointer-events: none; box-shadow: inset 0 1px 0 rgba(255,255,255,.16), inset 0 -1px 0 rgba(0,0,0,.26); border-radius: inherit; }
