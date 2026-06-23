@@ -9,6 +9,7 @@ const state = {
   quiet: false,
   surprise: null,
   lastRead: null,
+  storyCache: new Map(),
 };
 
 const app = document.querySelector('#app');
@@ -24,7 +25,7 @@ const moodOptions = [
 ];
 
 async function loadStories() {
-  const res = await fetch('data/stories.json');
+  const res = await fetch('data/catalog.json');
   state.stories = await res.json();
   state.surprise = pickRandom(state.stories);
   state.lastRead = loadLastRead();
@@ -53,14 +54,37 @@ function filteredStories() {
     return cat && set && age;
   });
 }
-function completionLabel(story) { return `${story.pages.length} pages · ${story.characterSet || 'Story friends'}`; }
+function completionLabel(story) { return `${story.pageCount || story.pages?.length || 15} pages · ${story.characterSet || 'Story friends'}`; }
 function pickRandom(list) { return list[Math.floor(Math.random() * list.length)] || null; }
+async function loadStory(id) {
+  const cached = state.storyCache.get(id);
+  if (cached) return cached;
+  const meta = state.stories.find(s => s.id === id || s.slug === id);
+  const slugOrId = meta?.slug || id;
+  const res = await fetch(`data/stories/${slugOrId}.json`);
+  if (!res.ok) throw new Error(`Story not found: ${slugOrId}`);
+  const story = await res.json();
+  state.storyCache.set(story.id, story);
+  state.storyCache.set(story.slug, story);
+  return story;
+}
+function imageSrc(page) { return page.optimizedIllustrationRef || page.illustrationRef; }
+function coverSrc(story) { return story.coverThumbRef || story.coverOptimizedRef || story.coverIllustrationRef || story.pages?.[0]?.thumbnailIllustrationRef || story.pages?.[0]?.illustrationRef; }
+function preloadAdjacentImages(story) {
+  [state.page - 1, state.page + 1].forEach(i => {
+    const page = story.pages?.[i];
+    if (!page) return;
+    const img = new Image();
+    img.decoding = 'async';
+    img.src = imageSrc(page);
+  });
+}
 function loadLastRead() {
   try {
     const saved = JSON.parse(localStorage.getItem('mdt:lastRead') || 'null');
     if (!saved?.storyId || !saved?.pageId) return null;
     const story = state.stories.find(s => s.id === saved.storyId || s.slug === saved.storyId);
-    if (!story || !story.pages.some(p => p.pageId === saved.pageId)) return null;
+    if (!story) return null;
     return saved;
   } catch {
     return null;
@@ -75,19 +99,19 @@ function clearLastRead() {
   state.lastRead = null;
   try { localStorage.removeItem('mdt:lastRead'); } catch {}
 }
-function openLastRead() {
+async function openLastRead() {
   const saved = state.lastRead;
-  const story = saved && state.stories.find(s => s.id === saved.storyId || s.slug === saved.storyId);
+  const story = saved && await loadStory(saved.storyId);
   const page = story && story.pages.find(p => p.pageId === saved.pageId);
   if (story && page) setRoute(`story/${story.slug || story.id}/${page.pageId}`);
   else startStory((state.surprise || pickRandom(state.stories)).id);
 }
 
-function applyRoute() {
+async function applyRoute() {
   const hash = location.hash.replace(/^#\/?/, '').split('?')[0];
   const parts = hash.split('/').filter(Boolean);
   if (parts[0] === 'story') {
-    const story = state.stories.find(s => s.slug === parts[1] || s.id === parts[1]);
+    const story = await loadStory(parts[1]);
     if (story) {
       state.selected = story;
       const pageIndex = parts[2] ? story.pages.findIndex(p => p.pageId === parts[2]) : 0;
@@ -127,7 +151,7 @@ function renderHome() {
         <div class="hero-actions"><button class="primary" id="surpriseBtn">${hasLastRead ? 'Continue' : 'Start tonight'}</button><button class="secondary" id="browseBtn">Browse</button></div>
       </div>
       <article class="featured-book">
-        <img src="${esc(featured.coverIllustrationRef)}" alt="">
+        <img src="${esc(coverSrc(featured))}" alt="" fetchpriority="high" decoding="async">
         <div class="featured-copy"><span>${esc(featured.ageRange)} · ${esc(featured.readTime)}</span><h2>${esc(featured.title)}</h2><button class="primary" data-start="${esc(featured.id)}">Read</button></div>
       </article>
     </section>
@@ -162,11 +186,11 @@ function emptyShelf() {
 }
 
 function storyCard(s) {
-  return `<article class="story-card"><button class="cover-button" data-start="${esc(s.id)}" aria-label="Open ${esc(s.title)}"><img src="${esc(s.coverIllustrationRef || s.pages[0].illustrationRef)}" alt=""></button><div class="story-card-body"><div class="story-card-top"><span>${esc(s.ageRange)}</span><span>${esc(s.readTime)}</span></div><h3>${esc(s.title)}</h3></div></article>`;
+  return `<article class="story-card"><button class="cover-button" data-start="${esc(s.id)}" aria-label="Open ${esc(s.title)}"><img src="${esc(coverSrc(s))}" alt="" loading="lazy" decoding="async"></button><div class="story-card-body"><div class="story-card-top"><span>${esc(s.ageRange)}</span><span>${esc(s.readTime)}</span></div><h3>${esc(s.title)}</h3></div></article>`;
 }
 
-function startStory(id) {
-  const story = state.stories.find(s => s.id === id || s.slug === id);
+async function startStory(id) {
+  const story = await loadStory(id);
   if (!story) return;
   state.selected = story;
   state.page = 0;
@@ -188,10 +212,11 @@ function renderStory() {
   document.title = `${story.title} — Mini Dream Time`;
   app.innerHTML = `<section class="story-mode ${state.quiet ? 'is-quiet' : ''}" aria-label="Story mode">
     <div class="story-top"><button class="ghost" id="backHome">Close</button><div class="story-title"><strong>${esc(story.title)}</strong><span>${state.page + 1} / ${total}</span></div><select id="tierSel" aria-label="Reading tier">${tiers.map(t => `<option>${t}</option>`).join('')}</select><button class="ghost" id="quietBtn">${state.quiet ? 'Light' : 'Dim'}</button></div>
-    <article class="page-frame placement-${esc(placement)}"><img class="story-art" src="${esc(page.illustrationRef)}" alt="${esc(page.illustrationAlt || `Text-free illustration for ${story.title}`)}"><button class="tap-zone tap-zone-left" id="tapPrev" aria-label="Previous page"><span>‹</span></button><button class="tap-zone tap-zone-right" id="tapNext" aria-label="Next page"><span>›</span></button><div class="read-text"><p>${esc(textFor(page))}</p></div></article>
+    <article class="page-frame placement-${esc(placement)}"><img class="story-art" src="${esc(imageSrc(page))}" alt="${esc(page.illustrationAlt || `Text-free illustration for ${story.title}`)}" fetchpriority="high" decoding="async"><button class="tap-zone tap-zone-left" id="tapPrev" aria-label="Previous page"><span>‹</span></button><button class="tap-zone tap-zone-right" id="tapNext" aria-label="Next page"><span>›</span></button><div class="read-text"><p>${esc(textFor(page))}</p></div></article>
     <div class="progress-dots" aria-label="Story progress">${story.pages.map((p, i) => `<button class="dot ${i === state.page ? 'is-active' : ''}" data-page="${i}" aria-label="Go to page ${i + 1}"></button>`).join('')}</div>
     <nav class="turns" aria-label="Page turns"><button id="prev" ${state.page === 0 ? 'disabled' : ''}>Previous page</button><button id="next">${state.page === total - 1 ? 'Finish softly' : 'Next page'}</button></nav>
   </section>`;
+  preloadAdjacentImages(story);
 
   document.querySelector('#tierSel').value = state.tier;
   document.querySelector('#tierSel').addEventListener('change', e => { state.tier = e.target.value; renderStory(); });
