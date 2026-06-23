@@ -149,9 +149,18 @@ select { min-width: 150px; appearance: none; color: var(--cream); background: va
   .story-title strong { font-size: .98rem; }
   .topbar { align-items: flex-start; flex-direction: column; }
   .hero-copy h1 { font-size: clamp(2.55rem, 13vw, 3.75rem); }
-  .hero-actions, .shelf-controls { display: grid; width: 100%; }
+  .hero-actions { display: grid; width: 100%; }
+  .shelf-controls { display: flex; flex-wrap: nowrap; gap: 8px; width: 100%; overflow-x: auto; scrollbar-width: none; padding-bottom: 4px; justify-content: flex-start; }
+  .shelf-controls::-webkit-scrollbar { display: none; }
+  .shelf-controls label { min-width: 118px; }
+  .shelf-controls select { min-width: 118px; width: 118px; padding: 10px 30px 10px 12px; }
+  .story-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .story-card { border-radius: 18px; }
+  .story-card-body { padding: 11px; }
+  .story-card-top { font-size: .74rem; gap: 5px; }
+  .story-card h3 { font-size: 1.04rem; margin-top: 8px; letter-spacing: -.015em; }
+  .cover-button img { aspect-ratio: 1 / 1; }
   .primary, .secondary, .soft-pill { width: 100%; }
-  select { width: 100%; }
   .read-text { padding: 18px 20px; border-radius: 24px; }
   .read-text p { font-size: clamp(1.38rem, 6.2vw, 2rem); line-height: 1.24; }
 }
