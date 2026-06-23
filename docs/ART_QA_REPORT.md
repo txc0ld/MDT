@@ -4,18 +4,19 @@
 
 Output:
 
-- 45 tracked production-candidate JPGs under `assets/stories/*/*-nano-banana-pro-preview.jpg`.
-- Contact sheet: `docs/art-qa-contact-sheet.jpg`.
+- 120 tracked production-candidate JPGs under `assets/stories/*/*-nano-banana-pro-preview.jpg` after the 15-page book expansion.
+- Contact sheet: `docs/art-qa-contact-sheet-120.jpg`.
+- Previous 45-page contact sheet: `docs/art-qa-contact-sheet.jpg`.
 - Prompt bible: `docs/STORYBOOK_VISUAL_DIRECTOR.md`.
 
 Verdict: **major upgrade accepted as production-candidate art, not final human-approved release art**.
 
 What changed:
 
-- Replaced all flat SVG page references in `data/stories.json` with Gemini/Nano Banana production-candidate JPGs.
+- Replaced all flat SVG page references in `data/stories.json` with Gemini/Nano Banana production-candidate JPGs for the expanded 120-page library.
 - Switched generation prompts to the Storybook Visual Director bible: premium cinematic 3D bedtime storybook art, plush/clay-like tactile characters, warm lighting, no named-studio copying, no in-image text.
 - Regenerated obvious text-artifact pages and tightened prompt negatives against captions, footer text, and printed panels.
-- Built a 45-image contact sheet for visual QA.
+- Built 45-image and 120-image contact sheets for visual QA.
 
 What works:
 

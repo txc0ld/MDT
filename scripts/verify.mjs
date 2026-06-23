@@ -25,7 +25,7 @@ for (const s of stories) {
   if (!/beginning/i.test(s.storyStructureRule) || !/resolution/i.test(s.storyStructureRule)) failures.push(`story structure rule must mention beginning and resolution ${s.id}`);
   if (s.audioRef !== null) failures.push(`story audioRef must be null in Phase 0 ${s.id}`);
   if (!existsSync(s.coverIllustrationRef)) failures.push(`missing cover illustration ${s.coverIllustrationRef}`);
-  if (!Array.isArray(s.pages) || s.pages.length < 5) failures.push(`story ${s.id} needs at least 5 pages`);
+  if (!Array.isArray(s.pages) || s.pages.length < 15) failures.push(`story ${s.id} needs at least 15 pages`);
 
   const seenPages = new Set();
   for (const [idx, page] of (s.pages || []).entries()) {

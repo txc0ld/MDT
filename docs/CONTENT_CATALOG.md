@@ -5,7 +5,7 @@ Purpose: prove repeatable catalog structure, parent browsing, story metadata, an
 
 ## Catalog rules
 
-- Each story has 5-8 pages, fixed order, and tiered read-aloud text.
+- Each book has 15 pages, fixed order, a flowing bedtime storyline, and tiered read-aloud text.
 - Every page has a text-free illustration asset and app-layer read-aloud copy.
 - Every story is `publication.status: reference`, not `published`.
 - Every story has `contentSafety.reviewed: false` until real human editorial, IP, provenance, and child-safety review occurs.
@@ -113,7 +113,7 @@ Completed in v0.4:
   - `Fennel’s Lantern Lane`, Lantern Lane, Sleepy Meadow.
 - Added quick-pick moods: Sleepy, Silly, Brave, Dreamy, Helpful, Heroes, New friends.
 - Added character-set filtering: Meadow Friends, Pillow Pals, Sky Bakers, Ocean Dreamers, Lantern Lane, Starlight Helpers.
-- Expanded catalog to 8 stories / 45 pages.
+- Expanded catalog to 8 stories / 120 pages, with 15 pages per book and same-character-set continuity.
 
 Next production expansion:
 
