@@ -8,6 +8,7 @@ const state = {
   ageRange: 'all',
   quiet: false,
   surprise: null,
+  lastRead: null,
 };
 
 const app = document.querySelector('#app');
@@ -26,6 +27,7 @@ async function loadStories() {
   const res = await fetch('data/stories.json');
   state.stories = await res.json();
   state.surprise = pickRandom(state.stories);
+  state.lastRead = loadLastRead();
   applyRoute();
 }
 
@@ -53,6 +55,33 @@ function filteredStories() {
 }
 function completionLabel(story) { return `${story.pages.length} pages · ${story.characterSet || 'Story friends'}`; }
 function pickRandom(list) { return list[Math.floor(Math.random() * list.length)] || null; }
+function loadLastRead() {
+  try {
+    const saved = JSON.parse(localStorage.getItem('mdt:lastRead') || 'null');
+    if (!saved?.storyId || !saved?.pageId) return null;
+    const story = state.stories.find(s => s.id === saved.storyId || s.slug === saved.storyId);
+    if (!story || !story.pages.some(p => p.pageId === saved.pageId)) return null;
+    return saved;
+  } catch {
+    return null;
+  }
+}
+function saveLastRead(story, page) {
+  const next = { storyId: story.id, pageId: page.pageId };
+  state.lastRead = next;
+  try { localStorage.setItem('mdt:lastRead', JSON.stringify(next)); } catch {}
+}
+function clearLastRead() {
+  state.lastRead = null;
+  try { localStorage.removeItem('mdt:lastRead'); } catch {}
+}
+function openLastRead() {
+  const saved = state.lastRead;
+  const story = saved && state.stories.find(s => s.id === saved.storyId || s.slug === saved.storyId);
+  const page = story && story.pages.find(p => p.pageId === saved.pageId);
+  if (story && page) setRoute(`story/${story.slug || story.id}/${page.pageId}`);
+  else startStory((state.surprise || pickRandom(state.stories)).id);
+}
 
 function applyRoute() {
   const hash = location.hash.replace(/^#\/?/, '').split('?')[0];
@@ -68,6 +97,7 @@ function applyRoute() {
     }
   }
   state.selected = null;
+  document.title = 'Mini Dream Time — Calm Bedtime Stories for Kids';
   renderHome();
 }
 
@@ -83,6 +113,7 @@ function renderHome() {
   const items = filteredStories();
   const ages = ageRangeList();
   const sets = characterSetList();
+  const hasLastRead = Boolean(state.lastRead);
 
   app.innerHTML = `<section class="shell parent-mode">
     <header class="topbar">
@@ -93,7 +124,7 @@ function renderHome() {
       <div class="hero-copy">
         <h1 id="homeTitle">Bedtime, simplified.</h1>
         <p class="lede">Pick a beautiful story and start reading.</p>
-        <div class="hero-actions"><button class="primary" id="surpriseBtn">Start tonight</button><button class="secondary" id="browseBtn">Browse</button></div>
+        <div class="hero-actions"><button class="primary" id="surpriseBtn">${hasLastRead ? 'Continue' : 'Start tonight'}</button><button class="secondary" id="browseBtn">Browse</button></div>
       </div>
       <article class="featured-book">
         <img src="${esc(featured.coverIllustrationRef)}" alt="">
@@ -114,7 +145,7 @@ function renderHome() {
   </section>`;
 
   document.querySelector('#homeBtn').addEventListener('click', () => setRoute('parent'));
-  document.querySelector('#surpriseBtn').addEventListener('click', () => startStory((state.surprise || featured).id));
+  document.querySelector('#surpriseBtn').addEventListener('click', () => hasLastRead ? openLastRead() : startStory((state.surprise || featured).id));
   document.querySelector('#browseBtn').addEventListener('click', () => document.querySelector('#library').scrollIntoView({ behavior: 'smooth', block: 'start' }));
   document.querySelector('#ageSelect').addEventListener('change', e => { state.ageRange = e.target.value; renderHome(); });
   document.querySelector('#moodSelect').addEventListener('change', e => { state.category = e.target.value; renderHome(); });
@@ -153,6 +184,8 @@ function renderStory() {
   const page = story.pages[state.page];
   const total = story.pages.length;
   const placement = page.textPlacement || 'bottom-panel';
+  saveLastRead(story, page);
+  document.title = `${story.title} — Mini Dream Time`;
   app.innerHTML = `<section class="story-mode ${state.quiet ? 'is-quiet' : ''}" aria-label="Story mode">
     <div class="story-top"><button class="ghost" id="backHome">Close</button><div class="story-title"><strong>${esc(story.title)}</strong><span>${state.page + 1} / ${total}</span></div><select id="tierSel" aria-label="Reading tier">${tiers.map(t => `<option>${t}</option>`).join('')}</select><button class="ghost" id="quietBtn">${state.quiet ? 'Light' : 'Dim'}</button></div>
     <article class="page-frame placement-${esc(placement)}"><img class="story-art" src="${esc(page.illustrationRef)}" alt="${esc(page.illustrationAlt || `Text-free illustration for ${story.title}`)}"><button class="tap-zone tap-zone-left" id="tapPrev" aria-label="Previous page"><span>‹</span></button><button class="tap-zone tap-zone-right" id="tapNext" aria-label="Next page"><span>›</span></button><div class="read-text"><p>${esc(textFor(page))}</p></div></article>
@@ -165,9 +198,9 @@ function renderStory() {
   document.querySelector('#backHome').addEventListener('click', () => setRoute('parent'));
   document.querySelector('#quietBtn').addEventListener('click', () => { state.quiet = !state.quiet; renderStory(); });
   document.querySelector('#prev').addEventListener('click', () => changePage(state.page - 1));
-  document.querySelector('#next').addEventListener('click', () => state.page < total - 1 ? changePage(state.page + 1) : setRoute('parent'));
+  document.querySelector('#next').addEventListener('click', () => state.page < total - 1 ? changePage(state.page + 1) : (clearLastRead(), setRoute('parent')));
   document.querySelector('#tapPrev').addEventListener('click', () => changePage(state.page - 1));
-  document.querySelector('#tapNext').addEventListener('click', () => state.page < total - 1 ? changePage(state.page + 1) : setRoute('parent'));
+  document.querySelector('#tapNext').addEventListener('click', () => state.page < total - 1 ? changePage(state.page + 1) : (clearLastRead(), setRoute('parent')));
   document.querySelectorAll('[data-page]').forEach(btn => btn.addEventListener('click', () => changePage(Number(btn.dataset.page))));
 }
 
