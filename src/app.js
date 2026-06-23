@@ -43,14 +43,6 @@ function uniquePairs(field, fallbackField) {
 function categoryList() { return uniquePairs('category', 'categorySlug'); }
 function characterSetList() { return uniquePairs('characterSet', 'characterSet'); }
 function ageRangeList() { return uniquePairs('ageRange', 'ageRange'); }
-function worldSummaries() {
-  return characterSetList().slice(0, 4).map(([id, name]) => {
-    const stories = state.stories.filter(s => slug(s.characterSet) === id);
-    const ages = [...new Set(stories.map(s => s.ageRange))].join(', ');
-    const cover = stories[0]?.coverIllustrationRef || stories[0]?.pages?.[0]?.illustrationRef || '';
-    return { id, name, count: stories.length, ages, cover };
-  });
-}
 function filteredStories() {
   return state.stories.filter(s => {
     const cat = state.category === 'all' || s.mood === state.category || (s.themeTags || []).includes(state.category) || (s.categorySlug || slug(s.category)) === state.category;
@@ -91,35 +83,27 @@ function renderHome() {
   const items = filteredStories();
   const ages = ageRangeList();
   const sets = characterSetList();
-  const worlds = worldSummaries();
 
   app.innerHTML = `<section class="shell parent-mode">
     <header class="topbar">
-      <button class="brand-lockup" id="homeBtn" aria-label="Mini Dream Time home"><span class="brand-mark">✦</span><span><strong>Mini Dream Time</strong><small>Calm read-together stories</small></span></button>
+      <button class="brand-lockup" id="homeBtn" aria-label="Mini Dream Time home"><span class="brand-mark">✦</span><span><strong>Mini Dream Time</strong></span></button>
       <nav class="top-actions" aria-label="Primary"><button class="soft-pill" id="browseTop">Stories</button></nav>
     </header>
 
     <section class="hero-panel" aria-labelledby="homeTitle">
       <div class="hero-copy">
-        <p class="kicker">For the last quiet minutes of the day</p>
-        <h1 id="homeTitle">A calmer story shelf for bedtime.</h1>
-        <p class="lede">Choose one illustrated story, settle in, and turn the pages at your own pace. No autoplay. No clutter. Just a beautiful little book for tonight.</p>
-        <dl class="proof-points"><div><dt>Ages 1–8</dt><dd>gentle ranges</dd></div><div><dt>15 pages</dt><dd>picture-book flow</dd></div><div><dt>Same friends</dt><dd>familiar worlds</dd></div></dl>
-        <div class="hero-actions"><button class="primary" id="surpriseBtn">Start tonight’s story</button><button class="secondary" id="browseBtn">Browse stories</button></div>
+        <h1 id="homeTitle">Bedtime, simplified.</h1>
+        <p class="lede">Pick a beautiful story and start reading.</p>
+        <div class="hero-actions"><button class="primary" id="surpriseBtn">Start tonight</button><button class="secondary" id="browseBtn">Browse</button></div>
       </div>
       <article class="featured-book">
         <img src="${esc(featured.coverIllustrationRef)}" alt="">
-        <div class="featured-copy"><span>${esc(featured.ageRange)} · ${esc(featured.readTime)}</span><h2>${esc(featured.title)}</h2><p>${esc(featured.parentSummary || featured.theme)}</p><button class="primary" data-start="${esc(featured.id)}">Open this story</button></div>
+        <div class="featured-copy"><span>${esc(featured.ageRange)} · ${esc(featured.readTime)}</span><h2>${esc(featured.title)}</h2><button class="primary" data-start="${esc(featured.id)}">Read</button></div>
       </article>
     </section>
 
-    <section class="worlds" aria-labelledby="worldTitle">
-      <div class="worlds-copy"><p class="kicker">Familiar friends</p><h2 id="worldTitle">Story worlds that feel known by night three.</h2><p>Recurring character groups keep bedtime familiar, while each book still brings a new gentle problem to solve.</p></div>
-      <div class="world-grid">${worlds.map(worldCard).join('')}</div>
-    </section>
-
     <section class="shelf-intro" id="library">
-      <div><h2>Story shelf</h2><p>${state.stories.length} stories, ${pagesCount()} picture-book pages, arranged for fast parent choice.</p></div>
+      <div><h2>Stories</h2></div>
       <form class="shelf-controls" aria-label="Filter stories">
         ${selectControl('ageSelect', 'Age', state.ageRange, [['all', 'All ages'], ...ages])}
         ${selectControl('moodSelect', 'Feeling', state.category, moodOptions.map(m => [m.id, m.label]))}
@@ -128,8 +112,6 @@ function renderHome() {
     </section>
 
     <section class="story-grid" aria-live="polite">${items.length ? items.map(storyCard).join('') : emptyShelf()}</section>
-
-    <footer class="note">Mini Dream Time keeps story words readable in the app layer while the artwork remains clean and text-free.</footer>
   </section>`;
 
   document.querySelector('#homeBtn').addEventListener('click', () => setRoute('parent'));
@@ -147,16 +129,11 @@ function selectControl(id, label, value, options) {
 }
 
 function emptyShelf() {
-  return `<article class="empty-shelf"><h3>No story matches that quiet corner yet.</h3><p>Broaden one filter and the shelf will open again.</p></article>`;
-}
-
-function worldCard(w) {
-  return `<article class="world-card"><img src="${esc(w.cover)}" alt=""><div><h3>${esc(w.name)}</h3><p>${esc(w.count)} ${w.count === 1 ? 'story' : 'stories'} · ${esc(w.ages || 'All ages')}</p></div></article>`;
+  return `<article class="empty-shelf"><h3>No stories found.</h3><p>Try another filter.</p></article>`;
 }
 
 function storyCard(s) {
-  const softTag = s.themeTags?.[0] || s.category || 'bedtime';
-  return `<article class="story-card"><button class="cover-button" data-start="${esc(s.id)}" aria-label="Open ${esc(s.title)}"><img src="${esc(s.coverIllustrationRef || s.pages[0].illustrationRef)}" alt=""></button><div class="story-card-body"><div class="story-card-top"><span>${esc(s.ageRange)}</span><span>${esc(s.readTime)}</span></div><h3>${esc(s.title)}</h3><p>${esc(s.parentSummary || s.theme)}</p><div class="tag-row"><span>${esc(s.characterSet)}</span><span>${esc(softTag)}</span></div><small>${esc(completionLabel(s))}</small></div></article>`;
+  return `<article class="story-card"><button class="cover-button" data-start="${esc(s.id)}" aria-label="Open ${esc(s.title)}"><img src="${esc(s.coverIllustrationRef || s.pages[0].illustrationRef)}" alt=""></button><div class="story-card-body"><div class="story-card-top"><span>${esc(s.ageRange)}</span><span>${esc(s.readTime)}</span></div><h3>${esc(s.title)}</h3></div></article>`;
 }
 
 function startStory(id) {
@@ -179,7 +156,7 @@ function renderStory() {
   const total = story.pages.length;
   const placement = page.textPlacement || 'bottom-panel';
   app.innerHTML = `<section class="story-mode ${state.quiet ? 'is-quiet' : ''}" aria-label="Story mode">
-    <div class="story-top"><button class="ghost" id="backHome">Close book</button><div class="story-title"><strong>${esc(story.title)}</strong><span>${esc(story.ageRange)} · Page ${state.page + 1} of ${total} · ${esc(story.characterSet || story.category)}</span></div><label class="tier-select">Reading tier <select id="tierSel">${tiers.map(t => `<option>${t}</option>`).join('')}</select></label><button class="ghost" id="quietBtn">${state.quiet ? 'Raise light' : 'Dim light'}</button></div>
+    <div class="story-top"><button class="ghost" id="backHome">Close</button><div class="story-title"><strong>${esc(story.title)}</strong><span>${state.page + 1} / ${total}</span></div><select id="tierSel" aria-label="Reading tier">${tiers.map(t => `<option>${t}</option>`).join('')}</select><button class="ghost" id="quietBtn">${state.quiet ? 'Light' : 'Dim'}</button></div>
     <article class="page-frame placement-${esc(placement)}"><img class="story-art" src="${esc(page.illustrationRef)}" alt="${esc(page.illustrationAlt || `Text-free illustration for ${story.title}`)}"><button class="tap-zone tap-zone-left" id="tapPrev" aria-label="Previous page"><span>‹</span></button><button class="tap-zone tap-zone-right" id="tapNext" aria-label="Next page"><span>›</span></button><div class="read-text"><p>${esc(textFor(page))}</p></div></article>
     <div class="progress-dots" aria-label="Story progress">${story.pages.map((p, i) => `<button class="dot ${i === state.page ? 'is-active' : ''}" data-page="${i}" aria-label="Go to page ${i + 1}"></button>`).join('')}</div>
     <nav class="turns" aria-label="Page turns"><button id="prev" ${state.page === 0 ? 'disabled' : ''}>Previous page</button><button id="next">${state.page === total - 1 ? 'Finish softly' : 'Next page'}</button></nav>
