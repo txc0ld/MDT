@@ -87,7 +87,6 @@ function renderHome() {
   app.innerHTML = `<section class="shell parent-mode">
     <header class="topbar">
       <button class="brand-lockup" id="homeBtn" aria-label="Mini Dream Time home"><span class="brand-mark">✦</span><span><strong>Mini Dream Time</strong></span></button>
-      <nav class="top-actions" aria-label="Primary"><button class="soft-pill" id="browseTop">Stories</button></nav>
     </header>
 
     <section class="hero-panel" aria-labelledby="homeTitle">
@@ -115,7 +114,6 @@ function renderHome() {
   </section>`;
 
   document.querySelector('#homeBtn').addEventListener('click', () => setRoute('parent'));
-  document.querySelector('#browseTop').addEventListener('click', () => document.querySelector('#library').scrollIntoView({ behavior: 'smooth', block: 'start' }));
   document.querySelector('#surpriseBtn').addEventListener('click', () => startStory((state.surprise || featured).id));
   document.querySelector('#browseBtn').addEventListener('click', () => document.querySelector('#library').scrollIntoView({ behavior: 'smooth', block: 'start' }));
   document.querySelector('#ageSelect').addEventListener('change', e => { state.ageRange = e.target.value; renderHome(); });
