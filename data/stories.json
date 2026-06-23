@@ -1335,7 +1335,7 @@
     "ageRange": "6-8 yrs",
     "ageBand": "older-read-aloud",
     "ageRationale": "Richer teamwork and metaphor suit older children while keeping the emotional stakes calm and sleep-safe.",
-    "coverIllustrationRef": "assets/stories/starblanket-helpers/page-01.svg",
+    "coverIllustrationRef": "assets/stories/starblanket-helpers/p1-nano-banana-pro-preview.jpg",
     "audioRef": null,
     "bedtimeLengthGuide": {
       "sourceBand": "6-8 years",
@@ -1359,7 +1359,7 @@
     "pages": [
       {
         "pageId": "p1",
-        "illustrationRef": "assets/stories/starblanket-helpers/page-01.svg",
+        "illustrationRef": "assets/stories/starblanket-helpers/p1-nano-banana-pro-preview.jpg",
         "audioRef": null,
         "readAloudText": {
           "Drift": "Nova, Ollie, and Mica put on their soft capes under the evening sky.",
@@ -1372,17 +1372,17 @@
         "textPlacement": "bottom-panel",
         "qa": {
           "noBakedText": true,
-          "characterConsistency": "svg-scaffold",
+          "characterConsistency": "gemini-production-candidate",
           "releaseApproved": false
         },
         "storyBeat": "Nova, Ollie, and Mica folded their soft capes and listened as the older kids on Starblanket Hill wished for a quiet kind of brave.",
-        "artProductionStatus": "needs-nano-banana-2-production",
+        "artProductionStatus": "gemini-production-candidate-needs-final-sequence-qa",
         "illustrationPrompt": "high-end soft 3D children storybook art, original gentle superhero-inspired plush characters, premium subscription quality, bedtime-safe heroic adventure, rounded tactile forms, expressive safe faces, capes as soft blanket-like shapes, no combat, no villains, no text, no logos, no signs. Story: Starblanket Helpers. Age range: 6-8 yrs. Character set: Starlight Helpers. Scene/page beat: Nova, Ollie, and Mica folded their soft capes and listened as the older kids on Starblanket Hill wished for a quiet kind of brave. Render the exact moment described. Keep heroes original, cozy, helpful, and emotionally clear. Leave clean space for app text placement: bottom-panel. Lighting mood: evening. Story length target: 1,000-2,000 words / 10-15 min; page role: beginning.",
         "manuscriptRole": "beginning"
       },
       {
         "pageId": "p2",
-        "illustrationRef": "assets/stories/starblanket-helpers/page-02.svg",
+        "illustrationRef": "assets/stories/starblanket-helpers/p2-nano-banana-pro-preview.jpg",
         "audioRef": null,
         "readAloudText": {
           "Drift": "A tiny star lantern blinked near the path.",
@@ -1395,11 +1395,11 @@
         "textPlacement": "bottom-panel",
         "qa": {
           "noBakedText": true,
-          "characterConsistency": "svg-scaffold",
+          "characterConsistency": "gemini-production-candidate",
           "releaseApproved": false
         },
         "storyBeat": "A small falling-star lantern blinked near the hill path, asking for help finding its way back to the sky quilt before bedtime.",
-        "artProductionStatus": "needs-nano-banana-2-production",
+        "artProductionStatus": "gemini-production-candidate-needs-final-sequence-qa",
         "illustrationPrompt": "high-end soft 3D children storybook art, original gentle superhero-inspired plush characters, premium subscription quality, bedtime-safe heroic adventure, rounded tactile forms, expressive safe faces, capes as soft blanket-like shapes, no combat, no villains, no text, no logos, no signs. Story: Starblanket Helpers. Age range: 6-8 yrs. Character set: Starlight Helpers. Scene/page beat: A small falling-star lantern blinked near the hill path, asking for help finding its way back to the sky quilt before bedtime. Render the exact moment described. Keep heroes original, cozy, helpful, and emotionally clear. Leave clean space for app text placement: bottom-panel. Lighting mood: evening. Story length target: 1,000-2,000 words / 10-15 min; page role: beginning.",
         "manuscriptRole": "beginning"
       },
@@ -1520,7 +1520,7 @@
       },
       {
         "pageId": "p8",
-        "illustrationRef": "assets/stories/starblanket-helpers/page-08.svg",
+        "illustrationRef": "assets/stories/starblanket-helpers/p8-nano-banana-pro-preview.jpg",
         "audioRef": null,
         "readAloudText": {
           "Drift": "The helpers folded their capes and rested.",
@@ -1533,14 +1533,17 @@
         "textPlacement": "bottom-panel",
         "qa": {
           "noBakedText": true,
-          "characterConsistency": "svg-scaffold",
+          "characterConsistency": "gemini-production-candidate",
           "releaseApproved": false
         },
         "storyBeat": "Nova, Ollie, and Mica folded their capes beside the hill and learned that the strongest superpower before sleep was helping the night feel safe.",
-        "artProductionStatus": "needs-nano-banana-2-production",
+        "artProductionStatus": "gemini-production-candidate-needs-final-sequence-qa",
         "illustrationPrompt": "high-end soft 3D children storybook art, original gentle superhero-inspired plush characters, premium subscription quality, bedtime-safe heroic adventure, rounded tactile forms, expressive safe faces, capes as soft blanket-like shapes, no combat, no villains, no text, no logos, no signs. Story: Starblanket Helpers. Age range: 6-8 yrs. Character set: Starlight Helpers. Scene/page beat: Nova, Ollie, and Mica folded their capes beside the hill and learned that the strongest superpower before sleep was helping the night feel safe. Render the exact moment described. Keep heroes original, cozy, helpful, and emotionally clear. Leave clean space for app text placement: bottom-panel. Lighting mood: dawn. Story length target: 1,000-2,000 words / 10-15 min; page role: resolution.",
         "manuscriptRole": "resolution"
       }
-    ]
+    ],
+    "artDirection": {
+      "heroQualityPass": "p1/p2/p8 promoted to Gemini/Nano Banana production candidates; remaining pages still SVG scaffold pending full sequence QA."
+    }
   }
 ]

@@ -46,7 +46,8 @@ for (const s of stories) {
     if (!page.illustrationAlt) failures.push(`missing illustrationAlt ${s.id}/${page.pageId}`);
     if (!page.storyBeat || page.storyBeat.length < 20) failures.push(`missing storyBeat ${s.id}/${page.pageId}`);
     if (!page.illustrationPrompt || !/no text/i.test(page.illustrationPrompt)) failures.push(`missing no-text illustrationPrompt ${s.id}/${page.pageId}`);
-    if (page.artProductionStatus !== 'needs-nano-banana-2-production') failures.push(`unexpected artProductionStatus ${s.id}/${page.pageId}`);
+    const allowedArtStatuses = ['needs-nano-banana-2-production', 'gemini-production-candidate-needs-final-sequence-qa'];
+    if (!allowedArtStatuses.includes(page.artProductionStatus)) failures.push(`unexpected artProductionStatus ${s.id}/${page.pageId}`);
     if (!['bottom-panel', 'top-left', 'right-panel'].includes(page.textPlacement)) failures.push(`unsupported textPlacement ${s.id}/${page.pageId}`);
     if (!['evening', 'bedtime', 'dawn'].includes(page.lightingMood)) failures.push(`unsupported lightingMood ${s.id}/${page.pageId}`);
     if (page.audioRef !== null) failures.push(`audioRef must be null in Phase 0 ${s.id}/${page.pageId}`);

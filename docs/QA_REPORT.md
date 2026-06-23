@@ -51,6 +51,8 @@ Browser checks completed:
 - Legacy collection-name copy was removed from public files and app chrome; verifier guards against it returning.
 - Gemini/Nano Banana pilot generated `art-output/moonlit-meadow/p1-nano-banana-pro-preview.jpg`; QA says do not promote yet because character identity drifted even though quality/no-text/composition improved.
 - Added older-kid gentle hero category: `Soft Superhero Adventures`, `Starlight Helpers`, story seed `Starblanket Helpers` for ages 6-8; verified app filters/quick-pick and `/stories/6-8-years/` launch page.
+- Dimmed the site background to a calmer lower-luminance pastel system for bedtime use.
+- Promoted three Gemini/Nano Banana Starblanket Helpers images (`p1`, `p2`, `p8`) into tracked production-candidate assets while leaving final sequence approval open.
 
 `scripts/verify.mjs` checks:
 

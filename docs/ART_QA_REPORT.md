@@ -29,3 +29,36 @@ Next prompt iteration:
 - Require the exact named characters and relative scale.
 - Ask for one continuous scene with a calmer lower-third text-safe meadow/paper-light area rather than a hard split.
 - Keep the no-text rule unchanged.
+
+## Starblanket Helpers hero-art pass
+
+Generated with the improved Gemini/Nano Banana prompt that avoids named studio styles and instead asks for original high-budget feature-animation-level soft 3D quality.
+
+Promoted as production candidates:
+
+- `assets/stories/starblanket-helpers/p1-nano-banana-pro-preview.jpg`
+- `assets/stories/starblanket-helpers/p2-nano-banana-pro-preview.jpg`
+- `assets/stories/starblanket-helpers/p8-nano-banana-pro-preview.jpg`
+
+Verdict: **promoted as candidate art, not final sequence-approved art**.
+
+What worked:
+
+- The website shelf/card art now looks materially more premium than the SVG superhero scaffold.
+- The latest p1 has only the three helpers, no extra people/silhouettes, no visible text/logos/signs, and a calming quilted-night composition.
+- p2 strongly matches the fallen-star lantern beat and reads as high-end soft 3D bedtime hero art.
+- p8 strongly matches the folded-capes/resting-resolution beat and leaves a large lower text-safe zone.
+- The characters feel original, plush, young, non-combat, and bedtime-safe.
+
+Issues still to solve before final art lock:
+
+- p1/p2/p8 are strong enough to improve the site, but full 8-page sequence consistency still needs a dedicated character-reference pass.
+- p4 was rejected: beautiful render, but the right-side safe zone was too blank and visually split the page.
+- The remaining Starblanket pages still use SVG scaffold art.
+
+Next prompt iteration:
+
+- Generate a locked Starlight Helpers turnaround/reference sheet.
+- Use that reference sheet for all remaining pages.
+- Require integrated text-safe negative space rather than hard white/blank areas.
+- Batch only after p1, p2, and one mid-story page stay visually consistent.

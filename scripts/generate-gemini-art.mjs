@@ -39,12 +39,23 @@ if (!queue.length) {
 }
 
 const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${encodeURIComponent(key)}`;
-const negative = 'No visible words, no letters, no numbers, no speech bubbles, no signs, no logos, no watermark, no captions, no title cards, no readable symbols, no scary detail, no uncanny faces, no malformed limbs, no franchise resemblance.';
+const negative = 'No visible words, no letters, no numbers, no speech bubbles, no signs, no logos, no watermark, no captions, no title cards, no readable symbols, no extra characters, no background people, no silhouettes, no crowd, no scary detail, no uncanny faces, no malformed limbs, no franchise resemblance.';
+
+function qualityDirection(brief) {
+  if (brief.storyId === 'starblanket-helpers') {
+    return [
+      'Quality target: high-budget original feature-animation storybook render, extremely polished soft 3D, cinematic bedtime lighting, sophisticated materials, tactile plush-clay surfaces, luminous atmosphere, expressive appealing faces, confident composition, premium streaming-film level finish, but fully original and not in the style of any named studio or franchise.',
+      'Hero design: only three characters visible in the entire image: Nova Glow, Ollie Bluebeam, and Mica Mosslight. No extra children, no silhouettes, no background people, no crowd. Soft blanket-capes and rounded hoods/collars, no masks, no logos, no weapons, no armor, no city destruction, no combat poses. Nova Glow is warm gold-pink, eager but gentle. Ollie Bluebeam is sky-blue, careful and observant. Mica Mosslight is moss-green, steady and encouraging. They are childlike plush helpers, not tactical superheroes.',
+      'Visual mood: aspirational for ages 6-8 but still calm before sleep: magical star lanterns, quilted sky, velvety hills, soft rim light, warm moon glow, no harsh action.'
+    ].join('\n');
+  }
+  return 'Quality target: polished ChatGPT/Nano Banana style children’s book render, rounded plush characters, expressive safe faces, cinematic daylight-to-bedtime lighting, tactile clay/plush surfaces, rich colorful environment, shallow depth, crisp focal characters, subscription-worthy finish.';
+}
 
 async function generate(brief) {
   const prompt = [
     'Create one premium, high-end soft 3D children’s storybook page illustration for Mini Dream Time.',
-    'Quality target: polished ChatGPT/Nano Banana style children’s book render, rounded plush characters, expressive safe faces, cinematic daylight-to-bedtime lighting, tactile clay/plush surfaces, rich colorful environment, shallow depth, crisp focal characters, subscription-worthy finish.',
+    qualityDirection(brief),
     'Important production rule: this is ART ONLY. The app will place all story text separately in HTML. Do not put any text inside the image.',
     `Story: ${brief.title}`,
     `Age range: ${brief.ageRange}`,
