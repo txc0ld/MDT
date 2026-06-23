@@ -53,6 +53,7 @@ Browser checks completed:
 - Added older-kid gentle hero category: `Soft Superhero Adventures`, `Starlight Helpers`, story seed `Starblanket Helpers` for ages 6-8; verified app filters/quick-pick and `/stories/6-8-years/` launch page.
 - Dimmed the site background to a calmer lower-luminance pastel system for bedtime use.
 - Promoted three Gemini/Nano Banana Starblanket Helpers images (`p1`, `p2`, `p8`) into tracked production-candidate assets while leaving final sequence approval open.
+- After user rejection of the cream background and flat SVGs, switched the app shell to a dark bedtime background, added the Storybook Visual Director prompt doc, regenerated/promoted Gemini/Nano Banana production-candidate JPGs for all 45 pages, and cache-busted the CSS link.
 
 `scripts/verify.mjs` checks:
 
