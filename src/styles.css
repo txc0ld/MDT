@@ -173,8 +173,8 @@ select { min-width: 150px; appearance: none; color: var(--cream); background: va
   .world-grid { grid-template-columns: 1fr; }
   .primary, .secondary, .soft-pill { width: 100%; }
   select { width: 100%; }
-  .read-text { padding: 13px 16px; border-radius: 22px; }
-  .read-text p { font-size: clamp(1.05rem, 4.8vw, 1.5rem); }
+  .read-text { padding: 18px 20px; border-radius: 24px; }
+  .read-text p { font-size: clamp(1.38rem, 6.2vw, 2rem); line-height: 1.24; }
 }
 @media (prefers-reduced-motion: no-preference) {
   .primary, .secondary, .ghost, .soft-pill, .story-card, .dot, .cover-button img { transition: transform .18s ease, border-color .18s ease, background .18s ease, box-shadow .18s ease; }
